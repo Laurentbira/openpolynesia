@@ -1,4 +1,4 @@
-uuid: f990b668-08b5-4673-a622-f7e58c375739
+uuid: 67e988af-febd-4c7a-adac-b7b787240050
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.paragraph.field_trigger_warnings
     - paragraphs.paragraphs_type.accessibility
     - taxonomy.vocabulary.trigger_warnings
+_core:
+  default_config_hash: 0IWKOa4Xy3lxnSgOtKIHCtc76SzBlAFbjiBx_uCT5Rc
 id: paragraph.accessibility.field_trigger_warnings
 field_name: field_trigger_warnings
 entity_type: paragraph

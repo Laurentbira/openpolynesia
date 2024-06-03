@@ -1,4 +1,4 @@
-uuid: 4ce23f12-54c1-40f8-93cd-592a3b7b9297
+uuid: 37dede78-04ec-4fc9-8dc5-112ef3e8842d
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - media.type.sponsor
   module:
     - path
+_core:
+  default_config_hash: Qi4H0NZ7CFXdW4-wW_F_QDiwrVhji2QyUZE8QytW0UU
 id: media.sponsor.path
 field_name: path
 entity_type: media

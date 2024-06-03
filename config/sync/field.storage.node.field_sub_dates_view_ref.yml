@@ -1,4 +1,4 @@
-uuid: 635003b3-b82b-4294-9dc5-d7f7e7d29c88
+uuid: aa1bee9a-f266-4fb5-a1c8-20d255a5a4be
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: OkLn6bEOp2NEZrOre89-Qxbq_G0Fx3aQJiStxloUljQ
 id: node.field_sub_dates_view_ref
 field_name: field_sub_dates_view_ref
 entity_type: node

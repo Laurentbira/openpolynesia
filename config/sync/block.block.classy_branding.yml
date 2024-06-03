@@ -1,0 +1,25 @@
+uuid: 7248c981-e72b-418b-b495-ea68bc6470c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - classy
+_core:
+  default_config_hash: RuYeD3cerwLm1Vb9t-Uo2LfqAHlR0xBoPXtg2ugwlxs
+id: classy_branding
+theme: classy
+region: sidebar_first
+weight: -10
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

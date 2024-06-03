@@ -1,4 +1,4 @@
-uuid: 49a668f4-a111-4695-98f1-59e6f5e1bf59
+uuid: e102db95-aac5-45ed-8662-ea8473002245
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - taxonomy.vocabulary.tags
   module:
     - text
+_core:
+  default_config_hash: dPkIxwuwoLtW88s92Ci151mBCoZlbLp3CegCvsx6E48
 id: taxonomy_term.tags.description
 field_name: description
 entity_type: taxonomy_term
@@ -16,5 +18,6 @@ required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings: {  }
+settings:
+  allowed_formats: {  }
 field_type: text_long

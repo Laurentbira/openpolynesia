@@ -1,4 +1,4 @@
-uuid: f2370e8a-538e-4ef6-9fbf-2ff53c0e6802
+uuid: ae714d2f-1a71-4596-a110-784da8e377f5
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
   module:
     - field_formatter_class
     - leaflet
+_core:
+  default_config_hash: '-BmTVS1j3I2wswFD67Q4RF-4fPhIBT-YWRKlokggc2M'
 id: paragraph.address_data.map
 targetEntityType: paragraph
 bundle: address_data

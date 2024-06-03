@@ -1,7 +1,9 @@
-uuid: c43b589c-7267-4d04-a102-0b90d3f36248
+uuid: e3c98bce-9800-4eb2-81d2-d449c9a546b5
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: G7sEH5QHDI058LfbBTAHsrik5V8C4tNSxg7UpyEtJjY
 id: bookable_event
 label: 'Bookable event'
 icon_uuid: null

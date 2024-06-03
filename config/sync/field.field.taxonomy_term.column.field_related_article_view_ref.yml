@@ -1,4 +1,4 @@
-uuid: 9601a7e8-85be-4220-82a7-e986f3a57431
+uuid: 4432bcdf-f076-45f3-be4a-05357ac74438
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - views.view.related_article
   module:
     - viewfield
+_core:
+  default_config_hash: nvy6mI8y8cyZkXX4HvMNP7xPCyDa-9LhvOPaRo4Gf2c
 id: taxonomy_term.column.field_related_article_view_ref
 field_name: field_related_article_view_ref
 entity_type: taxonomy_term

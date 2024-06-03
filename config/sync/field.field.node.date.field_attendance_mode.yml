@@ -1,4 +1,4 @@
-uuid: 07a4d81a-59c9-422b-aede-9e52133aa2d5
+uuid: 2d99adc2-330a-4297-98f6-f1306d5af915
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.date
   module:
     - options
+_core:
+  default_config_hash: VZ-NakRE_M_k_sf3f4YIOmjkklWUInckRxU7OIR9_2A
 id: node.date.field_attendance_mode
 field_name: field_attendance_mode
 entity_type: node

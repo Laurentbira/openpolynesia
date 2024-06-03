@@ -1,10 +1,12 @@
-uuid: c7868454-992d-41d7-818b-2edffd643037
+uuid: 4adea7fe-dc18-4c3b-9dd1-3a1b3e1009f6
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_forfree
     - node.type.date
+_core:
+  default_config_hash: 8HUVqoQ9tktBA5OaqRyj3FDO8eQIfYez93BnlrpQ_kI
 id: node.date.field_forfree
 field_name: field_forfree
 entity_type: node

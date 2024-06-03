@@ -1,9 +1,11 @@
-uuid: 009677bc-5cf7-4e95-ab80-ac05d5d80526
+uuid: 330310ef-803f-4c64-bcdd-25c3d2417e72
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.location
+_core:
+  default_config_hash: g_jaypFxseXyFf63n9KdG5LZLNjTDFde4wfDlhguSQI
 id: node.location.title
 field_name: title
 entity_type: node

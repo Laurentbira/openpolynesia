@@ -1,4 +1,4 @@
-uuid: 0298afb1-3a07-49e3-8b00-0ba9ce36f3bf
+uuid: 9b788af5-7bcf-46b6-8e6a-fcf0daa9e209
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: sAId3p_vlIfLdBeiXbluDSJRMdVrLnY6L8L8RWFdDF4
 id: node.field_upcoming_dates_by_profile
 field_name: field_upcoming_dates_by_profile
 entity_type: node

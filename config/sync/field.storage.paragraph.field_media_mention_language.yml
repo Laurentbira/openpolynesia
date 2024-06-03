@@ -1,4 +1,4 @@
-uuid: 1b30f8b7-82fe-4c10-b1dd-bfca70581694
+uuid: 630c6468-45b5-4441-bcdd-ddc6f1ce02ca
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: b639eO-MtpFHNOwgw0UjZgf-LCOl0r6uIAzHuz1bM9Y
 id: paragraph.field_media_mention_language
 field_name: field_media_mention_language
 entity_type: paragraph

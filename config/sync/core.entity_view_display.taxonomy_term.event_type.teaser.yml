@@ -1,4 +1,4 @@
-uuid: 403c498b-8cd2-493b-b065-ca1abd48c156
+uuid: 5daf6c4e-bf40-43bf-87f2-19f0b9065aae
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
     - taxonomy.vocabulary.event_type
   module:
     - field_formatter_class
+_core:
+  default_config_hash: Qr1C43NWlMEYc7hnW-kAECjpMSMHYmGdkiXUf9jNUoI
 id: taxonomy_term.event_type.teaser
 targetEntityType: taxonomy_term
 bundle: event_type

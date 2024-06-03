@@ -1,4 +1,4 @@
-uuid: b52147a3-c5ce-43e9-a448-5df9e4fe072e
+uuid: df09b808-a608-41a7-b7ff-f98ffd9be0f3
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_sub_type
     - node.type.article
     - taxonomy.vocabulary.article_type
+_core:
+  default_config_hash: lAgxmrYdYg7MklL-Gh1D7C0O0hsp79DhTMUh5FbKHMI
 id: node.article.field_sub_type
 field_name: field_sub_type
 entity_type: node

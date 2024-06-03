@@ -1,4 +1,4 @@
-uuid: 62485605-ad82-4c2e-ac09-c2cff4349fa1
+uuid: 4895cde6-53d0-4381-b1fa-cb4207a1f2f1
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - social_media_links
   theme:
     - openculturas_base
+_core:
+  default_config_hash: owyU-G95IXT-woqJf_ZAG9tjEUbl5j7ltqVkGNKknm0
 id: socialmedialinks
 theme: openculturas_base
 region: offcanvas_menu

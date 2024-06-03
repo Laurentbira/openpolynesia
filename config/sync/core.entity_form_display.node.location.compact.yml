@@ -1,4 +1,4 @@
-uuid: 361afc33-c4a4-4c65-b1bb-69fab5f840ed
+uuid: ea6a72f4-f588-4155-9c1c-7dd4884b032c
 langcode: en
 status: true
 dependencies:
@@ -158,6 +158,8 @@ third_party_settings:
         effect: none
         speed: fast
         required_fields: true
+_core:
+  default_config_hash: dOR2_rG03pMlpWrqiVn6XCFSQ6oElh-82zzCsu4Ga7c
 id: node.location.compact
 targetEntityType: node
 bundle: location

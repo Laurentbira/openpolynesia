@@ -1,4 +1,4 @@
-uuid: 791806c5-59a4-4050-ba46-f2efdf00f488
+uuid: aed4dad6-f2fe-4f18-9af4-d5c74106a836
 langcode: en
 status: true
 dependencies:
@@ -32,6 +32,8 @@ dependencies:
     - node.type.location
   module:
     - user
+_core:
+  default_config_hash: UM2FUOpPboCgfhh_vfLgN3RP5fsMooUIlHh5vKdau2Y
 id: node.location.default
 targetEntityType: node
 bundle: location

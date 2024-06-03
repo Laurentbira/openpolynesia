@@ -1,10 +1,12 @@
-uuid: caddeea0-cf6a-44de-8603-ac48053c3f9e
+uuid: 036d0492-a981-48ef-9694-d9a64c0109d6
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - options
+_core:
+  default_config_hash: n5L4jm6OOD97GluhPPqA_mHI4ilagaFOjjBsB7L78Tw
 id: node.field_attendance_mode
 field_name: field_attendance_mode
 entity_type: node

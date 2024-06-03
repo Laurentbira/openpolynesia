@@ -1,4 +1,4 @@
-uuid: 292a4251-030d-4481-9087-7e7a62e9de8c
+uuid: 4161c087-44cd-498c-8c97-f06fdb56384a
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_supporters
     - media.type.sponsor
     - node.type.event
+_core:
+  default_config_hash: _NXxizV5hofwwG6UnpIXoMOoxW54YleYNKN0IuRyh7k
 id: node.event.field_supporters
 field_name: field_supporters
 entity_type: node

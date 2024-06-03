@@ -1,0 +1,4 @@
+settings:
+  allowed_values:
+    -
+      label: 'Breiteres Layout (für Filter etc.)'

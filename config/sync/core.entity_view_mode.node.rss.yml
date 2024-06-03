@@ -1,11 +1,11 @@
-uuid: 3673302b-1f56-46fc-9089-9d679db3818e
+uuid: df99ec72-bc11-4fd9-918c-58f327e02585
 langcode: en
 status: false
 dependencies:
   module:
     - node
 _core:
-  default_config_hash: vlYzr-rp2f9NMp-Qlr4sFjlqRq-90mco5-afLNGwCrU
+  default_config_hash: l8fiAFE3Kng_6bhLlUDnVTkTDzXWxzYFrCWTrngVXEA
 id: node.rss
 label: RSS
 description: ''

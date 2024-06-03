@@ -1,10 +1,12 @@
-uuid: 2211f8e9-653c-4eb9-aba3-922a3fc646d6
+uuid: 741687d2-0c8d-4e69-aa74-ac189b16c16e
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_min_age
     - node.type.event
+_core:
+  default_config_hash: 6JquSGK5FY5dYDZcgaUeOKhKDuOD5KLXYu9bUnuPX8g
 id: node.event.field_min_age
 field_name: field_min_age
 entity_type: node

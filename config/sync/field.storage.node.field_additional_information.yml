@@ -1,4 +1,4 @@
-uuid: 65b7ef20-eeac-4b82-b620-1c3b8ca6129b
+uuid: 7b6f4983-b552-4790-9ce4-677991fa548e
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: Ipc2DFHDG1uxKB-AmfCc3TpaRBxx2izNVhkr7xCiuW8
 id: node.field_additional_information
 field_name: field_additional_information
 entity_type: node

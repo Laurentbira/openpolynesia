@@ -1,4 +1,4 @@
-uuid: e325d3f2-1ee3-469c-9b19-d6ad906db221
+uuid: e38d703e-f9f1-47b9-aff8-9d0c06ffb8f8
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.bookable_event
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: kwyLl86K3qSSKbU9ozj-CUAXICTOgJ9eTVQhC7fhPHM
 id: node.event.field_bookable_info
 field_name: field_bookable_info
 entity_type: node

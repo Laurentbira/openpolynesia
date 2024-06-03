@@ -1,4 +1,4 @@
-uuid: 7eb07343-34f6-48d4-80de-383115a6d213
+uuid: c72ce138-d7f1-4e7a-a007-cd919e0c058a
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: custom
+_core:
+  default_config_hash: QG8F0SQ4ZitHyUZFLt_VHY8Sl0GvfNjrvyaZPFU5Nzk
 id: node.field_layout_switcher
 field_name: field_layout_switcher
 entity_type: node

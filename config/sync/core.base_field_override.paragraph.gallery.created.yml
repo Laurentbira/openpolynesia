@@ -1,9 +1,11 @@
-uuid: 16b3d936-4372-466a-9f57-ee680a6c7fbb
+uuid: 40b1f4a6-901c-4b6a-93ec-d6bcd8d88066
 langcode: en
 status: true
 dependencies:
   config:
     - paragraphs.paragraphs_type.gallery
+_core:
+  default_config_hash: 6ttm6BdDhxUHkFFKhOp9o0mLlqrMBiuiB40-MDYKboo
 id: paragraph.gallery.created
 field_name: created
 entity_type: paragraph

@@ -1,10 +1,6 @@
 label: 'Inhalt melden'
 flag_short: 'Inhalt melden'
-flag_message: 'Bericht wurde gesendet'
-unflag_short: 'Meldung zurückziehen'
-unflag_denied_text: 'Inhalt wird geprüft'
 linkTypeConfig:
   flag_create_button: Absenden
-  flag_delete_button: Zurückziehen
-  flag_confirmation: 'Inhalt melden'
-  flag_update_button: 'Meldung aktualisieren'
+  flag_delete_button: Löschen
+  flag_update_button: Aktualisieren

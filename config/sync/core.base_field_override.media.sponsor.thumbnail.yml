@@ -1,4 +1,4 @@
-uuid: 04a7666a-1b99-456a-9d11-87c740be544f
+uuid: 62044d8b-2b0c-4062-83c9-28bdd8ab7f22
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - media.type.sponsor
   module:
     - image
+_core:
+  default_config_hash: BD5Kq8OZK33Ukx1zqA7CV5ZDD8VEs5xJAmY3THhhTW4
 id: media.sponsor.thumbnail
 field_name: thumbnail
 entity_type: media

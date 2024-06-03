@@ -1,4 +1,4 @@
-uuid: a9501462-0cca-4cd1-8816-53488c49ed3f
+uuid: a0695644-9eb4-410e-a511-a36d5d8562c8
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - node.type.location
   module:
     - path
+_core:
+  default_config_hash: V-DEK9chsmClkEfCJ1N6dqnmBk9fQV3Rdu6eUjDo8Ew
 id: node.location.path
 field_name: path
 entity_type: node

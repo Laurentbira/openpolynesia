@@ -1,10 +1,12 @@
-uuid: 0442ab5f-3138-4069-a094-db3d1c66fbb1
+uuid: 224b9b65-347d-42ca-9fd3-4df4dc35d1ce
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.paragraph.teaser_term.field_term
     - paragraphs.paragraphs_type.teaser_term
+_core:
+  default_config_hash: wpDyZG_EwNlRMF393dPk_N2ULcodlzYWzuSK7h4INL0
 id: paragraph.teaser_term.default
 targetEntityType: paragraph
 bundle: teaser_term

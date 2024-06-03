@@ -1,10 +1,12 @@
-uuid: 7e57dca7-b0f4-4603-b0cb-572a9cf3475e
+uuid: 3b93d4d0-7739-4704-88f6-03c28f3c5c3a
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_allow_claiming
     - node.type.event
+_core:
+  default_config_hash: ugrVUHac4IW6yWa3K5R25U8_9MRzL15m-LLVRLGYwZY
 id: node.event.field_allow_claiming
 field_name: field_allow_claiming
 entity_type: node

@@ -1,4 +1,4 @@
-uuid: 885709e2-9b5b-4e6a-9b7d-93cfad6814fa
+uuid: d994c292-41cb-4f44-ac68-301ccd8b49f8
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: YpoTJxi5xFMxoT5uwWBuXUW8OfBborXgASu7e2mybdo
 id: node.field_mood_image
 field_name: field_mood_image
 entity_type: node

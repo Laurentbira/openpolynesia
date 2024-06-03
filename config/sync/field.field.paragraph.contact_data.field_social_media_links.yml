@@ -1,4 +1,4 @@
-uuid: 0f980b42-8c4b-4c33-9baf-edd2e91c2757
+uuid: 39ef4962-f998-4990-916c-edb5a9cd5384
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.contact_data
   module:
     - social_media_links_field
+_core:
+  default_config_hash: sOeUz0JRrKNzndrdnfBxcApiwCytB4cKofRFOqFgh88
 id: paragraph.contact_data.field_social_media_links
 field_name: field_social_media_links
 entity_type: paragraph

@@ -1,4 +1,4 @@
-uuid: e335633a-337d-4af2-9da7-941eb89dace7
+uuid: 8c495443-586e-447d-8352-8c0804d50be4
 langcode: en
 status: true
 dependencies:
@@ -125,6 +125,8 @@ third_party_settings:
         open: true
         description: ''
         required_fields: false
+_core:
+  default_config_hash: rMIZbzf2xMzINjV6WEbUEPkoYJtIkafBSphgd2eiPVI
 id: node.article.full
 targetEntityType: node
 bundle: article
@@ -188,9 +190,7 @@ content:
       view_title: hidden
       always_build_output: true
       empty_view_title: hidden
-    third_party_settings:
-      field_formatter_class:
-        class: ''
+    third_party_settings: {  }
     weight: 1
     region: content
   field_content_paragraphs:

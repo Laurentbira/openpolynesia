@@ -1,4 +1,6 @@
 settings:
   allowed_values:
-    -
-      label: 'Vor Ort'
+    1:
+      label: Online
+    2:
+      label: Hybrid

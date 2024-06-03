@@ -1,7 +1,9 @@
-uuid: 7b0c3de1-f0e6-421e-b1c9-00718fa3af1f
+uuid: aa59a775-6e22-46c0-8101-0dc214e252b3
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: usqHvZtdxWNFpUIeCEHpMansQ-yDZ0jFnUEBJ1rfNhw
 id: all_rights_reserved
 identifier: 'All rights reserved'
 name: 'All rights reserved'

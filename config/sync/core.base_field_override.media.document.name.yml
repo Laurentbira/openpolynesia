@@ -1,9 +1,11 @@
-uuid: f592eb93-79b0-4623-b307-ee480fde040f
+uuid: 51eeee36-9a61-4d9e-88a4-5cc94d1a479e
 langcode: en
 status: true
 dependencies:
   config:
     - media.type.document
+_core:
+  default_config_hash: GjQueqaRY2BT8KFXLVncuQRhl4iQkiRKbUjrUHlUQ14
 id: media.document.name
 field_name: name
 entity_type: media

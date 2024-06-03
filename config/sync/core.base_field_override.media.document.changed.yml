@@ -1,9 +1,11 @@
-uuid: e170c982-8bf7-461f-bdfc-d8c71de81a83
+uuid: 618e24fe-718d-4b14-843c-0929df7a354d
 langcode: en
 status: true
 dependencies:
   config:
     - media.type.document
+_core:
+  default_config_hash: pCd15aS8oJ3R5GrdOq_IycpwVqS9J88WUM9-tkBm4B4
 id: media.document.changed
 field_name: changed
 entity_type: media

@@ -1,10 +1,12 @@
-uuid: 91b9c001-6c57-4591-a771-a1509b15d421
+uuid: fac3e38a-d23e-457f-94dd-c46f1592cc9d
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - taxonomy
+_core:
+  default_config_hash: WxAyXF4d1_os0pDFFuoeAt4acc2xH4ircDROtADSLz4
 label: OpenCulturas
 id: openculturas
 description: 'Facilitates linking to OpenCulturas-specific nodes and terms.'

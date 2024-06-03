@@ -1,10 +1,12 @@
-uuid: 5236de35-5954-4ab1-ba56-3c26d74b22c0
+uuid: 76a331f0-485b-4d47-af71-555d8ae68ca0
 langcode: en
 status: true
 dependencies:
   module:
     - taxonomy
     - user
+_core:
+  default_config_hash: _ZFvaB6UFBxQqsWPGp6NFRbr_-Ran9vPU_EOTckZqfU
 id: user.field_category
 field_name: field_category
 entity_type: user

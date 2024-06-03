@@ -1,4 +1,4 @@
-uuid: 7fe5d428-0eef-47ef-99ca-c613eb192923
+uuid: 13ea36e4-7a03-4500-b47a-dc0be94b0238
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - media.type.audio
   module:
     - attribution
+_core:
+  default_config_hash: RbT5rXOf7MJaJTLx26T11_pAzVhbqVA9e_dPp7q64wU
 id: media.audio.field_licenses
 field_name: field_licenses
 entity_type: media

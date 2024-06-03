@@ -1,10 +1,12 @@
-uuid: 13f79dd0-de59-40cd-af0c-d77ae451624e
+uuid: 5abb6ea1-ef30-43c6-bd59-7f30317ec729
 langcode: en
 status: true
 dependencies:
   module:
     - link
     - node
+_core:
+  default_config_hash: fHrXO5pzvNLUL1gw2Esr-nkI3l7_V0VrgIS2dYa1UYA
 id: node.field_location_virtual
 field_name: field_location_virtual
 entity_type: node

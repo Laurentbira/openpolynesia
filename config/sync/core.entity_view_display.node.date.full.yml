@@ -1,4 +1,4 @@
-uuid: 1efd98bc-b626-4f77-8d73-7451a84e562f
+uuid: fadfce22-4147-43fa-a7d9-73b9fcec3a1c
 langcode: en
 status: true
 dependencies:
@@ -251,6 +251,8 @@ third_party_settings:
         id: location
         open: true
         description: ''
+_core:
+  default_config_hash: CfH4XFqFGwrF0-Wrz8EpG4Nre-Fk13cSTcCqaS02GxQ
 id: node.date.full
 targetEntityType: node
 bundle: date

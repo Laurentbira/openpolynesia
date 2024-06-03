@@ -1,4 +1,4 @@
-uuid: d0e988e2-2eb8-405c-95d5-77cbc24b5fd7
+uuid: 33c8dc45-64c2-42ac-a73b-0f8b9f822214
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: 49_AO_9Rhy816W8z5NogM6USljtQzaGce9kC2AOt120
 id: node.field_door_time_relative
 field_name: field_door_time_relative
 entity_type: node

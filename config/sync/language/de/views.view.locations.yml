@@ -1,67 +1,59 @@
-description: 'OpenCulturas: filterbare Liste aller Veranstaltungsorte, mit angehängter Landkarte'
+label: Orte
 display:
   default:
+    display_title: Standard
     display_options:
       title: Orte
-      filters:
+      fields:
+        field_address_location:
+          separator: ', '
         title:
+          separator: ', '
+      pager:
+        options:
+          tags:
+            next: 'Nächste Seite ›'
+            previous: '‹ Vorherige Seite'
+            first: '« Anfang'
+            last: 'Ende »'
           expose:
-            placeholder: 'enthält ...'
-        field_address_location_proximity:
-          expose:
-            label: Umkreis
-        field_category_target_id_1:
-          expose:
-            label: Fokus
-        field_sub_type_target_id:
-          admin_label: Typ
-          expose:
-            label: Typ
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
       exposed_form:
         options:
           submit_button: Anwenden
-          bef:
-            general:
-              secondary_label: 'Erweiterte Filter'
           reset_button_label: Zurücksetzen
           exposed_sorts_label: 'Sortieren nach'
           sort_asc_label: Aufsteigend
           sort_desc_label: Absteigend
-          text_input_required: 'Wähle einen Filter und klicke auf <em>Anwenden</em>, um Ergebnisse zu sehen'
-      pager:
-        options:
-          tags:
-            next: 'Nächste ›'
-            previous: '‹ Vorige'
-            first: '« Anfang'
-            last: 'Ende »'
+          text_input_required: 'Wählen Sie einen beliebigen Filter und klicken Sie auf Anwenden, um Ergebnisse zu sehen'
+          bef:
+            general:
+              secondary_label: 'Erweiterte Filter'
+      filters:
+        title:
           expose:
-            items_per_page_label: Anz./Seite
-            items_per_page_options_all_label: '- Alle -'
-      style:
-        options:
-          reset_map:
-            options: '{"position":"topleft","title":"Ansicht zurücksetzen"}'
-          locate:
-            options: '{"position":"topright","setView":"untilPanOrZoom","returnToPrevBounds":true,"keepCurrentZoomLevel":true,"strings":{"title":"Meinen Standort finden"}}'
-    display_title: Standard
+            label: Name
+            placeholder: enthält...
+        field_category_target_id_1:
+          expose:
+            label: Fokus
+        field_sub_type_target_id:
+          admin_label: Standortart
+          expose:
+            label: Typ
+        field_address_location_proximity:
+          expose:
+            label: Entfernung
   locations_block_map:
     display_options:
       fields:
-        rendered_entity:
-          alter:
-            text: ''
-        counter:
-          admin_label: Sprunganker-Link
+        title:
+          separator: ', '
+        field_address_location_proximity:
+          format_plural_string: !!binary MQNAY291bnQ=
+          suffix: km
       empty:
         area:
           content:
-            value: "<p>Keine Ergebnisse.</p>\r\n"
-            format: basic_html
-    display_title: 'Orte (mit Filterbereich)'
-  attachment_map:
-    display_options:
-      header:
-        result:
-          content: '<div class="result-counter"><strong>@start - @end</strong> von insgesamt <strong>@total</strong></div>'
-    display_title: 'Anhang: Landkarte'
+            value: 'Keine Ergebnisse.'

@@ -1,1 +1,4 @@
-label: Präsentationsart
+label: Anzeigetyp
+default_value:
+  -
+    value: default

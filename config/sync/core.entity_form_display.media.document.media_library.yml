@@ -1,4 +1,4 @@
-uuid: 356ccff5-fa65-4718-9b7d-6a3b12336fac
+uuid: 07156ab3-b5a4-413f-8abb-781f4e3a3c35
 langcode: en
 status: true
 dependencies:
@@ -12,6 +12,8 @@ dependencies:
   module:
     - file
     - languagefield
+_core:
+  default_config_hash: ylwUg3gsUtGQMb5qq7Ue46zLPSjZcxYqs6K4lk2XA8U
 id: media.document.media_library
 targetEntityType: media
 bundle: document

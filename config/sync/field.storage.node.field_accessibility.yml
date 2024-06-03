@@ -1,4 +1,4 @@
-uuid: 47eaf5a1-6c78-49bf-aa0f-f4e60364d0a6
+uuid: c243ac31-0c20-451b-9837-7de451b6aaeb
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: dV5u3LFiFPCsPU4KRfubcW4P1F3Qeoi-ImxvaNFINFU
 id: node.field_accessibility
 field_name: field_accessibility
 entity_type: node

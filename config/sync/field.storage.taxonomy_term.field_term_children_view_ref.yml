@@ -1,4 +1,4 @@
-uuid: ded0be39-6801-4c02-880c-c8f357650437
+uuid: f8b00236-ab5a-4645-911a-0545c61cf1b7
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: DCI79bT3tPeOdlZMlcrgE37yB7j_P64__eFHdw67vD8
 id: taxonomy_term.field_term_children_view_ref
 field_name: field_term_children_view_ref
 entity_type: taxonomy_term

@@ -1,9 +1,11 @@
-uuid: 238525fd-f685-46c1-856f-772fedf267f8
+uuid: 22b7cb2f-14ea-494e-8783-d9978d90e2d8
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: ozrO1fSa6SFlGO4LsAbEg-qqpNDjBMzymNXc0Mxl8Pg
 id: node.teaser_big
 label: 'Teaser big'
 description: ''

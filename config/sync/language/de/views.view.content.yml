@@ -30,13 +30,13 @@ display:
       pager:
         options:
           tags:
-            next: 'Nächste ›'
-            previous: '‹ Vorige'
+            next: 'Nächste Seite ›'
+            previous: '‹ Vorherige Seite'
             first: '« Anfang'
             last: 'Ende »'
       exposed_form:
         options:
-          submit_button: Filtern
+          submit_button: Filter
           reset_button_label: Zurücksetzen
           exposed_sorts_label: 'Sortieren nach'
           sort_asc_label: Aufsteigend
@@ -64,6 +64,14 @@ display:
         langcode:
           expose:
             label: Sprache
+        default_langcode:
+          expose:
+            label: Standardübersetzung
+          group_info:
+            label: Übersetzung
+            group_items:
+              2:
+                title: 'Ist Übersetzung'
         uid:
           expose:
             label: 'Geschrieben von'

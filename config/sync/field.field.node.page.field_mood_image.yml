@@ -1,4 +1,4 @@
-uuid: de2d57ed-5999-4535-ac3e-6f7714c77229
+uuid: 8d05ba62-e11a-41a7-a8f1-f121b7cdfea4
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_mood_image
     - media.type.image
     - node.type.page
+_core:
+  default_config_hash: Y-LntGVXkAR586jodku-yoN0fP4G8kdXUPsyDhtg-C4
 id: node.page.field_mood_image
 field_name: field_mood_image
 entity_type: node

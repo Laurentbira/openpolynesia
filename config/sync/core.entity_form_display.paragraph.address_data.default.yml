@@ -1,4 +1,4 @@
-uuid: a886c02c-4685-453c-b17e-5411e3bb1230
+uuid: c9a0468a-667a-4c39-aba7-5dd6561c9088
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.address_data
   module:
     - address
+_core:
+  default_config_hash: 8WDO0dCv1gMLcODVyPVpBmBbyEX6xaYcl90v2ypd7fM
 id: paragraph.address_data.default
 targetEntityType: paragraph
 bundle: address_data
@@ -19,6 +21,11 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
 hidden:
   created: true
   field_address_location: true

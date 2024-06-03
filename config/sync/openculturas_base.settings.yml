@@ -1,5 +1,5 @@
 _core:
-  default_config_hash: TGn5mLULB2f1jcwsO6RtLai9yDKCulgzblEZYLk67MM
+  default_config_hash: dvC-Z1W_BAyRTibz7RzWfIdbM-zO3v2LJ-XwQib4Q-0
 favicon:
   use_default: true
 features:
@@ -9,3 +9,5 @@ features:
   node_user_picture: true
 logo:
   use_default: true
+background_image:
+  mode: mood_image

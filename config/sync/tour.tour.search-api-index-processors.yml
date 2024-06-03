@@ -1,11 +1,11 @@
-uuid: 44f6ac06-323b-4cb2-acf7-54218097b865
+uuid: 6e636c57-3f84-4cf3-a717-8c8074787c1a
 langcode: en
 status: true
 dependencies:
   module:
     - search_api
 _core:
-  default_config_hash: LqXAZO_yZPho3Pueh85e-NzQ3DmI5rNBf6_q8McKUqc
+  default_config_hash: HMgIhOqIqBS7zOe87MUFL6js2db8W7rv899MKjfW8zM
 id: search-api-index-processors
 label: 'Processors used for this index'
 module: search_api

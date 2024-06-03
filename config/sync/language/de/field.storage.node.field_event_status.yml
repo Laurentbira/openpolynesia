@@ -1,12 +1,12 @@
 settings:
   allowed_values:
     -
-      label: Abgesagt
+      label: Abgebrochen
     -
       label: 'Findet online statt'
     -
-      label: Verschoben
+      label: Zurückgestellt
     -
-      label: 'Neuer Termin'
+      label: 'Neu terminiert'
     -
-      label: 'Findet planmäßig statt'
+      label: Zeitgesteuert

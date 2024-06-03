@@ -1,7 +1,9 @@
-uuid: 3a5aa9f8-aa6d-4529-b626-4a4fcded028b
+uuid: 95bf541d-0717-4e81-97e3-272cf4564cc3
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: W6dxMXJGdAhi79QgajK8_JqnIX1P3h0BprffhpqK9QI
 name: 'Minimal HTML'
 format: minimal_html
 weight: -6

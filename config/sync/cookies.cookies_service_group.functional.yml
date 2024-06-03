@@ -1,7 +1,9 @@
-uuid: 5c00095d-ca55-4a58-9ad3-14c18bec986c
+uuid: 0522a218-4711-4fc2-92fa-77f70a722227
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: aHm4Q63Ge97tcktTa_qmUqJMir45iyGY2lEvvqPW68g
 id: functional
 label: Functional
 weight: 1

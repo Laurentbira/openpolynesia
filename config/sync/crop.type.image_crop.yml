@@ -1,9 +1,11 @@
-uuid: 6adc9013-d1cc-4abc-a268-10e595c3295d
+uuid: 61761eec-b570-4b92-a799-f517bd5aa549
 langcode: en
 status: true
 dependencies: {  }
-label: '2:1'
+_core:
+  default_config_hash: 2jpKojzLbDSTz_dcceobjecjesIep7LG4DJ5Xdwyt28
 id: image_crop
+label: '2:1'
 description: 'Crop type used by Image Crop module'
 aspect_ratio: '2:1'
 soft_limit_width: 1100

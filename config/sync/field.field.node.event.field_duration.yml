@@ -1,4 +1,4 @@
-uuid: 459d1b07-4df0-4012-8d54-b75ab4234e16
+uuid: fd078a3e-7aba-47c7-aefe-f8dfad0b21e2
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.event
   module:
     - duration_field
+_core:
+  default_config_hash: MTx7XeTpFJWADfIQ0Wc5ljX6dsche6W2ZRVdcz-ogS4
 id: node.event.field_duration
 field_name: field_duration
 entity_type: node

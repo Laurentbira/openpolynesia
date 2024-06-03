@@ -1,4 +1,4 @@
-uuid: 58e110df-5f18-4115-a9da-69d36bbd7cb8
+uuid: 9ad6c0cc-0822-44de-b490-ce07f6d512f9
 langcode: en
 status: true
 dependencies:
@@ -36,6 +36,8 @@ dependencies:
     - field_formatter_class
     - text
     - user
+_core:
+  default_config_hash: '-bJDLKlIYBFFsxnV_MJcAU_g-kNSXnBQ6R8-ppskxWU'
 id: node.location.search_index
 targetEntityType: node
 bundle: location

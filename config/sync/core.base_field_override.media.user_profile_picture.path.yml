@@ -1,4 +1,4 @@
-uuid: ad76f623-d218-434f-9982-66bf769fed01
+uuid: 642d5f6c-63b5-4843-b108-60f47c911380
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - media.type.user_profile_picture
   module:
     - path
+_core:
+  default_config_hash: FT5QOS4K0Wly9cVFputSH6e1esUa7RrvSAWbx3UZmGI
 id: media.user_profile_picture.path
 field_name: path
 entity_type: media

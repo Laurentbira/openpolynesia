@@ -1,4 +1,4 @@
-uuid: 9c75fbca-8e92-49b4-b883-5834f7eda4ee
+uuid: b1b29412-f9dd-4c2a-a21a-f179493d45c2
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - legal
     - user
 _core:
-  default_config_hash: DEtr6ohdTM4jSSocNX_tNGU73aKdabI0n57BvxbTikE
+  default_config_hash: BD8NR_2Kad-8p5SvUW7y__mbn9t_GABMe7TEcSyoFcA
 id: legal_users
 label: legal_users
 module: views

@@ -1,10 +1,12 @@
-uuid: ae177be6-8b26-4356-95ab-4c250e300f5f
+uuid: 9a784b7c-4418-4a57-a79a-b27bce957bda
 langcode: en
 status: true
 dependencies:
   module:
     - language
     - node
+_core:
+  default_config_hash: 9VeUwYPs46SBS3OUlaKv3ZPSUxiVEE9-7vWCv82TWh8
 id: dates
 label: Dates
 type: 'canonical_entities:node'

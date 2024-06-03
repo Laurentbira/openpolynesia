@@ -1,4 +1,4 @@
-uuid: 14793916-17e4-44df-a8fa-0b1a7673da4f
+uuid: 2bcc19a9-42df-462e-9294-c7f4fdd829e3
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - user
     - views_bulk_edit
 _core:
-  default_config_hash: Bjz27y1Z8D8KsOY6XIy3E79Cl7VDXkWLpePx2NqCc1M
+  default_config_hash: yKIdh5BqaETc2bng9afJEsBwVj6Sppqau5WQVA1-uHM
 id: user_edit_action
 label: 'Edit users'
 type: user

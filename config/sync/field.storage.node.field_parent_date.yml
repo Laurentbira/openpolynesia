@@ -1,4 +1,4 @@
-uuid: 71b9eda4-449c-4748-b079-6cb794d1bb96
+uuid: 89667b32-26c3-4ee6-8e74-bd534a3219e5
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: esT_xgqDibAl-uVcu8XF6xkb_iQYC0aqyWrxGbH9Sjk
 id: node.field_parent_date
 field_name: field_parent_date
 entity_type: node

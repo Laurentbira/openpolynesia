@@ -1,0 +1,8 @@
+label: Profilbild
+display_configuration:
+  link_text: 'Profilbild hochladen'
+widgets:
+  d0ccc844-d836-452b-9c47-02eed94e9ef3:
+    label: Profilbild
+    settings:
+      submit_text: Hochladen

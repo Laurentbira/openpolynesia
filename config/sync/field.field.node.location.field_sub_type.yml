@@ -1,4 +1,4 @@
-uuid: 6554ac4e-84c6-497c-a4b5-1ae7cb7dc881
+uuid: 40da0c34-be9d-49ad-a9fb-14fa9aee0102
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_sub_type
     - node.type.location
     - taxonomy.vocabulary.location_type
+_core:
+  default_config_hash: Yk9VVS2uYtneUG35KYdkChIZkKa71OsMDYmgpALnQkE
 id: node.location.field_sub_type
 field_name: field_sub_type
 entity_type: node

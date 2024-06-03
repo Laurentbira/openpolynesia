@@ -1,4 +1,4 @@
-uuid: 38937e74-a2df-4e4b-9c7a-3990dc35995d
+uuid: 47e52f3e-58f0-46e8-863e-c106834dea86
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: '-nPnbe9Y-o4y8TPj6JsIs5vlScbDMzXgB3_JDERKFME'
 id: media.field_filesize
 field_name: field_filesize
 entity_type: media

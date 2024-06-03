@@ -1,4 +1,4 @@
-uuid: b8a63b61-f621-4234-afc8-84e95261f9f6
+uuid: d7eca375-607e-4048-b803-318663b424c0
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
     - media.type.logo_image
   module:
     - svg_image
+_core:
+  default_config_hash: 4aglX9Y59HBaUHJgufWYkn4NfwiN1qwF_W7nLJc6S0E
 id: media.logo_image.media_library
 targetEntityType: media
 bundle: logo_image

@@ -1,4 +1,4 @@
-uuid: f8f8c6e6-31a2-4876-92cf-569919996cd8
+uuid: 6924d248-6e47-4f06-a352-9d25433550b7
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
   module:
     - media_library
     - media_library_edit
+_core:
+  default_config_hash: RCN_avo0Qpyz7DkMbY5SOROTe_gn-1Gmv1kqn0-_S-c
 id: paragraph.gallery.default
 targetEntityType: paragraph
 bundle: gallery

@@ -1,4 +1,4 @@
-uuid: 7b18a04e-2ac2-49a3-a8c0-b09a7d44e50c
+uuid: 808574e6-bd69-46a6-bad8-78b00ec478e0
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - user.role.oc_organizer
   module:
     - user
+_core:
+  default_config_hash: 7j172MVCwVb_SKyft2yqnZ3lS1-_Y0JGLIIkG80mahw
 id: user_remove_role_action.oc_organizer
 label: 'Remove the OC organizer role from the selected user(s)'
 type: user

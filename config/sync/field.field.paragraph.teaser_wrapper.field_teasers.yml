@@ -1,4 +1,4 @@
-uuid: 1de6684a-007b-406e-a560-5aca0f655f08
+uuid: c70c70d1-0e4e-4c8d-9f93-85aa1442c963
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
     - paragraphs.paragraphs_type.teaser_wrapper
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: d0BAnqhUkWbLo-RYmYVQn2IM4rv1Ywp_k_exv0rTTag
 id: paragraph.teaser_wrapper.field_teasers
 field_name: field_teasers
 entity_type: paragraph

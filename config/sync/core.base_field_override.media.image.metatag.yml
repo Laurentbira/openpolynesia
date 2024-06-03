@@ -1,9 +1,11 @@
-uuid: db630ace-1fd9-4443-8ceb-2d3e7b686abc
+uuid: 7bc232e9-de86-4c11-afd7-0145b47af0bc
 langcode: en
 status: true
 dependencies:
   config:
     - media.type.image
+_core:
+  default_config_hash: how69bCHb4d4pbjgzLwZEOPym6lYt3cuyHNZvZK7nKI
 id: media.image.metatag
 field_name: metatag
 entity_type: media

@@ -1,9 +1,9 @@
-uuid: 85e3590c-5366-4278-9e84-cea02655136d
+uuid: 67842d36-c393-4575-b71f-7a36cda0041a
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: PPbYegD8TqYh58DeLdIl0Z4lgO64_5w4neJ1H1hznVE
+  default_config_hash: kTHKWeMU-_j7ZBVyb8k_XBBKlsIoFP28tdaRVW6wzdM
 id: cc0_1_0
 identifier: CC0-1.0
 name: 'Creative Commons Zero v1.0 Universal'

@@ -1,7 +1,9 @@
-uuid: 3a5ea61e-d5da-4660-aff3-67ec14668beb
+uuid: 6e30011f-0504-4ccb-9c56-8fe82bc6d59a
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 5wP16hVFcNf6R4Xw5GGjKOd0SZ8cC1ryBKh2SApUuhQ
 name: Column
 vid: column
 description: 'Sections of the magazine.'

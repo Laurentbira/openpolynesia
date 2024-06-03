@@ -1,4 +1,4 @@
-uuid: dec9a65d-5db1-417c-8b68-4267e2e196c3
+uuid: bffaf17f-9e57-4f70-94c0-38f83284a90e
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ dependencies:
   module:
     - field_formatter_class
     - svg_image
+_core:
+  default_config_hash: m3ON8Nl9NeBMJmFQUmtHguwEiDZWIPDYUdgTrjzt4xU
 id: media.sponsor.default
 targetEntityType: media
 bundle: sponsor

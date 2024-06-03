@@ -1,4 +1,4 @@
-uuid: 9c438d99-3399-4a25-87d9-1c11d37f5bf6
+uuid: 08a51412-b39d-494a-80c8-cff976c55939
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - flag.flag.report_abuse
   module:
     - flag
+_core:
+  default_config_hash: GeK_w1r6uu0jYkSY6rwbh2CrxyYDexGmtyJUevWKJPc
 id: flag_action.report_abuse_unflag
 label: 'Report abuse withdraw'
 type: node

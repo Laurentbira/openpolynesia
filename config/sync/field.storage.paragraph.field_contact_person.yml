@@ -1,4 +1,4 @@
-uuid: 2e9169bc-de73-448e-bfdc-11ee2614e4f9
+uuid: 597ef29d-2cff-4f1d-8615-4da10e8f7651
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: t9DWR3EIlOA6_6xs8rcRCj1Rai1kdecfbQ6cXXt5wcQ
 id: paragraph.field_contact_person
 field_name: field_contact_person
 entity_type: paragraph

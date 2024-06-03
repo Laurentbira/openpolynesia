@@ -1,4 +1,4 @@
-uuid: 8e53a6ff-c654-4d01-b183-1b00f651bbc8
+uuid: 565c9857-532c-486e-b7c3-eb75a9af1769
 langcode: en
 status: true
 dependencies:
@@ -36,6 +36,8 @@ dependencies:
     - smart_trim
     - text
     - user
+_core:
+  default_config_hash: Gjad5zr2Fah_ZIzeBdH-nVSKd9RsXXZBOi0Fn1f6yJ8
 id: node.location.teaser_unified
 targetEntityType: node
 bundle: location

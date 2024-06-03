@@ -1,4 +1,4 @@
-uuid: 68ef5a38-4c31-4656-9605-5af4afbc5fcc
+uuid: af793d84-35cb-4cde-9220-bea4fb9a14b8
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - media.type.image
   module:
     - attribution
+_core:
+  default_config_hash: V-Q0LcsAg2Pun8UDIToKOcFcEiI8eoAONIq0BC5chLg
 id: media.image.field_licenses
 field_name: field_licenses
 entity_type: media

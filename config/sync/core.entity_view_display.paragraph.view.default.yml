@@ -1,4 +1,4 @@
-uuid: 69d4d836-c698-4feb-8f55-914dfd691bb6
+uuid: 110c09e3-68db-45f4-9f5b-84f1cfc69ccd
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
   module:
     - field_formatter_class
     - viewfield
+_core:
+  default_config_hash: Gj_azxdBPEWarS9j2EET4rdDLP3EDlEvL43Ogg1dPko
 id: paragraph.view.default
 targetEntityType: paragraph
 bundle: view

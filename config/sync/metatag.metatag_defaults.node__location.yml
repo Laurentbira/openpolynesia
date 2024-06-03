@@ -1,7 +1,9 @@
-uuid: 0a211662-ecf3-45da-9ec6-26e8654608cf
+uuid: ffc6aec4-9055-458a-8190-86edcea560d7
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: sfWhpEg8EaTomY8V1u3Sah4Ukbvot0sLUF_A2Z2wHrM
 id: node__location
 label: 'Content: Location'
 tags:

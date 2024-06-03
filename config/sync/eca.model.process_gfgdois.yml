@@ -1,9 +1,11 @@
-uuid: e1ef245d-bf51-485b-a67b-97814485b0d8
+uuid: f962574a-0dd7-49b8-b364-c5c3bef675fd
 langcode: en
 status: true
 dependencies:
   config:
     - eca.eca.process_gfgdois
+_core:
+  default_config_hash: hoGt4tVJLLojesLhFAyrbs4TUe2GdAP65DZslkdcoEU
 id: process_gfgdois
 label: 'Moderation state (review) was set'
 tags:

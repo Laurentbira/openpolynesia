@@ -1,4 +1,4 @@
-uuid: 5e199db8-2c21-4af7-aab5-1d72ca6e1621
+uuid: 0af9ddf0-3d24-43a6-b8d8-50a82c602ad9
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - flag.flag.claim_ownership
   module:
     - flag
+_core:
+  default_config_hash: 535QJ2h-1Hb8047vbbzUhOP6noHhlBsMrpLExd3LSco
 id: flag_action.claim_ownership_flag
 label: 'Claim ownership'
 type: node

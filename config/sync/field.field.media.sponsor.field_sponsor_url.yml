@@ -1,4 +1,4 @@
-uuid: e733511a-6986-4925-80c1-11c4b3b8cf69
+uuid: 98c78250-67b0-4d14-9242-94d28cc2810e
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - media.type.sponsor
   module:
     - link
+_core:
+  default_config_hash: KMZu4qZ7SvbLq7vnE53oToojO1fcOFDw1tLp2ZJ2T6A
 id: media.sponsor.field_sponsor_url
 field_name: field_sponsor_url
 entity_type: media

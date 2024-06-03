@@ -1,4 +1,4 @@
-uuid: ce643a02-357a-4e10-9dd9-195d7a3af698
+uuid: a0b5f386-04ab-4df2-8dd0-38ec7ab7c184
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
   module:
     - field_formatter_class
     - text
+_core:
+  default_config_hash: vXNgDhPIR6D0b9qfcXywuv5zSQ99UZXu-MjxelvXbbE
 id: paragraph.accessibility.default
 targetEntityType: paragraph
 bundle: accessibility

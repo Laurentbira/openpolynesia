@@ -1,9 +1,11 @@
-uuid: e550ae14-31bd-460e-a0a8-64b2adcdbab1
+uuid: 1e6af9af-4c58-4713-ad3d-a2df9190736d
 langcode: en
 status: true
 dependencies:
   config:
     - taxonomy.vocabulary.column
+_core:
+  default_config_hash: wThTXavgxd5i7dKbqI6YXK9h0qmmdfE7-c53dyaiJ0c
 id: taxonomy_term.column.name
 field_name: name
 entity_type: taxonomy_term

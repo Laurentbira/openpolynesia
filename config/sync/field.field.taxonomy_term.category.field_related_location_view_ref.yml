@@ -1,4 +1,4 @@
-uuid: ab70f8ea-8607-4464-9536-cf75d456f56d
+uuid: 951b1e64-dd5f-404e-aff0-665a3703218a
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - views.view.related_location
   module:
     - viewfield
+_core:
+  default_config_hash: VqBtM4Fx7qpfwO5WTXG7TmTrhUyNEHaIwRNAdmAuNmM
 id: taxonomy_term.category.field_related_location_view_ref
 field_name: field_related_location_view_ref
 entity_type: taxonomy_term

@@ -1,4 +1,4 @@
-uuid: 4fbe72a0-4292-4d50-afc1-6eeb189cf719
+uuid: 11dec2c6-831e-4583-b3d3-8df5bdeadf6b
 langcode: en
 status: true
 dependencies:
@@ -14,6 +14,8 @@ third_party_settings:
       file: file
       alt: '0'
       title: '0'
+_core:
+  default_config_hash: GXTEC71CrxHvv4ls-mNLkz68P-Yfzq7LwkI7_rqzCZA
 id: media.sponsor.field_media_image
 field_name: field_media_image
 entity_type: media

@@ -1,4 +1,4 @@
-uuid: b71002f3-3706-4929-8ef9-c287caeebdfe
+uuid: 67537f86-6d6b-420f-81b7-1f3283aa3b21
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: Qdh6cUsCnWqEV4CCEsuEWVElq5iACEgDQQALnuzsFTI
 id: node.field_event_series
 field_name: field_event_series
 entity_type: node

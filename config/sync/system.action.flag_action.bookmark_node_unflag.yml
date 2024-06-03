@@ -1,4 +1,4 @@
-uuid: 9f19b522-72cc-428f-a71f-144320bb9aea
+uuid: 60c58a85-dde6-4390-a144-66f83d5c878c
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - flag.flag.bookmark_node
   module:
     - flag
+_core:
+  default_config_hash: 5OL7pvLlkDm26bbKsPl2pmPDbjo3oVZVWtcG9WxTZqg
 id: flag_action.bookmark_node_unflag
 label: 'Remove bookmark'
 type: node

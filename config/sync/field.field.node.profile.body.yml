@@ -1,4 +1,4 @@
-uuid: 83b14897-305d-49b5-b5b7-6ffc8a8c5d30
+uuid: e0e8606c-004d-4cc2-a960-627debd4464f
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - node.type.profile
   module:
     - text
+_core:
+  default_config_hash: KNUoEr5RWgTQ8xVG47T_dMD0q0npPLEKSPNSwKiF4e8
 id: node.profile.body
 field_name: body
 entity_type: node

@@ -1,4 +1,4 @@
-uuid: d02f5165-576e-48ce-843e-7c77ee06dea4
+uuid: 3873e2d2-902d-4844-9cbf-b69a3b425330
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.view
   module:
     - viewfield
+_core:
+  default_config_hash: J_WThGdRuxA1VKUBliJpm7XBZhns8Sk8L3ojiBi4Vlc
 id: paragraph.view.field_view
 field_name: field_view
 entity_type: paragraph

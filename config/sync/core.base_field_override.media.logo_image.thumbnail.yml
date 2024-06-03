@@ -1,4 +1,4 @@
-uuid: e8c109d1-6392-4c65-b3cc-12df66becd6a
+uuid: 8619f49d-d4f0-4b92-8e61-cc87176de675
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - media.type.logo_image
   module:
     - image
+_core:
+  default_config_hash: uEVRMw7RlPyzc5KKU1eIQIEHDGmVbUywLJrmkOMYWsQ
 id: media.logo_image.thumbnail
 field_name: thumbnail
 entity_type: media

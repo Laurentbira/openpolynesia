@@ -1,4 +1,4 @@
-uuid: 169b7c6d-440d-46c8-b701-4f7c138072f0
+uuid: 9d41c04b-4203-4f83-9bc9-4d012868d8ca
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - node.type.location
   module:
     - text
+_core:
+  default_config_hash: '-TOpGgEdhQ0gPVNkt5QdiwqSvl9iRRRm9YhGNuyaNsQ'
 id: node.location.field_safety_info
 field_name: field_safety_info
 entity_type: node

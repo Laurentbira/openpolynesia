@@ -31,6 +31,8 @@ dependencies:
     - user
     - views_add_button
     - views_infinite_scroll
+_core:
+  default_config_hash: q_7tUZ1VO_a5EZnrjLKrmP19f_W9dpdMts7_XXixzs0
 id: related_date
 label: 'Related dates'
 module: views

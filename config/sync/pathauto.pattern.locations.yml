@@ -1,10 +1,12 @@
-uuid: 3b93e834-ec98-46aa-ae9c-ae976202280f
+uuid: 9b6b4f2d-0670-455e-ad68-f45092f735d2
 langcode: en
 status: true
 dependencies:
   module:
     - language
     - node
+_core:
+  default_config_hash: aO-uZwzafyGFgj_kqz_Zdbrgl24w7kiNI-vnlPHtKio
 id: locations
 label: Locations
 type: 'canonical_entities:node'

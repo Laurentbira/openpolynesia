@@ -1,4 +1,4 @@
-uuid: 42564d54-b6d2-4cef-b227-cc6a59518915
+uuid: f172ffad-7a11-4306-8973-efa8a018cede
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - views.view.related_profile
   module:
     - viewfield
+_core:
+  default_config_hash: 1OYcUbZfyMfjB3hPFAZmk6TDM97FTQ79hgghCwA3_p8
 id: taxonomy_term.category.field_related_artist_view_ref
 field_name: field_related_artist_view_ref
 entity_type: taxonomy_term

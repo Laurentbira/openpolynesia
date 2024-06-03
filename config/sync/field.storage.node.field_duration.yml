@@ -1,10 +1,12 @@
-uuid: 2171a6a4-a14a-4f46-bac5-8dc00174fc76
+uuid: 574ceafd-f313-4e0c-a68f-0b2ada0414d2
 langcode: en
 status: true
 dependencies:
   module:
     - duration_field
     - node
+_core:
+  default_config_hash: yoMsiagmkklsxhWb3puwPiZLKAiDKWm01sb0YyAwr1s
 id: node.field_duration
 field_name: field_duration
 entity_type: node

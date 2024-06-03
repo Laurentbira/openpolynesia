@@ -1,4 +1,4 @@
-uuid: 25f3b99b-6dd8-479e-b8fd-ed9f18ed67b3
+uuid: 68a5a4d8-9970-4eff-8c50-d15fffdadf9f
 langcode: en
 status: true
 dependencies:
@@ -24,6 +24,8 @@ dependencies:
     - field_formatter_class
     - text
     - user
+_core:
+  default_config_hash: 4HQVu73ar6iHDKEBGyilwcyEqkq2mGxbQsM-aLoMPxQ
 id: node.article.search_index
 targetEntityType: node
 bundle: article

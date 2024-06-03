@@ -1,4 +1,4 @@
-uuid: 02160e76-b8cd-41b2-a5fd-c0f97bb1f304
+uuid: 32e9d034-52eb-42a3-a24f-cd9c1fc0ea5f
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.article
   module:
     - datetime
+_core:
+  default_config_hash: ZOJ5CRKpCBsny2pNTTdu_heMlWlNw0zc3dSEqXjM9K8
 id: node.article.field_date_published
 field_name: field_date_published
 entity_type: node

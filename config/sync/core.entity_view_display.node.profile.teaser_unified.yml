@@ -1,4 +1,4 @@
-uuid: 0d9f34e1-d4ec-40be-9d16-c621b24fc767
+uuid: 6388fba1-7e36-4cd0-91b6-f059ce31bf46
 langcode: en
 status: true
 dependencies:
@@ -37,6 +37,8 @@ dependencies:
     - smart_trim
     - text
     - user
+_core:
+  default_config_hash: 78OevK3Js9mYqjA8ZN37XN9lE5AaYkSIazaNi6dtV0w
 id: node.profile.teaser_unified
 targetEntityType: node
 bundle: profile

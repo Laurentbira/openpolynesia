@@ -17,6 +17,8 @@ dependencies:
     - node
     - user
     - views_infinite_scroll
+_core:
+  default_config_hash: Mss8RCZpIaNTHTQBTA9h-f9RAraoRQgz_7jWfYPOU-I
 id: my_bookmarks
 label: 'My bookmarks (content)'
 module: views

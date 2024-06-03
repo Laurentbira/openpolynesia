@@ -1,1 +1,4 @@
 label: Bild
+settings:
+  default_image:
+    alt: Logo

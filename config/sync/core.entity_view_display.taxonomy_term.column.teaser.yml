@@ -1,4 +1,4 @@
-uuid: 50b7b9e9-cf29-4882-a29a-b5b37e1b2a7d
+uuid: 3648df1f-3273-422d-9f6f-49d97a67d1fe
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
     - taxonomy.vocabulary.column
   module:
     - field_formatter_class
+_core:
+  default_config_hash: ClZv4g-wn9C64q1V6nNnWl-BF8SdveFdUUQ2cZX68v8
 id: taxonomy_term.column.teaser
 targetEntityType: taxonomy_term
 bundle: column

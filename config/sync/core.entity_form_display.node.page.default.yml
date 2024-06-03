@@ -1,4 +1,4 @@
-uuid: e6372eb7-7051-42bd-8bb4-26fec47cfbcc
+uuid: 063e64eb-7a6e-4b61-9b1f-ffb76d061165
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
     - field.field.node.page.field_subtitle
     - field.field.node.page.field_supporters
     - node.type.page
-    - workflows.workflow.magazine_article
+    - workflows.workflow.draften
   module:
     - allowed_formats
     - content_moderation
@@ -87,7 +87,7 @@ third_party_settings:
         description: ''
         required_fields: true
 _core:
-  default_config_hash: AD_lefuYmjsKeH3OQApsyP_nLj6ZnGaALznLQSQ0Z_o
+  default_config_hash: lIHX0LIXRusEKjc6EPU-NwiSBSFtXMgipOTQ-vklZB4
 id: node.page.default
 targetEntityType: node
 bundle: page

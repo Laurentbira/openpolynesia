@@ -1,4 +1,4 @@
-uuid: 00a50afc-392f-40cf-9ab3-0d485e636771
+uuid: 11b3e47b-34c7-46a7-b4a2-62b6274206a7
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - views.view.related_date
   module:
     - viewfield
+_core:
+  default_config_hash: BgHhph9jD4WUKj4PBucPbfjzvXccoHpKNjGADJz3qR8
 id: node.event.field_related_date_view_ref
 field_name: field_related_date_view_ref
 entity_type: node

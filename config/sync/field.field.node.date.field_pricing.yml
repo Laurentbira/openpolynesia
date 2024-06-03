@@ -1,10 +1,12 @@
-uuid: 32fbc614-e0f6-4ede-93f0-b6f5ec2d0539
+uuid: 5ac17e56-10a2-4a1e-8e19-a42ed057bdf4
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_pricing
     - node.type.date
+_core:
+  default_config_hash: MC4eFhB-sKS6ty8ncrXUfdtR9ClgkMcJ2e_Ca5pjKJM
 id: node.date.field_pricing
 field_name: field_pricing
 entity_type: node

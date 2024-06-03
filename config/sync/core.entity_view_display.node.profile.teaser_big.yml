@@ -1,4 +1,4 @@
-uuid: 68c866de-91bf-4cce-bea0-3323ea03b166
+uuid: a20192af-4466-491e-ba2e-02bc30c7e074
 langcode: en
 status: true
 dependencies:
@@ -36,6 +36,8 @@ dependencies:
     - field_formatter_class
     - text
     - user
+_core:
+  default_config_hash: hYR9QNun3j4UqUiQUPGv8rGL3XFqFtwyh8duevgNuLs
 id: node.profile.teaser_big
 targetEntityType: node
 bundle: profile

@@ -1,4 +1,4 @@
-uuid: 671397da-8015-42ab-98d5-b8f64e862161
+uuid: 2ca0b646-54ce-48cb-906b-7d8249986a10
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.profile
   module:
     - options
+_core:
+  default_config_hash: Ww7zj7o9bKgimMus6geDEPQ0m_HcOHdT7z7KGMFBJqo
 id: node.profile.field_profile_role
 field_name: field_profile_role
 entity_type: node

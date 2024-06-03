@@ -1,4 +1,4 @@
-uuid: 15f91ce3-f12e-44d6-89f4-7c56cf17f4db
+uuid: 2040fcfa-477a-4161-ba28-dbe88a3e888a
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - views.view.related_event
   module:
     - viewfield
+_core:
+  default_config_hash: FVdN9tMzIePTbYrSBXbageDrbSuiyOqY2iKMyggmUKs
 id: node.profile.field_performer_event_view_ref
 field_name: field_performer_event_view_ref
 entity_type: node

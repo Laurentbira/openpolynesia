@@ -1,4 +1,4 @@
-uuid: ec419a14-5a2f-4cac-8a22-62e70eca5da4
+uuid: 77709bee-4a88-4f5a-9ac9-63e20b261442
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - views.view.my_recommendations
   module:
     - viewfield
+_core:
+  default_config_hash: S5qCGa8NeG14WhAkRkh_l1x5Z_3iJ_Md35AHbQztnSw
 id: node.location.field_recommendations
 field_name: field_recommendations
 entity_type: node

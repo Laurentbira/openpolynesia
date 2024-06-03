@@ -1,30 +1,54 @@
-description: 'OpenCulturas: Liste von in Verbindung stehenden Veranstaltungen'
 display:
   default:
+    display_title: Standard
     display_options:
-      empty:
-        area:
-          content:
-            value: "<p>Aktuell stehen keine Veranstaltungen im Zusammenhang mit diesem Inhalt.</p>\r\n"
-            format: basic_html
+      fields:
+        title:
+          separator: ', '
       pager:
         options:
+          tags:
+            next: ››
+            previous: ‹‹
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
           views_infinite_scroll:
-            button_text: 'Mehr anzeigen'
-      title: 'Verwandte Veranstaltungen'
+            button_text: 'Weitere anzeigen'
+      exposed_form:
+        options:
+          submit_button: Anwenden
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
       arguments:
         term_node_tid_depth:
           exception:
             title: Alle
-    display_title: Standard
+  related_event_by_type:
+    display_title: 'Nach Veranstaltungstyp - auf Begriffsseite '
+    display_options:
+      arguments:
+        field_sub_type_target_id:
+          exception:
+            title: Alle
+  related_event_node:
+    display_options:
+      arguments:
+        field_category_target_id:
+          exception:
+            title: Alle
+        nid:
+          exception:
+            title: Alle
   related_event_performer:
     display_options:
       title: 'Beteiligt an'
-    display_title: 'Beteiligt an - auf Profilseite'
-  related_event_by_type:
-    display_title: 'Nach Veranstaltungstyp - auf Begriffsseite'
-  related_event_node:
-    display_title: 'Nach Fokuskategorie - auf Inhaltsseite'
+      arguments:
+        field_member_target_id:
+          exception:
+            title: Alle
   related_event_term:
-    display_title: 'Nach Fokuskategorie - auf Begriffsseite'
-label: 'Verwandte Veranstaltungen'
+    display_title: 'Nach Fokus - auf Begriffsseite'

@@ -1,4 +1,4 @@
-uuid: d0b69432-add8-46bf-8d02-48b8d7a03cd8
+uuid: ea7aff04-3707-435a-9fb6-8370826a982d
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.event
   module:
     - languagefield
+_core:
+  default_config_hash: wVZxhAljt4fYWX6BRdLDxKjo__BUPD37nWBMx_eKn9g
 id: node.event.field_inlanguage
 field_name: field_inlanguage
 entity_type: node

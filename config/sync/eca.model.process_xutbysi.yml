@@ -1,9 +1,11 @@
-uuid: d5cdf88c-f1dd-4a5a-b8e6-2e2e9bda3ad7
+uuid: e4c1f4a4-6517-4d07-b72f-4079e1efdb51
 langcode: en
 status: true
 dependencies:
   config:
     - eca.eca.process_xutbysi
+_core:
+  default_config_hash: uZbtHj7e-WyKfcvH1TaXkJU-pFYoYZEpFW2Lrp6rTVU
 id: process_xutbysi
 label: 'Claim ownership'
 tags:

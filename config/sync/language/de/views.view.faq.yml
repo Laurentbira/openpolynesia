@@ -1,13 +1,22 @@
+label: FAQ
 display:
   default:
     display_title: Standard
     display_options:
+      fields:
+        field_faq_category:
+          separator: ', '
       pager:
         options:
+          tags:
+            next: ››
+            previous: ‹‹
           expose:
-            items_per_page_label: Anzahl/Seite
+            items_per_page_label: 'Elemente pro Seite'
             items_per_page_options_all_label: '- Alle -'
             offset_label: Versatz
+          views_infinite_scroll:
+            button_text: 'Weitere anzeigen'
       exposed_form:
         options:
           submit_button: Anwenden
@@ -15,34 +24,52 @@ display:
           exposed_sorts_label: 'Sortieren nach'
           sort_asc_label: Aufsteigend
           sort_desc_label: Absteigend
+      empty:
+        area:
+          content:
+            value: 'Keine entsprechenden FAQ gefunden'
       arguments:
         field_faq_category_target_id:
           exception:
             title: Alle
+  block_grouped:
+    display_title: 'Alle - gruppiert nach FAQ-Kategorie'
   page_faq_overview:
+    display_title: Administrationsseite
     display_options:
+      title: 'FAQ - alle Kategorien'
       fields:
         node_bulk_form:
-          label: ''
+          label: 'Node Massenbearbeitung Formular'
           action_title: Aktion
         field_faq_category:
           label: Kategorie
+          separator: ', '
+        title:
+          label: Frage
+          separator: ', '
         langcode:
           label: Sprache
+          separator: ', '
         status:
+          label: Status
           settings:
             format_custom_true: Veröffentlicht
+          separator: ', '
         sticky:
           label: 'am Anfang von Listen'
+          separator: ', '
         operations:
           label: Aktionen
       pager:
         options:
           tags:
+            next: ››
+            previous: ‹‹
             first: '« Anfang'
             last: 'Ende »'
           expose:
-            items_per_page_label: Anzahl/Seite
+            items_per_page_label: 'Elemente pro Seite'
             items_per_page_options_all_label: '- Alle -'
             offset_label: Versatz
       exposed_form:
@@ -57,15 +84,21 @@ display:
             general:
               secondary_label: 'Erweiterte Optionen'
       filters:
+        title:
+          expose:
+            label: Frage
         field_faq_category_target_id:
           expose:
             label: Kategorie
         langcode:
           expose:
             label: Übersetzungssprache
-      title: 'FAQ - Alle Kategorien'
+      menu:
+        title: FAQ
   related_faq_term:
+    display_title: 'je FAQ-Kategorie'
     display_options:
+      title: 'Verwandte Fragen'
       arguments:
         field_faq_category_target_id:
           exception:

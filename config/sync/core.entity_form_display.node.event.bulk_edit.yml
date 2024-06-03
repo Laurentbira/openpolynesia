@@ -1,4 +1,4 @@
-uuid: b6b9672b-da0e-49e6-a376-6b9627cfb18b
+uuid: 3e54f8b3-bd34-405c-9c37-a91c7653bd38
 langcode: en
 status: true
 dependencies:
@@ -32,6 +32,8 @@ dependencies:
     - workflows.workflow.draften
   module:
     - content_moderation
+_core:
+  default_config_hash: XqCo9p62T-U02vGSHuVY0z9lTUUE1JkOhWtXZwFA2Cg
 id: node.event.bulk_edit
 targetEntityType: node
 bundle: event

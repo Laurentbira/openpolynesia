@@ -1,4 +1,4 @@
-uuid: 8f6852fd-8d87-4dc0-b544-1b581233bdd2
+uuid: 683a0ca7-2c03-4df3-b264-b9272733e34e
 langcode: en
 status: true
 dependencies:
@@ -12,6 +12,8 @@ dependencies:
     - eca_content
     - eca_language
     - openculturas_custom
+_core:
+  default_config_hash: lRJsC-kGSyF95ISbYY0okZARpfrPzsjJAZyVXmwaJUY
 id: process_fhzwp6n
 modeller: bpmn_io
 label: 'Abuse report'

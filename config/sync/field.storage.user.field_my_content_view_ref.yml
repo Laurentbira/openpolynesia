@@ -1,4 +1,4 @@
-uuid: 2841b32d-4dd3-4254-a3ca-ed70df94164f
+uuid: da02314b-f484-4f4b-96b8-65c3a5717947
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: RVjPeMPT3HVxHASr7uLN1fZpp7JB3eefQ_MhR0RQ65U
 id: user.field_my_content_view_ref
 field_name: field_my_content_view_ref
 entity_type: user

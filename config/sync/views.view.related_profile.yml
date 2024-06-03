@@ -16,6 +16,8 @@ dependencies:
     - taxonomy
     - user
     - views_infinite_scroll
+_core:
+  default_config_hash: Icye5E8popjeiC_54bj0HM3ntpvLuPCy-IZBuqrF1_8
 id: related_profile
 label: 'Related profiles'
 module: views

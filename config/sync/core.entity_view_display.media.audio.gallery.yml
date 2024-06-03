@@ -1,4 +1,4 @@
-uuid: 6f7b41fb-b711-486e-a6ff-95f9965f82c1
+uuid: 7b5c48f8-978d-4b99-a119-a63ec7e74204
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ dependencies:
     - attribution
     - field_formatter_class
     - file
+_core:
+  default_config_hash: '-w4_4dJB25E1p-o5IGVGFII7VMOgr2atq9CscKAoimo'
 id: media.audio.gallery
 targetEntityType: media
 bundle: audio

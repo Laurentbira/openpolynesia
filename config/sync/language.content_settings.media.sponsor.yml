@@ -1,4 +1,4 @@
-uuid: 7f5b68c9-cfff-4dff-a7d4-5e083b926f0a
+uuid: 97a414c9-a497-4376-b5ef-eafbe17e5813
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ third_party_settings:
     enabled: true
     bundle_settings:
       untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: ObTA3fm4g_NsVUJJbbiEHq3xSUc9ub0udYOpwUyQwDI
 id: media.sponsor
 target_entity_type_id: media
 target_bundle: sponsor

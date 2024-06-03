@@ -1,4 +1,4 @@
-uuid: a6a5fed0-48da-40ec-8232-c3bdf6d5dc7a
+uuid: c7fccf54-2a87-4763-a30a-bbd339ab5040
 langcode: en
 status: true
 dependencies:
@@ -29,6 +29,8 @@ third_party_settings:
         description: ''
         required_fields: true
         weight: 0
+_core:
+  default_config_hash: wBJIQvSfx5HBi0Ci5OvS5rQMYVnCk5ZCmJcYkR7buzs
 id: media.remote_video.default
 targetEntityType: media
 bundle: remote_video
@@ -50,6 +52,11 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   uid:
     type: entity_reference_autocomplete
     weight: 2

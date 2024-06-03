@@ -1,15 +1,14 @@
 _core:
-  default_config_hash: WPfmENMS-dC3bCdw3sXMTZObMxU6r0D4NhwzRSXCr0E
+  default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
 langcode: en
 uuid: 4e1801fb-85a2-40f3-8ad4-11f952d5e819
 name: OpenCulturas
-mail: admin@example.com
+mail: laurentbirades@me.com
 slogan: ''
 page:
-  403: ''
-  404: ''
-  front: /node/100
+  403: /node/11
+  404: /node/2
+  front: /node/6
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en
-mail_notification: ''

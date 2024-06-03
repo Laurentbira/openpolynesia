@@ -1,10 +1,12 @@
-uuid: ac88f582-a0ce-48a6-8c60-a9ceebde8d02
+uuid: a278aa43-3f3b-4607-a853-b85a0c06dc87
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.flagging.field_behalf
     - flag.flag.recommendation_node
+_core:
+  default_config_hash: 7edT8ufHYD1ReqMeAcNyMuR9vVZJRyX3IonNU67DGLQ
 id: flagging.recommendation_node.field_behalf
 field_name: field_behalf
 entity_type: flagging

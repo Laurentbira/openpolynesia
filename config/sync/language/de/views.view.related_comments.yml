@@ -1,87 +1,168 @@
-label: 'Zugehörige Kommentare'
-description: 'OpenCulturas: Stellt Kommentare zum aktuellen Inhalt zusammen und bietet Aktionen an.'
 display:
   default:
+    display_title: Standard
     display_options:
-      title: 'Zugehörige Kommentare'
+      fields:
+        moderation_state:
+          separator: ', '
+        nid:
+          separator: ', '
+        field_date_published:
+          separator: ', '
+        field_behalf:
+          separator: ', '
+        uid:
+          separator: ', '
+        body:
+          settings:
+            trim_suffix: …
+            more:
+              text: Weitere
+              aria_label: 'Mehr lesen zu [node:title]'
+          separator: ', '
+        edit_node:
+          text: 'Kommentar bearbeiten'
+        edit_user:
+          text: 'Benutzer bearbeiten'
+      pager:
+        options:
+          tags:
+            next: 'Nächste Seite ›'
+            previous: '‹ Vorherige Seite'
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
+          views_infinite_scroll:
+            button_text: 'Mehr laden'
+      exposed_form:
+        options:
+          submit_button: Anwenden
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
+      arguments:
+        nid:
+          exception:
+            title: Alle
       header:
         views_add_button:
           button_text: 'Neuer Kommentar'
           button_access_denied:
-            value: '<p><a href="/user/login">Einloggen zum Kommentieren</a></p>'
-            format: advanced_html
-      empty:
-        area_text_custom:
-          content: 'Schreibe den ersten Kommentar.'
-      exposed_form:
-        options:
-          submit_button: Filtern
-          reset_button_label: Zurücksetzen
-          exposed_sorts_label: Sortierung
-          sort_asc_label: aufsteigend
-          sort_desc_label: absteigend
+            value: "<p class=\"button\"><a href=\"/user/login?destination=/node/{{ nid }}#comments\">Anmelden, um einen Kommentar zu schreiben</a></p>\r\n"
+  block_comments:
+    display_options:
       fields:
+        moderation_state:
+          separator: ', '
+        nid:
+          separator: ', '
+        field_date_published:
+          separator: ', '
+        field_behalf:
+          separator: ', '
+        uid:
+          separator: ', '
+        body:
+          separator: ', '
         edit_node:
           text: 'Kommentar bearbeiten'
         edit_user:
-          text: 'User bearbeiten'
-      pager:
-        options:
-          views_infinite_scroll:
-            button_text: 'Mehr anzeigen'
-  block_comments:
-    display_title: 'Kommentare zum aktuellen Inhalt'
-    display_options:
-      header:
-        result:
-          content: '<strong>@total</strong> Kommentare'
+          text: 'Benutzer bearbeiten'
   block_hottest_discussions:
-    display_title: Meistkommentiert
     display_options:
-      title: 'Aktivste Dikussionen'
+      title: 'Die heißesten Diskussionen'
       fields:
-        field_ref_node:
-          alter:
-            text: '<strong>{{ field_ref_node }}</strong> Kommentare'
         view_node:
-          text: Ansehen
+          text: Ansicht
+        title:
+          separator: ', '
+        type:
+          separator: ', '
+        nid:
+          separator: ', '
+        field_ref_node:
+          separator: ', '
   block_recent_comments:
-    display_title: Aktuellster
+    display_title: Neueste(r)
     display_options:
       title: 'Aktuellster Kommentar'
       fields:
+        nid:
+          separator: ', '
+        field_date_published:
+          separator: ', '
+        field_behalf:
+          separator: ', '
+        uid:
+          separator: ', '
+        field_ref_node:
+          separator: ', '
+        body:
+          settings:
+            more:
+              text: Weitere
+              aria_label: 'Mehr lesen zu [node:title]'
+          separator: ', '
+        view_node:
+          text: Ansicht
         nothing_1:
           alter:
             text: '<a href="{{ view_node }}#comments">Zum Kommentarbereich</a>'
-        field_ref_node:
-          alter:
-            text: '<span class="post-reference">betr. {{ field_ref_node }}</span>'
       empty:
         area:
           content:
-            value: 'Es wurden noch keine Diskussionen begonnen. Bitte schau später noch einmal vorbei.'
-            format: minimal_html
+            value: 'Es wurde noch keine Diskussion gestartet. Bitte kommen Sie später wieder.'
   comments_overview_table:
+    display_title: 'Kommentare Tabelle'
     display_options:
-      display_comment: 'Note: inline css in view header for easier followup when re-arranging columns'
       fields:
+        moderation_state:
+          separator: ', '
+        nid:
+          separator: ', '
         field_date_published:
           label: am
+          separator: ', '
+        field_behalf:
+          separator: ', '
+        uid:
+          separator: ', '
         views_conditional_field_2:
           label: von
         views_conditional_field:
-          label: kommentiert
+          label: Kommentar
         field_ref_node:
-          label: betr.
+          separator: ', '
+        body:
+          label: Textkörper
+          settings:
+            trim_suffix: …
+          separator: ', '
+        title:
+          admin_label: 'Titel des kommentierten Inhalts (für Filter)'
+          separator: ', '
+        title_1:
+          admin_label: 'Titel des Kommentatorenprofils (für Filter)'
+          separator: ', '
+      pager:
+        options:
+          tags:
+            next: 'Nächste Seite ›'
+            previous: '‹ Vorherige Seite'
+            first: '« Anfang'
+            last: 'Ende »'
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
+      empty:
+        area:
+          content:
+            value: 'Es wurde noch keine Diskussion gestartet. Bitte kommen Sie später wieder.'
       filters:
         combine:
           expose:
             label: Finden
-            placeholder: 'enthält Stichwort ...'
-      empty:
-        area:
-          content:
-            value: 'Es haben noch keine Diskussionen begonnen. Schaut später noch einmal rein.'
-            format: minimal_html
-      title: Diskussionen
-    display_title: Tabelle
+            placeholder: 'enthält Schlüsselwort...'

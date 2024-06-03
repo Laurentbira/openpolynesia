@@ -1,10 +1,10 @@
 _core:
-  default_config_hash: DvyLoJvase5Z11e4pHaMT9ZcTMLHunBfQA45Y8x1T1k
+  default_config_hash: uCypIFMJGR3ECodDvk_7Iml_JNuO_Q_c7l3LOynlsQ4
 first_day: 1
 country:
-  default: DE
+  default: PF
 timezone:
-  default: Europe/Berlin
+  default: Pacific/Tahiti
   user:
     configurable: true
     default: 0

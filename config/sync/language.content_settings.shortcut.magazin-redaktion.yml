@@ -1,4 +1,4 @@
-uuid: 834af050-b7f0-4b02-b756-efdc9c0425e0
+uuid: 4e11ed6e-4f3b-438d-b74f-40316528af29
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ third_party_settings:
     enabled: false
     bundle_settings:
       untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: WA4CFl1m1J_B8CtSshEelRgLaOS73U71V59iIbhRR70
 id: shortcut.magazin-redaktion
 target_entity_type_id: shortcut
 target_bundle: magazin-redaktion

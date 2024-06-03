@@ -1,4 +1,4 @@
-uuid: 779a835e-d0df-436a-87cc-66f024369705
+uuid: 1951c1df-4f97-40af-8065-9d1a0e615a01
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
     - paragraphs.paragraphs_type.address_data
   module:
     - address_display
+_core:
+  default_config_hash: 9xo5G-MLD908yr8ItzcuF-oaQvssqzk_-jwsX0BZSp0
 id: paragraph.address_data.address_line
 targetEntityType: paragraph
 bundle: address_data

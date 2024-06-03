@@ -1,0 +1,31 @@
+uuid: f31065a9-1e02-4911-90d3-eef01e187894
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.a11y_features
+  module:
+    - facets
+    - system
+  theme:
+    - stable
+_core:
+  default_config_hash: T4jt4CdEsTEP3vS7iFVDGn9VsU7fNPeVNuuoaAPG-c0
+id: stable_a11y_features
+theme: stable
+region: content
+weight: -11
+provider: null
+plugin: 'facet_block:a11y_features'
+settings:
+  id: 'facet_block:a11y_features'
+  label: 'Accessibility Features'
+  label_display: '0'
+  provider: facets
+  context_mapping: {  }
+  block_id: a11y_features
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /search

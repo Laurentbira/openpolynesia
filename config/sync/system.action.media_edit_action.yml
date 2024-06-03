@@ -1,4 +1,4 @@
-uuid: 3d3804d7-c559-43ed-93d9-df5b542b15e4
+uuid: 86619f4f-145d-4d52-934f-88f96e34ce5d
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - media
     - views_bulk_edit
 _core:
-  default_config_hash: xN0kWpQZeiYp9xWNycp37rmLmAcnEyS9LDjPPTPce2w
+  default_config_hash: SX8u-vJRdPoxsmr9XLslHL9Kd7Ufcvp1FpcmthzL-yk
 id: media_edit_action
 label: 'Edit media'
 type: media

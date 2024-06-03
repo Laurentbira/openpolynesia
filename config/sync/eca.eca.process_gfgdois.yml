@@ -1,4 +1,4 @@
-uuid: eb9a9140-a0fe-4773-af27-8d9993a2d3f3
+uuid: c5d075b7-631b-4f5c-af5f-7271112b325b
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - eca_language
     - eca_workflow
     - openculturas_custom
+_core:
+  default_config_hash: YKG2LMpu8BRJ_OGh_74q4ySwbuh8zn9zJ9l04fZerlE
 id: process_gfgdois
 modeller: bpmn_io
 label: 'Moderation state (review) was set'

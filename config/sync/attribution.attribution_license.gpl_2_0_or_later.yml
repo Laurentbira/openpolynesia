@@ -1,9 +1,9 @@
-uuid: 5a180721-2f64-4dd6-b150-f3627a91a570
+uuid: 13bcbdc3-cbf9-4a69-82d8-2da90a5f0df0
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 9VXwIj23YWS4U8WKd9puTBIkNIyGROCeA_mymv0bQzs
+  default_config_hash: GTc_o3qij402OiiLqYzw9sh-lwOxQ5dekaWPkAbhBFM
 id: gpl_2_0_or_later
 identifier: GPL-2.0-or-later
 name: 'GNU General Public License v2.0 or later'

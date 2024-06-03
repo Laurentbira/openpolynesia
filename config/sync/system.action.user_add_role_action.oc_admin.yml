@@ -1,4 +1,4 @@
-uuid: 144a3399-cc87-4744-be87-2f34cba87723
+uuid: a5c8e609-bbb9-41d4-94dd-f500f5a97740
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - user.role.oc_admin
   module:
     - user
+_core:
+  default_config_hash: i_f-WA_Jb4JcPem32blj03vnpbtkbXE2aPa-Ypel0ZI
 id: user_add_role_action.oc_admin
 label: 'Add the OC admin role to the selected user(s)'
 type: user

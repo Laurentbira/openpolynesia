@@ -4,7 +4,16 @@ third_party_settings:
       label: Administrativ
     group_meta_information:
       label: Meta-Informationen
+    group_magazine_tabs_container:
+      label: Tabs
     group_magazine_tab_basics:
       label: Basis-Informationen
     group_magazine_tab_mentioned:
       label: Erwähnungen
+    group_tags_wrapper:
+      label: 'Tags wrapper'
+content:
+  field_content_paragraphs:
+    settings:
+      title: Inhaltselement
+      title_plural: Inhaltselemente

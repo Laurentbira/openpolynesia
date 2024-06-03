@@ -9,6 +9,8 @@ dependencies:
   module:
     - taxonomy
     - user
+_core:
+  default_config_hash: H5nei0P_LxOP5_d02tb2pzQ0EwmqIQRy3DuAm8ny9c8
 id: vocabulary
 label: Vocabulary
 module: views

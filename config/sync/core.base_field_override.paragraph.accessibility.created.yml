@@ -1,9 +1,11 @@
-uuid: c3a3ce0e-f6a8-4766-a8e3-43d89f3c3415
+uuid: 2756f64c-435d-43ee-bd79-f25c34136885
 langcode: en
 status: true
 dependencies:
   config:
     - paragraphs.paragraphs_type.accessibility
+_core:
+  default_config_hash: oQ09iBoisbD6TrC116ngiDpXrKdZBxsT8kb1QPhGQA4
 id: paragraph.accessibility.created
 field_name: created
 entity_type: paragraph

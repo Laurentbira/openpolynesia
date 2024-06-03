@@ -1,4 +1,4 @@
-uuid: b3ae91f0-f9f2-4db4-bc68-c5f08ad178d7
+uuid: 3330adf9-0312-4f86-92d7-404108939b13
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
   theme:
     - openculturas_base
 _core:
-  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+  default_config_hash: dDuXVNP1GrgLAt2ec3HF7hWLKm20rFgbXMn21M8d5qM
 id: openculturas_base_content
 theme: openculturas_base
 region: content

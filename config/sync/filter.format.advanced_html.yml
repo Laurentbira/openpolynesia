@@ -1,4 +1,4 @@
-uuid: a83ecaca-e56b-42a8-92da-6eddb580c480
+uuid: febac4a3-bcb7-47cb-9710-44e95d134ba5
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
     - editor
     - linkit
     - media
+_core:
+  default_config_hash: x7yGplYLwd9WYjUCAZXmy8N0z_mPY2oFvpsh48X7mnk
 name: 'Advanced HTML'
 format: advanced_html
 weight: -10

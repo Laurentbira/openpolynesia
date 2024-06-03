@@ -1,4 +1,4 @@
-uuid: d49e31cf-9bcc-4dc4-b7ec-f67c037ae646
+uuid: 9ac4dce8-c9b1-424f-b610-bcde35ad807f
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - node
     - views_bulk_edit
 _core:
-  default_config_hash: 0vLpSGhoYOPeREkfW-7bDeJOwEfW3zeG3nUBwUgsKQI
+  default_config_hash: 4F4NTtdzOt2Ccgb-B3QG6rZvr6lXhOcTMh3KdkbcjoY
 id: node_edit_action
 label: 'Edit content'
 type: node

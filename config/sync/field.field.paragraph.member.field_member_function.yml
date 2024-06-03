@@ -1,10 +1,12 @@
-uuid: 0c05be37-ab5e-4bb0-96e7-03d988dfc875
+uuid: 084940e0-40f3-4581-af5e-bb7eb428b064
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_member_function
     - paragraphs.paragraphs_type.member
+_core:
+  default_config_hash: xsnglLfvyD4-GUvwRb50DQEYC-YyEIu4ZfrgWaeq-KM
 id: paragraph.member.field_member_function
 field_name: field_member_function
 entity_type: paragraph

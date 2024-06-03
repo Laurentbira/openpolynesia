@@ -1,4 +1,4 @@
-uuid: 3e166314-ab94-4225-aa95-11c4a3faa5d2
+uuid: cf157567-6339-4160-87a6-e9e5103b3d2f
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.paragraph.field_media_multiple
     - media.type.document
     - paragraphs.paragraphs_type.download
+_core:
+  default_config_hash: bBB6Og6vsvQcKo99vDPuk2QfTNiVwJ6RUSleChlx9W4
 id: paragraph.download.field_media_multiple
 field_name: field_media_multiple
 entity_type: paragraph

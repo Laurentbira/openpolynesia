@@ -1,4 +1,4 @@
-uuid: c25aef9d-6157-4d39-b611-1b7e49e40a78
+uuid: 03134bf9-2f93-4f23-a243-5f97445957bc
 langcode: en
 status: true
 dependencies:
@@ -286,6 +286,8 @@ third_party_settings:
         open: true
         description: ''
         required_fields: false
+_core:
+  default_config_hash: E9x_yUZkezNKph6OHvMS-gAxx_EytvObvxzK97W6jAE
 id: node.event.full
 targetEntityType: node
 bundle: event
@@ -341,9 +343,7 @@ content:
       view_title: hidden
       always_build_output: true
       empty_view_title: hidden
-    third_party_settings:
-      field_formatter_class:
-        class: ''
+    third_party_settings: {  }
     weight: 1
     region: content
   field_duration:

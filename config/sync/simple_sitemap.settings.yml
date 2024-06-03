@@ -1,5 +1,5 @@
 _core:
-  default_config_hash: _aPoWc9iBXeOSgbAj81lnVBZZulMc2gu8I2iFEMuALI
+  default_config_hash: MUpaAk1hn-0Ph4OFw3DD_6gUF9KbGwxja9Y0qmampzo
 max_links: 2000
 cron_generate: true
 cron_generate_interval: 0

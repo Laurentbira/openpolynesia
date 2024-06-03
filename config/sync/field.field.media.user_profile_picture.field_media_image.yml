@@ -1,4 +1,4 @@
-uuid: ae388d47-3737-417f-88d6-4768a0288d61
+uuid: 5d06db1e-f6f1-4519-b3b5-fca6957474ff
 langcode: en
 status: true
 dependencies:
@@ -14,6 +14,8 @@ third_party_settings:
       alt: alt
       title: title
       file: '0'
+_core:
+  default_config_hash: jS7Q1p1rUZqDYpEwzK0vcqAOkx_727ZCBUxZ6SWqBeI
 id: media.user_profile_picture.field_media_image
 field_name: field_media_image
 entity_type: media

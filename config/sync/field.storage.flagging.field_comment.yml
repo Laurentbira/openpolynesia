@@ -1,4 +1,4 @@
-uuid: 407e06a8-eb89-4cfa-8c4d-97347f0655c4
+uuid: 1830cff9-51a5-4995-9407-b4e652477405
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: AyVKud03o2ODdQGhT9zal15zvnE6ediKI4jE10fCXto
 id: flagging.field_comment
 field_name: field_comment
 entity_type: flagging

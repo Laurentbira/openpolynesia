@@ -1,4 +1,4 @@
-uuid: 1576ebdd-56c1-411a-b239-6a84918d1699
+uuid: 89a8a1e6-fdad-4ed2-8e3e-68c1a466cee2
 langcode: en
 status: true
 dependencies:
@@ -22,4 +22,5 @@ default_value_callback: ''
 settings:
   display_summary: true
   required_summary: false
+  allowed_formats: {  }
 field_type: text_with_summary

@@ -1,4 +1,4 @@
-uuid: 56936e3e-a066-4ed8-a994-99ee69718f55
+uuid: 096f16f0-19aa-41ed-a5ad-198cb8726eb7
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - node.type.location
   module:
     - text
+_core:
+  default_config_hash: N0e80d5O8RlByaJ2205oJbjoAtheyEH9cGKV6Z8jVqM
 id: node.location.body
 field_name: body
 entity_type: node

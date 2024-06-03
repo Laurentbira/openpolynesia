@@ -1,4 +1,4 @@
-uuid: 7fc4b5ea-5bee-41ab-b6a4-5393b601950f
+uuid: 7b6ef519-02ba-472f-8910-e4052bbe4773
 langcode: en
 status: true
 dependencies:
@@ -18,6 +18,8 @@ dependencies:
     - media_library_edit
     - path
     - text
+_core:
+  default_config_hash: ZNEQEpBVQ3QgBlRCTUCJSnyi5RbUYmXlDu2ra6wSxIA
 id: taxonomy_term.category.default
 targetEntityType: taxonomy_term
 bundle: category

@@ -1,4 +1,4 @@
-uuid: 23a9b82c-06cd-4574-ab10-43595ae14110
+uuid: dbf22a0d-3103-4b78-8f36-735f0177c8bc
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: 0M8lxSLPy-fVlpPYoXd7FvZEeZhT6wmBkV8vQstZNGQ
 id: node.field_my_article_view_ref
 field_name: field_my_article_view_ref
 entity_type: node

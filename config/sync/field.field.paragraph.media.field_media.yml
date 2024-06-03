@@ -1,4 +1,4 @@
-uuid: d9345ccf-7d3b-4733-adaf-4995c741531f
+uuid: 7ca4d26c-f340-4e75-9065-c0f0f99a5c65
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
     - media.type.remote_video
     - media.type.user_profile_picture
     - paragraphs.paragraphs_type.media
+_core:
+  default_config_hash: _RjDB2_Cy7iiPoIw2I0_fm7tY_GwCqeFEJFvGp-oC8w
 id: paragraph.media.field_media
 field_name: field_media
 entity_type: paragraph

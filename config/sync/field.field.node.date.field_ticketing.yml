@@ -1,4 +1,4 @@
-uuid: 895f26c7-494c-478a-8643-f9d55ae4cd9f
+uuid: 8f5cfe93-1f77-4522-ad5a-c4564e2e79b3
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.date
   module:
     - link
+_core:
+  default_config_hash: hE0m-ipCDS6JrMyv-rJIMtkX4BzotHHk0LDHXDXfBZU
 id: node.date.field_ticketing
 field_name: field_ticketing
 entity_type: node

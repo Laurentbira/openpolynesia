@@ -1,4 +1,4 @@
-uuid: c583cfa1-a288-48bb-b84d-0191beb5acc8
+uuid: 3549ccc2-4899-4d0e-aae2-e975ccd9b598
 langcode: en
 status: true
 dependencies:
@@ -13,6 +13,8 @@ dependencies:
     - attribution
     - svg_image
     - text
+_core:
+  default_config_hash: dQI_LtY87I7PFP8JXiWSb-NLBZWZJV0iph_yrW0ZfW8
 id: media.image.gallery
 targetEntityType: media
 bundle: image

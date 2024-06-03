@@ -1,4 +1,4 @@
-uuid: 2149cb26-b739-467c-9ac7-fd9b31c1e94a
+uuid: bb896d6b-bae5-42e1-82ae-1de30ca025ab
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: kcHmPtH9rn_H-UrWzlIKHlqDOa_ZUCxaLhGjbpBJP8w
 id: taxonomy_term.field_related_location_view_ref
 field_name: field_related_location_view_ref
 entity_type: taxonomy_term

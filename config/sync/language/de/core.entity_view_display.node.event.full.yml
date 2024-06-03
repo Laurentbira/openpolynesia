@@ -4,6 +4,8 @@ third_party_settings:
       label: Fokus
     group_featuring:
       label: Mitwirkende
+    group_details:
+      label: Details
     group_contact:
       label: Kontakt
     group_gallery:
@@ -14,9 +16,15 @@ third_party_settings:
       label: Barrierefreiheit
     group_magazine:
       label: Magazin
+    group_recommended_by:
+      label: 'Empfohlen von'
     group_book_this_event:
       label: 'Diese Veranstaltung buchen'
+    group_interact:
+      label: Interaktion
     group_press_quotes:
       label: Pressestimmen
-    group_comments:
-      label: Kommentare
+    group_sponsors:
+      label: 'Gefördert von'
+    group_workflow:
+      label: Arbeitsablauf

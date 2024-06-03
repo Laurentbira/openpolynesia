@@ -1,11 +1,11 @@
-uuid: 8c7793bb-05d3-4bbb-9d56-35714387d1ed
+uuid: 32609efd-5ef9-4490-8b6e-96ef90537ac5
 langcode: en
 status: true
 dependencies:
   module:
     - contact
 _core:
-  default_config_hash: X-u-oHfskJg3f8koTCKJndfJyBWavJ5aWeHGYn2arnE
+  default_config_hash: jgg1QyfruhPGUkiznXuZhaiB2CeANTIXjqAD0Hpksv0
 id: contact_message.token
 label: Token
 description: ''

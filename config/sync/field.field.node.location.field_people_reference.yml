@@ -1,4 +1,4 @@
-uuid: 84c134c4-1e4b-4050-b12c-35203777c507
+uuid: d4eab583-9a52-4b4d-9e15-287eec2d0da4
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.member
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: 1C_dbS94d4aQl_KJ8kOs9klzq6zxCZThw__iYtZSmdA
 id: node.location.field_people_reference
 field_name: field_people_reference
 entity_type: node

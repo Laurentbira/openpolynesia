@@ -1,5 +1,5 @@
 _core:
-  default_config_hash: UYGkeE2iH3UGp9lBPsELb3VSgHz9vkMJeaGzcYwE7Uw
+  default_config_hash: Y89oCL4GLMx_aFwwK4Fkm2U8earJ9u-iA4_1FYjpLpk
 settings:
   library_url: libraries/cropperjs/dist/cropper.min.js
   jquery_library_url: libraries/jquery-cropper/dist/jquery-cropper.min.js

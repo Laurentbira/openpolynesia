@@ -1,4 +1,4 @@
-uuid: 791eae45-372f-4377-8d7b-1af57fb101bc
+uuid: 8c7dc254-d9a2-411e-969e-c94cf38d9c34
 langcode: en
 status: true
 dependencies:
@@ -36,6 +36,8 @@ third_party_settings:
         description: ''
         required_fields: true
         weight: 0
+_core:
+  default_config_hash: lwkoSJzYlxqUVI_RAAhhGxCrNZ18WTl8BVY_UWlNTrk
 id: media.document.default
 targetEntityType: media
 bundle: document

@@ -1,4 +1,4 @@
-uuid: 32c1c281-db57-4eeb-add2-70cd8766fa3e
+uuid: 020ee311-67e8-49ce-b671-fff536e0cdb4
 langcode: en
 status: true
 dependencies:
@@ -14,6 +14,8 @@ third_party_settings:
       file: file
       alt: '0'
       title: '0'
+_core:
+  default_config_hash: bnG0XQYuotWKRdzJJhMAInmwU4BRWBADucDyTtdpwVM
 id: media.image.field_media_image
 field_name: field_media_image
 entity_type: media

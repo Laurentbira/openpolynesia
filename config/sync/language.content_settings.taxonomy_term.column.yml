@@ -1,4 +1,4 @@
-uuid: 37b96f9c-2279-4c07-9484-b9e3633e894f
+uuid: 5d71c5df-340c-4988-be83-5683b4831ac1
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ third_party_settings:
     enabled: true
     bundle_settings:
       untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: FigeOFAbGJeVnSBMMxbOYTR8RhMtLkJbfsdfy7gjd-A
 id: taxonomy_term.column
 target_entity_type_id: taxonomy_term
 target_bundle: column

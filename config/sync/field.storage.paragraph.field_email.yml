@@ -1,9 +1,11 @@
-uuid: 978ece23-4933-4821-a3b7-f836430764a4
+uuid: 14fbc59a-95fd-4ff4-b58c-9b7dee2559ad
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: wH9j0RJnfdNOEzdjEltVOVetWDDW6JTgR_cMyFcD8YY
 id: paragraph.field_email
 field_name: field_email
 entity_type: paragraph

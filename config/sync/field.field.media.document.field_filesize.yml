@@ -1,10 +1,12 @@
-uuid: d692b412-9c62-4122-8f0c-197efc508984
+uuid: a2cb2228-9841-4553-8b99-3416aa6ff207
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.media.field_filesize
     - media.type.document
+_core:
+  default_config_hash: lNGXcR4MSGLPfjfM1bP9feovn08h1YTuE2I3sx2JWmM
 id: media.document.field_filesize
 field_name: field_filesize
 entity_type: media

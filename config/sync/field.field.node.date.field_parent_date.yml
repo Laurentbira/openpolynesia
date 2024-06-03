@@ -1,10 +1,12 @@
-uuid: c98ceb49-7780-4c82-a807-1ed8cd2335ce
+uuid: 480703eb-3438-46ce-bafd-0a8de2082486
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_parent_date
     - node.type.date
+_core:
+  default_config_hash: 8RgdLiKcwsBhWGEYHIARoP4Wu5PSK8YwdiqrMPi2CnU
 id: node.date.field_parent_date
 field_name: field_parent_date
 entity_type: node

@@ -1,4 +1,4 @@
-uuid: 3e2ab5fd-b1f5-4d6d-8e19-3fe253737645
+uuid: 53571ddf-3769-4e3a-857c-bd1dfaced740
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_event_description
     - node.type.date
     - node.type.event
+_core:
+  default_config_hash: GWXRx1e9v1TNsPYBn8C0yKu1kAZvMludgHLmRcvyfws
 id: node.date.field_event_description
 field_name: field_event_description
 entity_type: node

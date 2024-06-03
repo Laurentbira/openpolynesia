@@ -1,4 +1,4 @@
-uuid: ddca88f6-56da-41c7-9591-0cf7da5b875d
+uuid: 2a3be738-aefe-4fbc-9b50-94323fb4ea61
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - flag.flag.recommendation_node
   module:
     - flag
+_core:
+  default_config_hash: LNXFc-Ku_U7daKMaDrWFTEcD8jNbaecP9DKi5j0KF5E
 id: flag_action.recommendation_node_flag
 label: Recommend
 type: node

@@ -1,9 +1,11 @@
-uuid: b30ada82-a48e-470a-84e4-733918062845
+uuid: 110f1be2-98e5-4a7e-8d47-e1081180a71d
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: 1LwPyCAUoQ0Ntevm6en4dWB_pT8jxXohJ4vDDqFJVJM
 id: paragraph.embedded_legal
 label: 'Embedded legal'
 description: ''

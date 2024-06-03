@@ -1,9 +1,11 @@
-uuid: 8fe31973-20c6-415d-b36e-98faa4666057
+uuid: 9055a6cc-878e-4d45-a449-c035654ab80b
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: ZotBh8OJRl9H3X2xK2mvbIgQvf_Y9ZneHysyeDjb5Fc
 id: node.field_forfree
 field_name: field_forfree
 entity_type: node

@@ -1,4 +1,4 @@
-uuid: 98777588-17ad-4582-9c10-e0fa87d3bf6e
+uuid: f5d91f3e-e978-4464-aa6e-ce767127dee0
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.date
   module:
     - options
+_core:
+  default_config_hash: h0Y9YWU4ySYXuxzsUozjlj7bBNZPDnO8djRuaPjD2Pk
 id: node.date.field_event_series
 field_name: field_event_series
 entity_type: node

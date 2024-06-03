@@ -1,10 +1,12 @@
-uuid: a83ba6d7-2a67-465b-9a84-0b205b9d89ce
+uuid: 73296b6c-79d4-4fb4-8665-bd45dbe1b28d
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.flagging.report_abuse.field_comment
     - flag.flag.report_abuse
+_core:
+  default_config_hash: B2NhGxyegZ8V1N_YW8QegxoRtI0vIdI_75aORWYF3ng
 id: flagging.report_abuse.default
 targetEntityType: flagging
 bundle: report_abuse

@@ -1,7 +1,9 @@
-uuid: dada5868-4249-474a-8520-2a855b48b77f
+uuid: 93bb914b-64cc-4737-bfde-8f1a20c77602
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: tZHMPSDA5PkRP7XIrFWaxJwM2W9wkp5cLlcy9WYpS2s
 id: de
 label: German
 direction: ltr

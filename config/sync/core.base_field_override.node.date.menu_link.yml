@@ -1,9 +1,11 @@
-uuid: 015da50d-d721-492f-8a16-3327239c2c03
+uuid: c3577b06-589f-4dfa-949a-17cdb2caa168
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.date
+_core:
+  default_config_hash: nipHm-lXfc_guuMZ54diQTe3UlrA7OjXWnLLVBYRNLA
 id: node.date.menu_link
 field_name: menu_link
 entity_type: node

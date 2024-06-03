@@ -1,4 +1,4 @@
-uuid: 3fc5b87a-ecc1-4c70-ba50-c1696e9599da
+uuid: e559936d-ef3f-4b64-9add-1e2231db9a87
 langcode: en
 status: true
 dependencies:
@@ -13,6 +13,8 @@ dependencies:
     - attribution
     - field_formatter_class
     - svg_image
+_core:
+  default_config_hash: MDp-kUb9J9S-1keBJ_ImyEROV1oUxQdGb-4D0KmMfj0
 id: media.image.content_asset
 targetEntityType: media
 bundle: image

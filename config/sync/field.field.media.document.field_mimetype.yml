@@ -1,10 +1,12 @@
-uuid: 62daeeac-d20a-4a8c-892e-d5ab11ffa9ba
+uuid: 0768ee65-d5f0-488f-914e-5539c272029c
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.media.field_mimetype
     - media.type.document
+_core:
+  default_config_hash: JzXJ1kQdFSveLzvd5c2_nbOvK4ozWo_eB08bOnX2um4
 id: media.document.field_mimetype
 field_name: field_mimetype
 entity_type: media

@@ -1,4 +1,4 @@
-uuid: 4287b263-3b71-48f0-a8cd-537bc52edd12
+uuid: 9c795757-acc0-4e0c-8926-11f8d7e50b60
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - filter.format.comment_html
   module:
     - ckeditor5
+_core:
+  default_config_hash: V5E_KwxRQpwd_Xm5KCYaFny-NHUcXgtiFzx7qr_WHu0
 format: comment_html
 editor: ckeditor5
 settings:

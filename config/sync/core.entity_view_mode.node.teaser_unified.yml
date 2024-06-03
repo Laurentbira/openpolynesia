@@ -1,9 +1,11 @@
-uuid: bcba7dad-252a-4a53-8ac5-688f389780e8
+uuid: 63344105-0d75-45d2-bf6f-8f147abbbbb4
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: 1CI79gSp7oFR0jcNsWoSB4r9H52mvL2VVt-LxFShuHc
 id: node.teaser_unified
 label: 'Teaser unified'
 description: ''

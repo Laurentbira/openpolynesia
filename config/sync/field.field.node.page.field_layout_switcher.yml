@@ -1,4 +1,4 @@
-uuid: e698cdf3-5ad2-4386-96de-5008077698bc
+uuid: d4342502-e6c5-4b19-8484-fc0a8f9b6b53
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.page
   module:
     - options
+_core:
+  default_config_hash: _eZ4fThRxYBKmldZCKCqgjDt9nX0dO70tcgM-hAC6hA
 id: node.page.field_layout_switcher
 field_name: field_layout_switcher
 entity_type: node

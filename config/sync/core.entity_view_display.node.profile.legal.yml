@@ -1,4 +1,4 @@
-uuid: d9a53524-c02d-4c5d-a0ea-241381a95e9f
+uuid: 5bccdffb-0005-43b5-872b-00da32a0ff97
 langcode: en
 status: true
 dependencies:
@@ -36,6 +36,8 @@ dependencies:
     - entity_reference_revisions
     - field_formatter_class
     - user
+_core:
+  default_config_hash: i6rBL-7KjAduzclahhx2IzzMhzmNjUk_wO3XuPMJLeI
 id: node.profile.legal
 targetEntityType: node
 bundle: profile

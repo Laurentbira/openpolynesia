@@ -7,6 +7,8 @@ dependencies:
   module:
     - media
     - user
+_core:
+  default_config_hash: sMQikdrsYPjSJf32ZaOpXrYp12oOAC7k7JaeO_yQWDc
 id: related_sponsor
 label: 'Sponsor logos'
 module: views

@@ -1,4 +1,4 @@
-uuid: edf917df-e45e-4657-ada7-413e9a301cd2
+uuid: df1fe1f2-af75-40f8-aa7d-8d81bca1b3fa
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: syFF0UVsnJG6GawGksp4rhIT0LHhFNX_rHJQE_J3qyM
 id: node.field_address_data
 field_name: field_address_data
 entity_type: node

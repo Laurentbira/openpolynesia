@@ -1,9 +1,11 @@
-uuid: 6e23a2ba-b7be-42e1-847c-fc3091188223
+uuid: 3aa1b3a9-e5c2-4c6b-a7ac-0fc5511bb577
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: mVFYaRFHs3axH1JaANb-BPS-eD9KMlgEdYGFq4LM5r0
 id: node.bulk_edit
 label: 'Bulk edit'
 description: ''

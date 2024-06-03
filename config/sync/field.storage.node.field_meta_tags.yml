@@ -1,4 +1,4 @@
-uuid: 7779b691-fa3f-4eef-ab57-05d4ffbb7a16
+uuid: 5358472f-3e4e-4a33-afdb-c173309dd7c6
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: ebU113I1l-s2a1EufcEMK_KmAZfWhXCNVcpPc34DuGI
 id: node.field_meta_tags
 field_name: field_meta_tags
 entity_type: node

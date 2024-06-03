@@ -1,4 +1,4 @@
-uuid: 257b0883-7a14-4bf8-b358-0e397723fbc6
+uuid: 09f89db8-17a6-49c1-8ba3-cce9bac5bd17
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
   module:
     - media_library
     - media_library_edit
+_core:
+  default_config_hash: jHrRVR5-1iZPAqRgSeD4o5B6mDy_rurRfBFrU_8TUQ8
 id: paragraph.download.default
 targetEntityType: paragraph
 bundle: download

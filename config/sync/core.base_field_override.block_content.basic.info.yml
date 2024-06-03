@@ -1,9 +1,11 @@
-uuid: b652e2ec-5198-49f6-86eb-eb261ece34dd
+uuid: 430c3034-ad5c-445a-b71d-346281e4e79b
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.basic
+_core:
+  default_config_hash: Do6VQebQQEk66ZDwbFXuNbYEeVz72n_VCSTGFTzbNhU
 id: block_content.basic.info
 field_name: info
 entity_type: block_content

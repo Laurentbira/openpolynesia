@@ -1,4 +1,4 @@
-uuid: f2cbb4c7-667f-49a0-8c58-ea865aeb3d28
+uuid: 7fb0bb08-8a24-47c1-9d99-20c6099ab21a
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
     - taxonomy.vocabulary.location_type
   module:
     - field_formatter_class
+_core:
+  default_config_hash: fQ2SQTLp7rGcQMnz8Qq1a7TTgRKLJ0bewzMR_c0nTFA
 id: taxonomy_term.location_type.teaser
 targetEntityType: taxonomy_term
 bundle: location_type

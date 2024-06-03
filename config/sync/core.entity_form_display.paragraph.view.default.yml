@@ -1,4 +1,4 @@
-uuid: c1ffcaa9-bad7-4bc4-98d3-3f433af499c1
+uuid: f172cb47-113a-41aa-9ce3-ad95dfab8dd8
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.view
   module:
     - viewfield
+_core:
+  default_config_hash: leOXI-MQOBgRk1CLd4Mu9OGL-cdJfKFrhip3FmqC5tc
 id: paragraph.view.default
 targetEntityType: paragraph
 bundle: view
@@ -18,6 +20,11 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
 hidden:
   created: true
   status: true

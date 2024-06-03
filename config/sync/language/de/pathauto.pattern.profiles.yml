@@ -1,0 +1,4 @@
+label: Profile
+relationships:
+  'node:langcode:language':
+    label: Sprache

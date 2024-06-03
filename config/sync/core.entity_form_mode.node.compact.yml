@@ -1,9 +1,11 @@
-uuid: 4256a22c-cd35-4c5b-8736-1bba47c99ebd
+uuid: 4235ec6a-6c5c-49cd-938b-45e1f2a7c0b5
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: bDygEbx-5VzKUmTqpY7-NrJssEgciKfT237FaDGOxeE
 id: node.compact
 label: Compact
 description: ''

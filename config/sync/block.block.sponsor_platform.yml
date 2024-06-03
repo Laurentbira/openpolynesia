@@ -1,4 +1,4 @@
-uuid: 4144c87f-7f3b-4da2-86dd-6b9bcb2466bd
+uuid: 54055db5-3830-41fe-8b7e-a9612f465af2
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - views
   theme:
     - openculturas_base
+_core:
+  default_config_hash: Rrqf-SiULATWv1SUf7cAiblyBa2rMphM5fbhmNtXgHU
 id: sponsor_platform
 theme: openculturas_base
 region: footer

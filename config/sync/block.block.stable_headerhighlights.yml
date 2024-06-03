@@ -1,0 +1,27 @@
+uuid: f6335212-ef9f-4e2b-aa8e-1ac77f4e87e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.header-highlights
+  module:
+    - system
+  theme:
+    - stable
+_core:
+  default_config_hash: n64qPrbpS3YRQLs6ZGAUTOMB1AFYCpZJ4_nNA2Sxlh0
+id: stable_headerhighlights
+theme: stable
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:header-highlights'
+settings:
+  id: 'system_menu_block:header-highlights'
+  label: 'Header Highlights'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

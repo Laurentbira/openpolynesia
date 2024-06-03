@@ -1,11 +1,11 @@
-uuid: 2c242f6e-a080-4951-84f9-20db0e34cdc1
+uuid: 7e9b9ac3-9400-4887-a223-00e29afe80d7
 langcode: en
 status: true
 dependencies:
   theme:
     - openculturas_base
 _core:
-  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+  default_config_hash: J8QVUI4bA8TI_IASdH7X1RPl54Rov3CNxdGKESsvfiM
 id: openculturas_base_local_actions
 theme: openculturas_base
 region: pagetitle

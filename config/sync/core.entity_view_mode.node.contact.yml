@@ -1,9 +1,11 @@
-uuid: 94a0d6c2-52b6-4f36-9c5e-ca7314b1df4d
+uuid: d5b0bbb6-574b-4837-a086-d58697f2bd39
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: dEC0crqTs-jrtSUZn_adbrBZl0RArn_wIzL3NRvdDMA
 id: node.contact
 label: Contact
 description: ''

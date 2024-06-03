@@ -1,4 +1,4 @@
-uuid: 95bcdebb-4078-4d44-80cc-706363d3fe9f
+uuid: 6de17660-fa2b-4275-ae77-03e448d4f6a6
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - openculturas_custom
   theme:
     - openculturas_base
+_core:
+  default_config_hash: y5MyG3moieJTNKVQCLgHlRvlL3bivCCiiThwgTOYhP0
 id: heroimagefromcurrententityfromfield_mood_image
 theme: openculturas_base
 region: header_intro

@@ -1,39 +1,29 @@
+description: 'Ergänzende Ansicht für das Modul OpenCulturas Map. Ändern Sie nur, wenn Sie wissen, was Sie tun, sonst könnte das Modul kaputt gehen.'
 display:
   default:
+    display_title: Standard
     display_options:
-      filters:
-        title:
-          expose:
-            placeholder: 'enthält ...'
-        field_category_target_id:
-          expose:
-            label: Fokus
-          group_info:
-            label: Fokus
-        field_sub_type_target_id:
-          expose:
-            label: Typ
-        field_address_location_proximity:
-          expose:
-            label: Umkreis
-        field_a11y_features_target_id:
-          expose:
-            label: Barrierefreiheit
       fields:
+        type:
+          separator: ', '
+        nid:
+          separator: ', '
+        title:
+          separator: ', '
+        field_address_location_1:
+          separator: ', '
+        field_portrait:
+          separator: ', '
         view_node:
-          text: zeigen
-      exposed_form:
-        options:
-          submit_button: Filter
-          reset_button_label: Zurücksetzen
-          exposed_sorts_label: Sortierung
-          sort_asc_label: Aufsteigend
-          sort_desc_label: Absteigend
-          text_input_required: 'Filter wählen'
-          bef:
-            general:
-              secondary_label: Erweitert
-      display_comment: 'Achtung! Nicht entfernen, übersetzen oder umbenennen: field_id, field_gps, field_result_html, field_popup_html!'
+          text: Ansicht
+        field_category:
+          separator: ', '
+        field_sub_type:
+          separator: ', '
+        field_address_location_proximity:
+          format_plural_string: !!binary MQNAY291bnQ=
+        field_a11y_features:
+          separator: ', '
       pager:
         options:
           tags:
@@ -42,10 +32,31 @@ display:
             first: '« Anfang'
             last: 'Ende »'
           expose:
-            items_per_page_label: Anz./Seite
             items_per_page_options_all_label: '- Alle -'
-            offset_label: ab
-  rest_export:
-    display_title: 'REST-Export (Orte auf Karte)'
-label: 'OC Map: Orte'
-description: 'Achtung! Nicht entfernen, übersetzen oder umbenennen: field_id, field_gps, field_result_html, field_popup_html!'
+            offset_label: Versatz
+      exposed_form:
+        options:
+          submit_button: Anwenden
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
+          text_input_required: 'Wählen Sie einen beliebigen Filter und klicken Sie auf Anwenden, um Ergebnisse zu sehen'
+          bef:
+            general:
+              secondary_label: 'Erweiterte Optionen'
+      filters:
+        title:
+          expose:
+            label: Name
+            placeholder: enthält...
+        field_category_target_id:
+          expose:
+            label: Fokus
+        field_sub_type_target_id:
+          admin_label: Standortart
+          expose:
+            label: Typ
+        field_a11y_features_target_id:
+          expose:
+            label: Barrierefreiheit

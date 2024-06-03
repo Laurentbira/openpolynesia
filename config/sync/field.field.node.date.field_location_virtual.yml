@@ -1,4 +1,4 @@
-uuid: 205807d4-fb9a-4de0-8f72-4abe135ffb08
+uuid: 349bfb8f-038d-45aa-a86c-b09a99be6a8d
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.date
   module:
     - link
+_core:
+  default_config_hash: QLv654FEiNY2FiIxbS1QvdYhV_c_68FD3vcOjP1gpDc
 id: node.date.field_location_virtual
 field_name: field_location_virtual
 entity_type: node

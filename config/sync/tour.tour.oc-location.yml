@@ -1,7 +1,9 @@
-uuid: dcdae505-dcdb-4093-8b54-045603d0d76f
+uuid: c10a81c0-18b5-43ed-8350-18286f61248d
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: kkFZwiy3-BYK_PxTBrpymTYCJIXd1hbFhfae4eIMplk
 id: oc-location
 label: 'OC location'
 module: tour

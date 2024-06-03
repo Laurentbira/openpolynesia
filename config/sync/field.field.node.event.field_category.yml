@@ -1,4 +1,4 @@
-uuid: ea198a59-f9f1-4aa9-87b2-51cd135851ac
+uuid: 8ee0f913-8b5e-46fd-afd2-ab7cfe1b77a1
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_category
     - node.type.event
     - taxonomy.vocabulary.category
+_core:
+  default_config_hash: AGiTAkOQwl5N_wNII3E-rqE6z-mkj41HPvo_IlJMso4
 id: node.event.field_category
 field_name: field_category
 entity_type: node

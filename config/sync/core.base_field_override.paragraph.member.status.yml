@@ -1,9 +1,11 @@
-uuid: f18cab26-81e4-411d-aa5b-2a8b29e1aa7d
+uuid: 4e1afd87-8e2b-4965-8c03-2d6468537661
 langcode: en
 status: true
 dependencies:
   config:
     - paragraphs.paragraphs_type.member
+_core:
+  default_config_hash: WKaYiOl-SBY3nkr3ylSxMvyv254sg9s0o6WnwE_xTDE
 id: paragraph.member.status
 field_name: status
 entity_type: paragraph

@@ -1,11 +1,11 @@
-uuid: 5f758d96-2b9e-4f98-891c-9c7ad513978a
+uuid: c445433e-0302-46cf-b7b9-2c085aa27a4e
 langcode: en
 status: true
 dependencies:
   module:
     - honeypot
 _core:
-  default_config_hash: A_dlRbNEX9_hOqUkQ5m4AskEmat7VEA8qvFt7tVeufQ
+  default_config_hash: _mU89ozFsZfUrJ9ui95K6TnugbPDD__XjaZx-0pXKV4
 id: honeypot
 label: Honeypot
 module: honeypot

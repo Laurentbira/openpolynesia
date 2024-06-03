@@ -1,4 +1,4 @@
-uuid: 48cb0ee5-ccae-4d9b-9087-07ca2022f298
+uuid: 77c199ce-46b1-4c71-a08e-f72e940fe975
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: UU1arMOF31k4oKPLIYA6I8qumf702JX5c03gXGpW4Ug
 id: paragraph.field_trigger_warnings
 field_name: field_trigger_warnings
 entity_type: paragraph

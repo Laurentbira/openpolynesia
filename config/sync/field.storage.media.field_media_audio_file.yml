@@ -1,4 +1,4 @@
-uuid: 6107eec9-5173-4810-b0c1-edcf0fd4a9c4
+uuid: a42a9f43-c5f3-4a06-8c95-74b858a131a3
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: Xgyc-nuzhdnnUji-jHmBV4fdY9BcG_NYYsup_PPv2dY
 id: media.field_media_audio_file
 field_name: field_media_audio_file
 entity_type: media

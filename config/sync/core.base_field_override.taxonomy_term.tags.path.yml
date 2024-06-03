@@ -1,4 +1,4 @@
-uuid: 6592deca-3a0d-43ae-a49a-f1158c175f9a
+uuid: e2b99317-106d-4d07-b860-2de398b0cd36
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - taxonomy.vocabulary.tags
   module:
     - path
+_core:
+  default_config_hash: 3DYj0ftqJ_Ewtmkl1EDcRprQujSD_g2v7xLAVGiIiwI
 id: taxonomy_term.tags.path
 field_name: path
 entity_type: taxonomy_term

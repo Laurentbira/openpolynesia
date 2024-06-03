@@ -1,7 +1,9 @@
-uuid: c7d2b137-2aec-46b0-8959-e91299d39aa1
+uuid: fe631e79-36d9-4468-9a18-7e63384463b6
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: oX9OPCbv8rAmBoO4i72PAjvQiH5hH_6mvaOv8JiVvok
 id: pixabay
 identifier: Pixabay
 name: 'Pixabay License'

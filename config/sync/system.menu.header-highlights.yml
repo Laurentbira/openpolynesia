@@ -1,7 +1,9 @@
-uuid: 92732886-3499-40f7-8376-51f4882176ad
+uuid: 5c3ed067-d309-4a3c-b8b5-f41fdf1c253a
 langcode: und
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: Nf21LcP_tWB6euWrJeRcbBEPg1N9hjJGqrhpi6FTxGQ
 id: header-highlights
 label: 'Header highlights'
 description: 'Main menu links outside the hamburger menu'

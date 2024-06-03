@@ -1,4 +1,4 @@
-uuid: d3dcdea5-bc1d-4d75-aa90-1819dff48b70
+uuid: 4ae71345-a29c-48e4-8779-423cbe05ef14
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.event
   module:
     - content_moderation
+_core:
+  default_config_hash: wpOxvm_vSfEs1E49Kx49xTVNbZp7z1L3uWUzEz60fOM
 id: draften
 label: 'Event and date'
 type: content_moderation

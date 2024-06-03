@@ -1,4 +1,4 @@
-uuid: 9560dc3f-6396-4fdc-844e-25fbcb433f7d
+uuid: 8df6142b-1a31-4ac3-a77d-4af35f39f1e4
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - user.role.magazine_editor
   module:
     - user
+_core:
+  default_config_hash: Nqz0FA-jjiG-D-WcvmgzoEYw7Zr4nxQRaeqR-5LbcuY
 id: user_add_role_action.magazine_editor
 label: 'Add the Magazine editor role to the selected user(s)'
 type: user

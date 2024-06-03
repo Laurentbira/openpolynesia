@@ -1,4 +1,4 @@
-uuid: 361dc12c-d2a3-4739-afbe-bc9ce8f83d27
+uuid: f8aa6c57-0f05-476f-bf11-d48768971bde
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
   module:
     - allowed_formats
     - text
+_core:
+  default_config_hash: ROE_FpdwbdfFkWsmwn_3fGFhgjWpOyd0EG1EyP1EBXQ
 id: paragraph.text.default
 targetEntityType: paragraph
 bundle: text

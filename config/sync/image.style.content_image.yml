@@ -1,4 +1,4 @@
-uuid: 39a24e73-a848-4f85-af51-eb57d0a52e42
+uuid: 648c2968-f31e-4086-a1d3-e78e1e4d36ee
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - crop.type.free_format
   module:
     - crop
+_core:
+  default_config_hash: SnktN6kO0FFD_526dRFIARa1pHQlLb2WgVtO1zn69qk
 name: content_image
 label: 'Content image (680 w)'
 effects:

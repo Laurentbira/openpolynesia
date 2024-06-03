@@ -1,7 +1,9 @@
-uuid: 7abacdfb-c1dd-40d0-89bc-c0984efffc87
+uuid: e6b55aa7-aad9-45df-8ed0-f171d19ccdde
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: N6oZO67IpcZYT3iMesubw8kat3_bgXpFjku4W3PFg00
 id: oc-profile
 label: 'OC Profile'
 module: tour

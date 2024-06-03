@@ -1,52 +1,41 @@
+label: Suche
 display:
   default:
+    display_title: Standard
     display_options:
-      empty:
-        area:
-          content:
-            value: "<p>Keine Ergebnisse.</p>\r\n"
-            format: basic_html
-      sorts:
-        search_api_relevance:
-          expose:
-            label: Relevanz
-        changed:
-          expose:
-            label: Geändert
-      filters:
-        search_api_fulltext:
-          expose:
-            placeholder: 'Suchbegriff eingeben'
-            label: Suchbegriff
       title: Suche
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
+            first: '« Anfang'
+            last: 'Ende »'
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
       exposed_form:
         options:
-          submit_button: Suchen
+          submit_button: Anwenden
           reset_button_label: Zurücksetzen
           exposed_sorts_label: 'Sortieren nach'
           sort_asc_label: Aufsteigend
           sort_desc_label: Absteigend
+          text_input_required_format: basic_html
           bef:
             general:
               secondary_label: 'Erweiterte Optionen'
-      pager:
-        options:
-          tags:
-            first: '« Anfang'
-            last: 'Ende »'
+      empty:
+        area:
+          content:
+            value: 'Keine Ergebnisse.'
+      filters:
+        search_api_fulltext:
           expose:
-            items_per_page_label: Ergebnisse/Seite
-            items_per_page_options_all_label: '- Alle -'
-            offset_label: Versatz
+            label: Schlüsselwort
   search_page:
     display_title: Seite
     display_options:
       menu:
         title: Suche
-  search_input:
-    display_title: Sucheingabe
-    display_options:
-      filters:
-        search_api_fulltext:
-          expose:
-            placeholder: 'Suchbegriff eingeben'

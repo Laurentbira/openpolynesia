@@ -28,18 +28,19 @@ display:
           label: 'Verwendet in'
           alter:
             path: 'admin/content/files/usage/{{ fid }}'
+          format_plural_string: !!binary MSBTdGVsbGUDQGNvdW50IFN0ZWxsZW4=
       pager:
         options:
           tags:
-            next: 'Nächste ›'
-            previous: '‹ Vorige'
+            next: 'Nächste Seite ›'
+            previous: '‹ Vorherige Seite'
           expose:
-            items_per_page_label: Anzahl/Seite
+            items_per_page_label: 'Elemente pro Seite'
             items_per_page_options_all_label: '- Alle -'
             offset_label: Versatz
       exposed_form:
         options:
-          submit_button: Filtern
+          submit_button: Filter
           reset_button_label: Zurücksetzen
           exposed_sorts_label: 'Sortieren nach'
           sort_asc_label: Aufsteigend
@@ -74,19 +75,19 @@ display:
         module:
           label: 'Registrierendes Modul'
         count:
-          label: 'Anzahl der Verwendung'
+          label: 'Anzahl der Verwendungen'
           format_plural_string: !!binary MQNAY291bnQ=
       pager:
         options:
           tags:
-            next: 'Nächste ›'
-            previous: '‹ Vorige'
+            next: 'Nächste Seite ›'
+            previous: '‹ Vorherige Seite'
           expose:
-            items_per_page_label: Anzahl/Seite
+            items_per_page_label: 'Elemente pro Seite'
             items_per_page_options_all_label: '- Alle -'
             offset_label: Versatz
       arguments:
         fid:
           exception:
             title: Alle
-          title: 'Dateiverwendungsinformationen für {{ arguments.fid }}'
+          title: 'Informationen zur Nutzung der Datei {{ arguments.fid }}'

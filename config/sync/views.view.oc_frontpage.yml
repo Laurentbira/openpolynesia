@@ -18,6 +18,8 @@ dependencies:
     - swiffy_slider
     - text
     - user
+_core:
+  default_config_hash: CMKFxT9IN8SmemsdN6jlhUOhoqWoRNsdEIlZVPqEq8M
 id: oc_frontpage
 label: Frontpage
 module: node

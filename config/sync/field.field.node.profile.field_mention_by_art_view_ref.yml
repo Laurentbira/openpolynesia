@@ -1,4 +1,4 @@
-uuid: a5ea96e2-ab0e-453f-8d40-53f827f5361c
+uuid: 164e2cc7-4cb7-4456-9cd9-058493ff96bd
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - views.view.related_article
   module:
     - viewfield
+_core:
+  default_config_hash: miOL_Hexrc1Juug_Ils31NsOWDhyj1e_ylSupbJjGjY
 id: node.profile.field_mention_by_art_view_ref
 field_name: field_mention_by_art_view_ref
 entity_type: node

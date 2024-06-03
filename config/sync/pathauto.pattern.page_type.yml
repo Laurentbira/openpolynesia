@@ -1,9 +1,11 @@
-uuid: fa5bc8fa-348d-4c42-a97f-0af9b9103f5a
+uuid: ddd0877e-7b87-40d0-996f-47bcd87b31b5
 langcode: en
 status: true
 dependencies:
   module:
     - taxonomy
+_core:
+  default_config_hash: lmT7GX2US9DjCHQWCuwNwm2CGm1bo76w6308uQW01UM
 id: page_type
 label: 'Page Type (All languages)'
 type: 'canonical_entities:taxonomy_term'

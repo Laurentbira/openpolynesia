@@ -1,0 +1,101 @@
+display:
+  default:
+    display_title: Standard
+    display_options:
+      title: 'Nächste Termine'
+      fields:
+        delta:
+          format_plural_string: !!binary MQNAY291bnQ=
+        nid:
+          separator: ', '
+        field_date:
+          label: Datum
+          separator: ', '
+        field_attendance_mode:
+          separator: ', '
+        field_premiere:
+          separator: ', '
+        title:
+          separator: ', '
+        field_subtitle:
+          separator: ', '
+        title_1:
+          separator: ', '
+        field_location_virtual:
+          separator: ', '
+        field_body_addon:
+          separator: ', '
+        body:
+          separator: ', '
+        field_people_reference:
+          separator: ', '
+        field_pricing:
+          separator: ', '
+        field_ticketing:
+          separator: ', '
+        field_min_age:
+          separator: ', '
+        field_category:
+          separator: ', '
+        field_organizer:
+          separator: ', '
+        field_phone:
+          separator: ', '
+        field_email:
+          separator: ', '
+        field_legal_url:
+          separator: ', '
+        field_legal_info:
+          separator: ', '
+        title_2:
+          separator: ', '
+        field_media_image:
+          separator: ', '
+        field_media_image_1:
+          separator: ', '
+        field_licenses:
+          separator: ', '
+      pager:
+        options:
+          tags:
+            next: 'Nächste Seite ›'
+            previous: '‹ Vorherige Seite'
+            first: '« Anfang'
+            last: 'Ende »'
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
+      exposed_form:
+        options:
+          submit_button: Anwenden
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
+          text_input_required: 'Wählen Sie einen beliebigen Filter und klicken Sie auf Anwenden, um Ergebnisse zu sehen'
+          bef:
+            general:
+              secondary_label: 'Erweiterte Optionen'
+      filters:
+        status:
+          expose:
+            label: Veröffentlichungsstatus
+        uid:
+          expose:
+            label: 'Geschrieben von'
+        field_address_locality:
+          expose:
+            label: Ort
+        title:
+          expose:
+            label: Organisator
+      header:
+        result:
+          content: '@start - @end von @total wird angezeigt'
+  page_1:
+    display_title: Exportieren
+    display_options:
+      header:
+        result:
+          content: '@start - @end von @total wird angezeigt'

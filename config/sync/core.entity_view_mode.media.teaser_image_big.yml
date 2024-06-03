@@ -1,9 +1,11 @@
-uuid: 344ae630-bd14-4f81-9479-853befa1c37f
+uuid: a39096be-d73d-4ea5-b2c5-7afb7d913ac2
 langcode: en
 status: true
 dependencies:
   module:
     - media
+_core:
+  default_config_hash: aOzBDRxDkjCexPl5UgthHPbb66sHWpnFBUKI0GQEX6g
 id: media.teaser_image_big
 label: 'Teaser image big'
 description: ''

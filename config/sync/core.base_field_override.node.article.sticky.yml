@@ -1,9 +1,11 @@
-uuid: ce2bfad3-0611-4900-9519-bcae27fcd690
+uuid: 22f3acb3-4180-420c-8844-6f88c427d2f2
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.article
+_core:
+  default_config_hash: KRzm8HYva755HIP7eFzStHqtuwn-bsfP4Pa827YsfYg
 id: node.article.sticky
 field_name: sticky
 entity_type: node

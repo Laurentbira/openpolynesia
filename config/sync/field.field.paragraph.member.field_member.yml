@@ -1,4 +1,4 @@
-uuid: 8fbecff7-0629-4468-b3da-f6844e4627e3
+uuid: 53519978-e1cb-4937-b950-fc7ccd03b143
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.paragraph.field_member
     - node.type.profile
     - paragraphs.paragraphs_type.member
+_core:
+  default_config_hash: _IfQ20tGhRdzf1xNjoSVCM5SiIuDZ8zzddd7_ZwlQ6M
 id: paragraph.member.field_member
 field_name: field_member
 entity_type: paragraph

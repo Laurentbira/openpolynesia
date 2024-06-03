@@ -1,9 +1,11 @@
-uuid: bf3b7434-ef34-4060-b34c-be47b93f6d59
+uuid: c721995a-becb-4b47-9e8b-136e1da2022c
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.profile
+_core:
+  default_config_hash: 2PPjLGk7gSLXIaA1fcrgR-PU83ZAlGPDFoJIrkDSCSI
 id: node.profile.created
 field_name: created
 entity_type: node

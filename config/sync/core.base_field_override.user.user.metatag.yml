@@ -1,9 +1,11 @@
-uuid: b719fe87-7a21-4fd6-bf73-fb7b789b2a10
+uuid: 00d9857b-4791-447f-b322-f0e5d97c4f8a
 langcode: en
 status: true
 dependencies:
   module:
     - user
+_core:
+  default_config_hash: BggQQmc05YzF3dnZzbHBRHsnGQotgHAkAPzNLtewF3I
 id: user.user.metatag
 field_name: metatag
 entity_type: user

@@ -1,4 +1,4 @@
-uuid: 24eb4f4b-e882-4ec8-86f4-56991614e28f
+uuid: 3c296a91-ac1a-4cda-ad3a-47a54494cb01
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - flag.flag.bookmark_node
   module:
     - flag
+_core:
+  default_config_hash: 7FwUBEhBzer2bdDqkzNU84TGg7Hwdix-j-_xbZmvWk0
 id: flag_action.bookmark_node_flag
 label: Bookmark
 type: node

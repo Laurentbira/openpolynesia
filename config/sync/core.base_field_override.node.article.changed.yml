@@ -1,9 +1,11 @@
-uuid: 395f186e-b506-4249-a755-9f46638771b3
+uuid: 8a21ea5a-9687-4a92-9696-ac64477fe16e
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.article
+_core:
+  default_config_hash: 69hlFsU_EPk9uIIp7MFDESIOOjE3ssJYEK4781NlfgQ
 id: node.article.changed
 field_name: changed
 entity_type: node

@@ -1,10 +1,12 @@
-uuid: 6f918753-a36d-476f-acd3-91dac871f844
+uuid: 75959e6d-b988-4418-bd04-778bdac3e904
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.flagging.field_comment
     - flag.flag.claim_ownership
+_core:
+  default_config_hash: Lls5ZjPmDCew07yL5PE-Ci5YIcwCMdjwXZd7T4RAp1s
 id: flagging.claim_ownership.field_comment
 field_name: field_comment
 entity_type: flagging

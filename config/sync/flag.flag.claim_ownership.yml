@@ -1,9 +1,11 @@
-uuid: b0adf189-558e-44a2-94a4-5d8cf96f5a37
+uuid: 4cc113e1-2808-450f-afeb-a96e95d8ecb3
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: JQ5CanJDiNoPXNnRVY6urw4u6UJNIErTHk40smY6Bsc
 id: claim_ownership
 label: 'Claim ownership'
 bundles:
@@ -12,6 +14,7 @@ bundles:
   - profile
 entity_type: node
 global: true
+weight: 0
 flag_short: 'Claim ownership'
 flag_long: ''
 flag_message: ''
@@ -19,7 +22,6 @@ unflag_short: 'Edit ownership claim'
 unflag_long: ''
 unflag_message: ''
 unflag_denied_text: 'Claim pending'
-weight: 0
 flag_type: 'entity:node'
 link_type: field_entry
 flagTypeConfig:
@@ -31,9 +33,9 @@ flagTypeConfig:
     owner: '0'
 linkTypeConfig:
   flag_confirmation: 'Ownership claim details'
-  edit_flagging: 'Edit ownership claim details'
   unflag_confirmation: 'Delete ownership claim?'
   flag_create_button: Submit
   flag_delete_button: Delete
-  flag_update_button: Update
   form_behavior: modal
+  edit_flagging: 'Edit ownership claim details'
+  flag_update_button: Update

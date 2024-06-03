@@ -1,9 +1,11 @@
-uuid: 6e059c69-1177-4754-950f-4429233078d7
+uuid: 75f2e14a-c5a5-4dd0-886c-fe1238e1fbd4
 langcode: en
 status: true
 dependencies:
   config:
     - paragraphs.paragraphs_type.bookable_event
+_core:
+  default_config_hash: eVgYPjSokRTzZlKKfhpkxLAuiP_JEj6H5wMN5ng_YdY
 id: paragraph.bookable_event.status
 field_name: status
 entity_type: paragraph

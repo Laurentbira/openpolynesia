@@ -1,24 +1,29 @@
 display:
   default:
+    display_title: Standard
     display_options:
-      empty:
-        area:
-          content:
-            value: "<p class=\"infobox\">Sobald du dein erstes Profil (oder Ort) angelegt hast, kannst du dieses <a href=\"/user/edit\">als Hauptprofil festlegen</a>. Dann taucht es hier auf.</p>\r\n"
-            format: full_html
-      header:
-        area:
-          content:
-            value: "<h3 class=\"field__label\">Hauptprofil</h3>\r\n"
-            format: full_html
       title: 'Block Hauptprofil'
+      fields:
+        field_main_profile:
+          separator: ', '
       exposed_form:
         options:
           submit_button: Anwenden
           reset_button_label: Zurücksetzen
-          exposed_sorts_label: Sortierung
+          exposed_sorts_label: 'Sortieren nach'
           sort_asc_label: Aufsteigend
           sort_desc_label: Absteigend
-    display_title: Standard
-label: 'Dashboard: Hauptprofil'
-description: 'OpenCulturas: Zeigt das Hauptprofil der User auf dem Dashboard an'
+      empty:
+        area:
+          content:
+            value: '<p class="infobox">Sobald du dein erstes veröffentlichtes Profil (oder deinen Standort) erstellt hast, kannst du es <a href="/user/edit">als dein Hauptprofil</a> definieren, damit es hier angezeigt wird.</p>'
+      arguments:
+        uid:
+          exception:
+            title: Alle
+      header:
+        area:
+          content:
+            value: '<h3 class="field__label">Hauptprofil</h3>'
+  block_my_main_profile:
+    display_title: Block

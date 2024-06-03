@@ -1,4 +1,4 @@
-label: 'Bibliothek benutzerdefinierter Blöcke'
+label: Inhaltsblöcke
 description: 'Benutzerdefinierte Blöcke finden und verwalten.'
 display:
   default:
@@ -19,10 +19,10 @@ display:
       pager:
         options:
           tags:
-            next: 'Nächste ›'
-            previous: '‹ Vorige'
+            next: 'Nächste Seite ›'
+            previous: '‹ Vorherige Seite'
           expose:
-            items_per_page_label: Anzahl/Seite
+            items_per_page_label: 'Elemente pro Seite'
             items_per_page_options_all_label: '- Alle -'
             offset_label: Versatz
       exposed_form:
@@ -46,4 +46,5 @@ display:
     display_title: Seite
     display_options:
       menu:
-        title: 'Bibliothek benutzerdefinierter Blöcke'
+        title: Blöcke
+        description: 'Block erstellen und bearbeiten.'

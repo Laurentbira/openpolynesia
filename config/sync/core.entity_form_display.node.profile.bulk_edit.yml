@@ -1,4 +1,4 @@
-uuid: 8a4241f3-0f7b-4eb6-a938-48e52766ffeb
+uuid: cfdbea8c-0372-459f-85a9-e71779f10ea8
 langcode: en
 status: true
 dependencies:
@@ -32,9 +32,11 @@ dependencies:
     - field.field.node.profile.field_subtitle
     - field.field.node.profile.field_upcoming_dates_by_profile
     - node.type.profile
-    - workflows.workflow.magazine_article
+    - workflows.workflow.draften
   module:
     - content_moderation
+_core:
+  default_config_hash: Uo0aUJt6SMZsVPyF4DixRaeMLq1gfPxldQsuoWKfqKI
 id: node.profile.bulk_edit
 targetEntityType: node
 bundle: profile

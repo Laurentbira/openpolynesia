@@ -1,4 +1,4 @@
-uuid: c06270b4-25b2-4660-97d4-a9a804bb35cd
+uuid: 94be6e89-f816-4197-bb8b-6290fa9540a2
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_location
     - node.type.date
     - node.type.location
+_core:
+  default_config_hash: r1-yuDR5tPR-BlJ8qJuk03kOL6P85_rIEnZl3T8__PI
 id: node.date.field_location
 field_name: field_location
 entity_type: node

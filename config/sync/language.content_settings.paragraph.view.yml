@@ -1,4 +1,4 @@
-uuid: d5d21f76-ab7e-457d-ae5e-9b989f8b278e
+uuid: 22af2a0d-d577-4bcd-85c1-1fc5e7b85d46
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ third_party_settings:
     enabled: true
     bundle_settings:
       untranslatable_fields_hide: '1'
+_core:
+  default_config_hash: Ez5z7i5aem29q02OPGY1KlUSCSTCDuO1v81HURZN9sU
 id: paragraph.view
 target_entity_type_id: paragraph
 target_bundle: view

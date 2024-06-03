@@ -1,4 +1,4 @@
-uuid: cf2a0a75-3b63-43a7-ac97-1785dc973b57
+uuid: 132de8eb-dab3-4781-8b57-d461dfc4506e
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - media.type.audio
   module:
     - image
+_core:
+  default_config_hash: 5BH_3EeIpAbrvwlVUUQmNWhZvFqIgSwmaiANobph0bw
 id: media.audio.thumbnail
 field_name: thumbnail
 entity_type: media

@@ -1,4 +1,4 @@
-uuid: 9718246a-691a-4bc6-93b8-dff854522ef8
+uuid: 8e68d0b1-3931-49c7-bd9e-76d26eec6dc3
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ dependencies:
     - linkit
     - media
 _core:
-  default_config_hash: svejBAiBwALaC_w177xrfxgSohJVRMBWC8o2kfKabLs
+  default_config_hash: ZNOPwpH-tyYmGrcGjo7FSKED-h0a3pGmlmLkIPcHLqc
 name: 'Full HTML'
 format: full_html
 weight: -8

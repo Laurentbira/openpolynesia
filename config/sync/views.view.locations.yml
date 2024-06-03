@@ -17,6 +17,8 @@ dependencies:
     - taxonomy
     - user
     - views_add_button
+_core:
+  default_config_hash: XrdE0XXfytkjZrJw5O-TPNf4ybAgf1GbOPGq9v9w2P4
 id: locations
 label: Locations
 module: views

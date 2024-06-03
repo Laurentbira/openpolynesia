@@ -1,10 +1,12 @@
-uuid: 66350c5d-7ca5-444e-8bba-b2188388c68c
+uuid: f58626e3-8076-44e9-953b-f234ea8ade6b
 langcode: en
 status: true
 dependencies:
   module:
     - language
     - taxonomy
+_core:
+  default_config_hash: mFRZ-gU9hFgjycF7vxJu2qNO8Kf5Ri_aIKwowQW0H7c
 id: categories
 label: Categories
 type: 'canonical_entities:taxonomy_term'

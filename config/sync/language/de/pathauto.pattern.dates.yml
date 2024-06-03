@@ -1,0 +1,4 @@
+label: Termine
+relationships:
+  'node:langcode:language':
+    label: Sprache

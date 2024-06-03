@@ -1,4 +1,4 @@
-uuid: 583d2158-eccf-489b-a598-d9025a30a43a
+uuid: 623352e4-6595-4df4-adb6-104a969ad47f
 langcode: en
 status: true
 dependencies:
@@ -285,6 +285,8 @@ third_party_settings:
         open: true
         description: ''
         required_fields: false
+_core:
+  default_config_hash: _VzPhcKytoS2q5Z4Yh_uz8uzeH2heqnG8BtOBOzELrQ
 id: node.location.full
 targetEntityType: node
 bundle: location
@@ -354,9 +356,7 @@ content:
       view_title: hidden
       always_build_output: true
       empty_view_title: hidden
-    third_party_settings:
-      field_formatter_class:
-        class: ''
+    third_party_settings: {  }
     weight: 1
     region: content
   field_contact_data:

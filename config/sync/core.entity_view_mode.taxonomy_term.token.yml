@@ -1,11 +1,11 @@
-uuid: c1cbbba2-c5b5-4821-97b4-59dba6c13a9d
+uuid: 762b16d5-0a06-4f20-8542-96d97620401a
 langcode: en
 status: true
 dependencies:
   module:
     - taxonomy
 _core:
-  default_config_hash: AQZt3mTM-HGFLxai2IPOFFyGtOVC-P26IQaOLYmI1b8
+  default_config_hash: Uayj5dAZFj83TB7FDZ5KQtyExTi_swsckK0vgV76FaQ
 id: taxonomy_term.token
 label: Token
 description: ''

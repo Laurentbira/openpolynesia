@@ -1,9 +1,11 @@
-uuid: 3430b574-2750-4f67-86ee-506701526732
+uuid: ff016fc6-4ce5-40b8-8065-75985dd4f743
 langcode: en
 status: true
 dependencies:
   content:
     - 'file:file:bab36f92-cdab-4726-8ba9-e9b220368989'
+_core:
+  default_config_hash: TYME6TAfNe6FbkpRaO9_J5xS-KZsglAwmgoy255kjKM
 id: download
 label: Download
 icon_uuid: bab36f92-cdab-4726-8ba9-e9b220368989

@@ -1,0 +1,22 @@
+uuid: b9339743-0771-4298-8a4a-662baa015a73
+langcode: en
+status: true
+dependencies:
+  module:
+    - openculturas_custom
+  theme:
+    - classy
+_core:
+  default_config_hash: lOAj8xQ0Jsv0FL1ievXUQHSbA7FT8t2TgvdXAUQT_qA
+id: classy_bookmarkflagicon
+theme: classy
+region: sidebar_first
+weight: -12
+provider: null
+plugin: openculturas_custom_bookmark_flag_icon
+settings:
+  id: openculturas_custom_bookmark_flag_icon
+  label: 'Bookmark flag icon'
+  label_display: '0'
+  provider: openculturas_custom
+visibility: {  }

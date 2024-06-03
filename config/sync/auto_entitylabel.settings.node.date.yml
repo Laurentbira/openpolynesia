@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: AUnGgJPKa5bs6_bsVm7tjHv8Mu2h1cHQNooB6bvlbFE
 status: 1
 pattern: '[node:field_event_description:entity:title] - ID [node:nid]'
 escape: false

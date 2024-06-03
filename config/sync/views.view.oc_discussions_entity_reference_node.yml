@@ -4,13 +4,12 @@ status: true
 dependencies:
   module:
     - node
-    - options
     - user
   enforced:
     module:
       - openculturas_discussions
 _core:
-  default_config_hash: vPkLQsYFYWiUEpcn1UtE-tIRC--CzcgdagN3QSQVfdI
+  default_config_hash: TgvODrM5bn3rb35I2TV_t9c8jERweYlfGHi5NVXmyWw
 id: oc_discussions_entity_reference_node
 label: 'Entity reference: commentable nodes'
 module: views

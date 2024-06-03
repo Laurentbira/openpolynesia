@@ -1,4 +1,4 @@
-uuid: 9d832dfb-2ce4-433c-b154-81d4168e95fd
+uuid: ee1afa10-d136-4d1d-92e5-e0efa4a4ca03
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - legal
     - user
 _core:
-  default_config_hash: TT0DNYq0LRxdnQMLkIawMKuQHOf8LELUQhQEaevzx8o
+  default_config_hash: sdZYg-tPh5hACd8OZ7ISQPrcicMG3S00dSbxVySJvrw
 id: legal_terms
 label: legal_terms
 module: views

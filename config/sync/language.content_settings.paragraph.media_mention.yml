@@ -1,4 +1,4 @@
-uuid: 672de0e8-d4ae-43ac-bab2-18a477a7b38b
+uuid: f0ce9f63-6831-48a0-ba22-a8e3ec42a274
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ third_party_settings:
     enabled: true
     bundle_settings:
       untranslatable_fields_hide: '1'
+_core:
+  default_config_hash: 6Qo0Xa4kryZXcZt8MhTNMJA8Ryk9gExegOdw4RVR_20
 id: paragraph.media_mention
 target_entity_type_id: paragraph
 target_bundle: media_mention

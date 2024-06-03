@@ -1,10 +1,12 @@
-uuid: f9537c36-6e7c-4bf5-8773-83454d360850
+uuid: 0f0960d3-d4fc-462b-80d2-9426db17066c
 langcode: en
 status: true
 dependencies:
   module:
     - language
     - taxonomy
+_core:
+  default_config_hash: 3BpBLuB_ENh6upmwh_NIFbiYYDS01YbfdeXx70GUDyE
 id: event_types_de
 label: 'Event types DE'
 type: 'canonical_entities:taxonomy_term'

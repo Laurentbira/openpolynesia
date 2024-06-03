@@ -1,0 +1,4 @@
+label: Spalte
+relationships:
+  'taxonomy_term:langcode:language':
+    label: Sprache

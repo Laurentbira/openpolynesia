@@ -1,4 +1,4 @@
-uuid: ef74f9b9-16b1-4f6a-a3c0-43c762528e73
+uuid: b6f635af-3799-4ed9-bbdf-430634a0a9fc
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ dependencies:
     - path
     - text
 _core:
-  default_config_hash: 7RtKWq5s7Sfa16lFeTAQyrupjKuq9Vkpo93DojIKIXc
+  default_config_hash: CXg39VAXLIRkz7BQV89dKdts7k7TietU1peUszJENGE
 id: taxonomy_term.faq_category.default
 targetEntityType: taxonomy_term
 bundle: faq_category

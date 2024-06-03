@@ -1,4 +1,4 @@
-uuid: d2265832-d42d-4452-9be6-6ec7c9636ed1
+uuid: 398c72b0-b6e4-4526-876d-dc6412c880bf
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ dependencies:
   module:
     - field_formatter_class
     - smart_trim
+_core:
+  default_config_hash: RMSYZk8XfsRBuwYgUF5Y4_ExAl0kAi4O-d4HaSvaP6Q
 id: taxonomy_term.column.teaser_unified
 targetEntityType: taxonomy_term
 bundle: column

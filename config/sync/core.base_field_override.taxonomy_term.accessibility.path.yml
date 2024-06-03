@@ -1,4 +1,4 @@
-uuid: 4d445cbe-8d64-40fd-97ef-1f83299d3b15
+uuid: 26777226-f5da-4b91-b840-b033d95221cd
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - taxonomy.vocabulary.accessibility
   module:
     - path
+_core:
+  default_config_hash: U-ylH0KelvSV-KJOjy7ixh4zkZZM6bb73sIv8QNKpKQ
 id: taxonomy_term.accessibility.path
 field_name: path
 entity_type: taxonomy_term

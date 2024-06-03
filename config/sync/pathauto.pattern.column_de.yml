@@ -1,10 +1,12 @@
-uuid: d2f60cf3-d88b-4952-8f90-d1557fb7466c
+uuid: b7ff081f-5e52-46ea-badc-8781b851d39a
 langcode: en
 status: true
 dependencies:
   module:
     - language
     - taxonomy
+_core:
+  default_config_hash: cyIiBE4EblF7IybnHxAsARs6w4ifhMvTRYo6vWVItVs
 id: column_de
 label: 'Column DE'
 type: 'canonical_entities:taxonomy_term'

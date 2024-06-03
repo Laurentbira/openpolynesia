@@ -1,4 +1,4 @@
-uuid: 0e7e041a-0994-48f5-a4b1-71dab1bc4b6d
+uuid: 903e2f70-9775-4134-8f90-46e841413815
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - views.view.related_date
   module:
     - viewfield
+_core:
+  default_config_hash: 22l6HdpHAoC3hN-p9dHoE_JKJDrRKIxnFmV9-k7bEFY
 id: node.profile.field_upcoming_dates_by_profile
 field_name: field_upcoming_dates_by_profile
 entity_type: node

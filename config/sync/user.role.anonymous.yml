@@ -1,4 +1,4 @@
-uuid: 72c2a787-6d40-4ac7-b97c-a3368d17ca07
+uuid: 2d256b52-9c4e-4630-b792-6f7f5d22e293
 langcode: en
 status: true
 dependencies:
@@ -16,7 +16,7 @@ dependencies:
     - paragraphs_type_permissions
     - system
 _core:
-  default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
+  default_config_hash: ddEN-C0tFsprD3aNuoku-inKLJuzEjnOpLGZ1kJY1Qs
 id: anonymous
 label: 'Anonymous user'
 weight: -10

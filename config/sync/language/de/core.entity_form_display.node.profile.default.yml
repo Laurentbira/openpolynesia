@@ -4,6 +4,8 @@ third_party_settings:
       label: Profiltyp
     group_administrative:
       label: Administrativ
+    group_profile_tabs_container:
+      label: Tabs
     group_profile_tab_basics:
       label: Basis-Informationen
     group_profile_tab_media:
@@ -12,3 +14,20 @@ third_party_settings:
       label: Erweitert
     group_profile:
       label: Profil
+content:
+  field_address_data:
+    settings:
+      title: Adresse
+      title_plural: Adressen
+  field_contact_data:
+    settings:
+      title: Kontaktdaten
+      title_plural: Kontaktdaten
+  field_people_reference:
+    settings:
+      title: Mitglied
+      title_plural: Mitglieder
+  field_press_quotes:
+    settings:
+      title: Pressezitat
+      title_plural: Pressestimmen

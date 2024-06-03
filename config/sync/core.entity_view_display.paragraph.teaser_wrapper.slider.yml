@@ -1,4 +1,4 @@
-uuid: 9badee9b-620f-4bff-8b46-a12216af3c41
+uuid: 9c627cae-1248-40cd-b6e6-ccd5046d5258
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
   module:
     - field_formatter_class
     - swiffy_slider
+_core:
+  default_config_hash: 72TNL5ylF36cBovlP54f9YKd-_ZkpD2zCFjQSdSWSlQ
 id: paragraph.teaser_wrapper.slider
 targetEntityType: paragraph
 bundle: teaser_wrapper

@@ -1,0 +1,6 @@
+time_format: 'g:ia'
+time_hour_format: 'g:ia'
+allday_label: Ganztägig
+ampm_reduce: '1'
+date_first: '1'
+site_time_toggle: '1'

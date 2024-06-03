@@ -1,4 +1,4 @@
-uuid: dd9af274-f7b8-4234-adbc-4ac0ea787212
+uuid: 82dcb049-55a8-4141-94ee-6f2a1f6a2402
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ third_party_settings:
     enabled: true
     bundle_settings:
       untranslatable_fields_hide: '1'
+_core:
+  default_config_hash: ryMRBHpdwaw1M0gXpmfa8dOO3DdbDkQeaGLX1ZeQdI0
 id: paragraph.block
 target_entity_type_id: paragraph
 target_bundle: block

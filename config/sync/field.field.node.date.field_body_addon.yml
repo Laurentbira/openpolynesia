@@ -1,4 +1,4 @@
-uuid: 2f06a5d7-1341-4188-8510-5f80f9725815
+uuid: 73e87e27-aa00-4732-a459-0bcbffbac729
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - node.type.date
   module:
     - text
+_core:
+  default_config_hash: jXyBmbWRtTfj7vOrFLfwDtpB0v5YzGmY7sWCFBGTnVk
 id: node.date.field_body_addon
 field_name: field_body_addon
 entity_type: node

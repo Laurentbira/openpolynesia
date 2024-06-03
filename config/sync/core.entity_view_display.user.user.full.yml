@@ -1,4 +1,4 @@
-uuid: 40b32a8b-9ad0-414e-a113-65f16ed98709
+uuid: 98dc068d-f3e6-48aa-a287-dbf5baab6275
 langcode: en
 status: true
 dependencies:
@@ -86,7 +86,7 @@ third_party_settings:
         effect: none
         speed: fast
 _core:
-  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+  default_config_hash: f5vb1tVi1jOpVKyXWHX2a6tIKUbsaMaUIwvTvNY-YJA
 id: user.user.full
 targetEntityType: user
 bundle: user

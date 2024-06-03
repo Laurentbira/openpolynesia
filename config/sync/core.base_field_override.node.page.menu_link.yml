@@ -1,9 +1,11 @@
-uuid: 6a684cdd-7874-4519-aa98-44da72540743
+uuid: 280fbab2-c933-4bc7-897f-0fedd548c0fc
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.page
+_core:
+  default_config_hash: hTG_i_GATLN-u2ndFTaMdGwfnwD1qD3BIZZpcuVOEMY
 id: node.page.menu_link
 field_name: menu_link
 entity_type: node

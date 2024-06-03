@@ -1,4 +1,4 @@
-uuid: 434f416d-7edb-4d88-9fd7-1e5867bdaf8d
+uuid: cfd3d2e2-3c5c-4d16-aa26-9040d19cef33
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - media.type.logo_image
   module:
     - path
+_core:
+  default_config_hash: VTuxbSCOn0Z6TJjwI7s9wism0ElXFCbomn_ws6dgoKc
 id: media.logo_image.path
 field_name: path
 entity_type: media

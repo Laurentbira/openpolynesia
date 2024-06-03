@@ -1,4 +1,4 @@
-uuid: 507fb970-4667-494e-b3d5-a4d379ae68ff
+uuid: a7ae1f39-895b-43c2-8f5b-5783834a3e7d
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
 third_party_settings:
   crop:
     image_field: _none
+_core:
+  default_config_hash: 6wOAI-x0OhDZOCIsTFEB-KXDjrTFR-7pdnZ1MV_e48Q
 id: user_profile_picture
 label: 'Profile picture'
 description: 'Image type without attribution, to be used as profile image (only).'

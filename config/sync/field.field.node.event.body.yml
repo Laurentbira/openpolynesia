@@ -1,4 +1,4 @@
-uuid: c4694764-e89a-4884-8b20-ae2cf8c5f579
+uuid: 00eedb48-d192-40c6-ae6a-9995881be224
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - node.type.event
   module:
     - text
+_core:
+  default_config_hash: Y-RfU6aNiLVCcoqz36vEefx6-KjAdtKRZ-P9JEmllRo
 id: node.event.body
 field_name: body
 entity_type: node

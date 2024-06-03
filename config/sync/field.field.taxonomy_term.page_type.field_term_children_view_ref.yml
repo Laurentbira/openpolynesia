@@ -1,4 +1,4 @@
-uuid: 79345410-0997-4375-92df-a88db650727d
+uuid: a7b2caa8-223a-4b78-97e9-ed045107fe75
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - views.view.vocabulary
   module:
     - viewfield
+_core:
+  default_config_hash: GG1fBtbH22X-w4Jqi_cyRDEoliu_-3uz5hZtVSpTezw
 id: taxonomy_term.page_type.field_term_children_view_ref
 field_name: field_term_children_view_ref
 entity_type: taxonomy_term

@@ -1,131 +1,164 @@
-description: 'OpenCulturas-Dashboard: Verschiedene Übersichten der eigenen Inhalte'
+label: 'Dashboard: Mein Inhalte'
 display:
   default:
+    display_title: Standard
     display_options:
+      title: 'Meine Inhalte'
       pager:
         options:
+          tags:
+            next: 'Nächste Seite ›'
+            previous: '‹ Vorherige Seite'
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
           views_infinite_scroll:
-            button_text: 'Mehr anzeigen'
+            button_text: 'Weitere anzeigen'
       exposed_form:
         options:
-          submit_button: Filtern
+          submit_button: Filter
           reset_button_label: Zurücksetzen
           exposed_sorts_label: 'Sortieren nach'
           sort_asc_label: Aufsteigend
           sort_desc_label: Absteigend
-    display_title: Standard
+      arguments:
+        uid:
+          exception:
+            title: Alle
   block_my_locations:
+    display_title: Orte
     display_options:
+      pager:
+        options:
+          tags:
+            next: 'Nächste Seite ›'
+            previous: '‹ Vorherige Seite'
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
+          views_infinite_scroll:
+            button_text: 'Mehr laden'
       empty:
         area:
           content:
-            value: "<h3 class=\"field__label\">Orte</h3>\r\n\r\n<p class=\"infobox\">Wenn du für einen Veranstaltungsort hier bist (z. B. Theater, Museum, Tanzschule), erstelle ein Profil für diesen Ort. Du kannst einstellen, dass dieser Ort von einer anderen Person \"übernommen\" werden kann.</p>\r\n"
-            format: full_html
+            value: "<h3 class=\"field__label\">Orte</h3>\r\n<p class=\"infobox\">Wenn du für einen Veranstaltungsort hier bist (z. B. Theater, Museum, Tanzschule), erstelle ein Profil für diesen Ort. Du kannst einstellen, dass dieser Ort von einer anderen Person \"übernommen\" werden kann.</p>"
         views_add_button:
           button_text: 'Ortsprofil erstellen'
       header:
         area:
           content:
-            value: "<h3 class=\"field__label\">Profile meiner Orte</h3>\r\n"
-            format: full_html
+            value: '<h3 class="field__label">Profile meiner Orte</h3>'
+  block_my_profiles:
+    display_title: Profile
+    display_options:
       pager:
         options:
+          tags:
+            next: 'Nächste Seite ›'
+            previous: '‹ Vorherige Seite'
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
           views_infinite_scroll:
-            button_text: 'Mehr anzeigen'
-    display_title: Orte
-  block_my_profiles:
-    display_options:
+            button_text: 'Mehr laden'
       empty:
         area:
           content:
-            value: "<h3 class=\"field__label\">Profiles</h3>\r\n\r\n<p class=\"infobox\">Erstelle ein Profil (oder mehrere) für dich selbst und/oder für deine Gruppe. Du kannst jeweils einstellen, dass Profile von einer anderen Person \"übernommen\" werden können.</p>\r\n"
-            format: full_html
+            value: "<h3 class=\"field__label\">Profile</h3>\r\n<p class=\"infobox\">Erstelle ein Profil (oder mehrere) für dich selbst und/oder für deine Gruppe. Du kannst jeweils einstellen, dass Profile von einer anderen Person \"übernommen\" werden können.</p>"
         views_add_button:
           button_text: 'Profil erstellen (Person oder Gruppe)'
       header:
         area:
           content:
-            value: "<h3 class=\"field__label\">Meine Personen-/Gruppen-Profile</h3>\r\n"
-            format: full_html
-      pager:
-        options:
-          views_infinite_scroll:
-            button_text: 'Mehr anzeigen'
-    display_title: Profile
+            value: '<h3 class="field__label">Meine Personen-/Gruppen-Profile</h3>'
   block_profiles_block:
     display_options:
       header:
         area:
           content:
-            value: "<h3 class=\"field__label\">Meine Profile / Orte</h3>\r\n"
-            format: full_html
-    display_title: 'Profile + Orte'
+            value: '<h3 class="field__label">Meine Profile / Orte</h3>'
+  entity_reference_behalf_of:
+    display_options:
+      fields:
+        title:
+          separator: ', '
+        type:
+          separator: ', '
+      arguments:
+        uid:
+          exception:
+            title: Alle
   my_content_block:
+    display_title: 'Tabelle der Inhalte'
     display_options:
       fields:
         title:
           label: Titel
+          separator: ', '
         field_subtitle:
-          label: Untertitel
+          label: Unter-Überschrift
+          separator: ', '
         type:
           label: Typ
+          separator: ', '
         moderation_state:
+          admin_label: Moderationsstatus
           label: Status
-          admin_label: Freigabestatus
+          separator: ', '
         changed:
-          label: Bearbeitet
+          label: Geändert
+          separator: ', '
         edit_node:
           text: Bearbeiten
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
+            first: '« Anfang'
+            last: 'Ende »'
+          expose:
+            items_per_page_label: Anzeigen
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
+      exposed_form:
+        options:
+          submit_button: Filter
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
       filters:
+        type:
+          expose:
+            label: Inhaltstyp
         combine:
           expose:
             label: Titel
-            placeholder: 'enthält ...'
+            placeholder: enthält...
         moderation_state:
           expose:
-            label: Status
+            label: Moderationsstatus
           group_info:
             label: Status
             group_items:
               1:
                 title: Entwurf
               2:
-                title: 'zur Freigabe'
+                title: Überprüfung
               3:
                 title: Veröffentlicht
               4:
-                title: Unveröffentlicht
+                title: 'Nicht veröffentlicht'
         type_1:
           expose:
             label: Typ
-      pager:
-        options:
-          expose:
-            items_per_page_label: Zeige
-            items_per_page_options_all_label: '- Alle -'
-            offset_label: ab
-          tags:
-            first: '« Anfang'
-            last: 'Ende »'
-      exposed_form:
-        options:
-          reset_button_label: Zurücksetzen
-          exposed_sorts_label: Sortierung
-          sort_asc_label: Aufsteigend
-          sort_desc_label: Absteigend
-      empty:
-        area_text_custom:
-          content: 'Es wurden keine Ergebnisse zu diesen Filter-Kriterien gefunden.'
       header:
-        area_text_custom:
-          content: '<div class="infobox">Tipp: Füge Termine über die Veranstaltungsseite hinzu.</div>'
         views_add_button_1:
-          admin_label: 'Artikel schreiben'
-          button_text: 'Artikel schreiben'
+          admin_label: 'Artikel erstellen'
         views_add_button:
-          admin_label: 'Veranstaltung anlegen'
-          button_text: 'Veranstaltung anlegen'
-    display_title: 'Tabelle der Inhalte'
-  entity_reference_behalf_of:
-    display_title: 'Im Namen von (Kennzeichnung)'
-label: 'Dashboard: Meine Inhalte'
+          admin_label: 'Ereignis hinzufügen'
+          button_text: 'Veranstaltung hinzufügen'

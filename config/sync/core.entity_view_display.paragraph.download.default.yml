@@ -1,4 +1,4 @@
-uuid: fdf5e253-0aff-45f3-ad46-b08111332862
+uuid: 835bf9b3-4768-426a-9a84-a2b833a5df1f
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.download
   module:
     - field_formatter_class
+_core:
+  default_config_hash: 6Wt0AhDVZWLrGdF7aYyJ6bBtMYl7lvb4CcjKdnmmQJc
 id: paragraph.download.default
 targetEntityType: paragraph
 bundle: download

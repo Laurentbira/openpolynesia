@@ -5,7 +5,7 @@ tips:
     body: 'Diese Seite listet auf, welche Felder in diesem Index indiziert sind, gruppiert nach Datenquellen. (Datasource-unabhängige Felder werden unter "Allgemein" aufgelistet.) Indizierte Felder können verwendet werden, um Filter hinzuzufügen oder Ansichten oder anderen Suchanzeigen, die auf dem Index basieren, zu sortieren. Felder vom Typ „Volltext" können auch für die Volltextsuche verwendet werden.'
   search-api-index-fields-add:
     label: 'Felder hinzufügen'
-    body: 'Mit dem Button „Felder hinzufügen" können Sie diesem Index zusätzliche Felder hinzufügen.'
+    body: 'Mit dem Button "Felder hinzufügen" können diesem Index zusätzliche Felder hinzugefügt werden.'
   search-api-index-fields-label:
     label: Beschriftung
     body: 'Eine Beschriftung für das Feld, die verwendet wird, um an den meisten Stellen in der Benutzeroberfläche auf dieses Feld zu verweisen.'
@@ -31,5 +31,5 @@ tips:
     label: 'Änderungen speichern'
     body: 'Hiermit werden alle Änderungen an den Feldern in diesem Index gespeichert. Bis zum Drücken dieses Buttons werden alle hinzugefügten, geänderten oder entfernten Felder nur vorübergehend gespeichert und haben keinen Einfluss auf den tatsächlichen Index, der im Rest der Website verwendet wird.'
   search-api-index-fields-cancel:
-    label: 'Verwerfe Änderungen'
+    label: 'Änderungen verwerfen'
     body: 'Bei Änderungen an den Feldern des Index, die noch nicht gespeichert sind, kann man über den Link "Abbrechen" diese Änderungen verwerfen.'

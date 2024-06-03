@@ -1,4 +1,4 @@
-uuid: b0429213-d2d6-4737-860b-8f7b111913b8
+uuid: 05d203ee-04a7-437a-bdf0-734e942dd68c
 langcode: en
 status: true
 dependencies:
@@ -34,6 +34,8 @@ dependencies:
     - field_formatter_class
     - text
     - user
+_core:
+  default_config_hash: ChGk1EaY1moHxEBQNyVpEL8h6W81_MtphE13EOK1qiY
 id: node.event.search_index
 targetEntityType: node
 bundle: event

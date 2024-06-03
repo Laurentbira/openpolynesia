@@ -1,7 +1,9 @@
-uuid: 60ceee41-1a5f-4258-a079-a8a05123431c
+uuid: 8ab23f19-f23e-40af-9c05-d1cd3fdbd7d8
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: IHQ_23iRKmK8_mG6j0qJogUxuqCA2kW-1_cv3ZuoCOY
 name: Accessibility
 vid: accessibility
 description: 'Information about the accessibility of a location or an event.'

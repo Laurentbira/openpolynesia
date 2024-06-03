@@ -8,6 +8,8 @@ dependencies:
   module:
     - node
     - user
+_core:
+  default_config_hash: ZMhwQVEKrpcfE9S_tH_J6K2XV1dC9wVFZw1wzaG4Nsc
 id: main_profile
 label: 'Dashboard: Main profile'
 module: views

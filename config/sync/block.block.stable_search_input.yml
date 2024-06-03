@@ -1,0 +1,30 @@
+uuid: 2a90cbbe-79af-4f2b-a90e-4db322975aef
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.search
+  module:
+    - system
+    - views
+  theme:
+    - stable
+_core:
+  default_config_hash: zi7qj3qzJ0GuxMmFwv6t7nWH6ekj5_yb_GCm7iCu_4c
+id: stable_search_input
+theme: stable
+region: sidebar_first
+weight: -12
+provider: null
+plugin: 'views_exposed_filter_block:search-search_input'
+settings:
+  id: 'views_exposed_filter_block:search-search_input'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: /search

@@ -1,10 +1,12 @@
-uuid: fae55bbf-1f8b-442b-a145-22467a705588
+uuid: 10a1a39b-58b7-4ada-80cc-ff9d9b4aa99b
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_allow_claiming
     - node.type.location
+_core:
+  default_config_hash: 0rszFhrnns9Tp26B5qcMXqYRbpKw0ORy9YtC8qjVTik
 id: node.location.field_allow_claiming
 field_name: field_allow_claiming
 entity_type: node

@@ -1,9 +1,11 @@
-uuid: 42fe83d8-d073-4d8f-b80f-dc5c4323148f
+uuid: 6a71d65f-db6f-4c59-87a2-23aed2aaa66b
 langcode: en
 status: true
 dependencies:
   config:
     - media.type.user_profile_picture
+_core:
+  default_config_hash: xaWh47IF9XqIaGOSj2b0SvvVakJZTt686rSC4-UBSUc
 id: media.user_profile_picture.metatag
 field_name: metatag
 entity_type: media

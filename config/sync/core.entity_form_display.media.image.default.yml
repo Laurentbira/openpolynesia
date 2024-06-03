@@ -1,4 +1,4 @@
-uuid: 04c50cd8-db33-458a-85ac-1365f25aa319
+uuid: 79e49240-60bc-454e-adcb-82d7ce4c4a03
 langcode: en
 status: true
 dependencies:
@@ -34,6 +34,8 @@ third_party_settings:
         description: ''
         required_fields: true
         weight: 0
+_core:
+  default_config_hash: SlH5S98vLBaG5ByrJI7krIstOl_P8sshYGn3UP-Qb3E
 id: media.image.default
 targetEntityType: media
 bundle: image

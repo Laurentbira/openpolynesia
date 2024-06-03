@@ -1,7 +1,9 @@
-uuid: 6ded675f-08be-44a2-ad1f-b3d535d01e69
+uuid: 0545ba95-1fa3-4d66-b13b-8872cc1b798f
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: giQ2SFFr4QcMNeR-R06a_ADtBhX6nWF2-IxQQwcesvk
 id: site_default_time
 label: 'Site default time'
 date_format: ''

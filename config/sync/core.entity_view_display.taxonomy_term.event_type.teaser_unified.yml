@@ -1,4 +1,4 @@
-uuid: 2804841f-ce73-4a33-aeaf-5033af8cccd1
+uuid: 126957c5-8639-4cef-9e51-9e7e4001817d
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ dependencies:
   module:
     - field_formatter_class
     - smart_trim
+_core:
+  default_config_hash: Rnrof3NxfJrCTZYSTDm0eUmevRd7Caq8pXio7h11vlg
 id: taxonomy_term.event_type.teaser_unified
 targetEntityType: taxonomy_term
 bundle: event_type

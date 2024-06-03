@@ -1,4 +1,4 @@
-uuid: 31d59f0b-32cf-439c-9d93-30e486ba1868
+uuid: 46a3d8ea-ca6b-4e92-8d8a-dc6dadb025e2
 langcode: en
 status: true
 dependencies:
@@ -12,6 +12,8 @@ dependencies:
     - media_library_edit
     - path
     - text
+_core:
+  default_config_hash: habY_OCvX_2ZZz2XZ9FlyELDCC5MKvGgC83lhBTK3lQ
 id: taxonomy_term.article_type.default
 targetEntityType: taxonomy_term
 bundle: article_type

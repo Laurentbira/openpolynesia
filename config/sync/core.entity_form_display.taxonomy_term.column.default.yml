@@ -1,4 +1,4 @@
-uuid: 8191679b-fb8b-4033-8b66-7a04933e1b99
+uuid: a2822a98-31f2-42e3-abfa-42e2a27613cc
 langcode: en
 status: true
 dependencies:
@@ -13,6 +13,8 @@ dependencies:
     - path
     - text
     - viewfield
+_core:
+  default_config_hash: 86pY_jmcaQ8KFJ9C2ozJXYt9szeo2Foy-KNOvHQiqg4
 id: taxonomy_term.column.default
 targetEntityType: taxonomy_term
 bundle: column

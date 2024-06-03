@@ -1,4 +1,4 @@
-uuid: fbdf407d-2c52-48b5-9d96-c5ebcf552895
+uuid: 5ca9ff1d-8d6c-408c-bc20-097a3d52ca96
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.teaser_external
   module:
     - link
+_core:
+  default_config_hash: SVIxQImf5figH_cgZPwFD8Ve0iFw0xrnNQ9ebbu7Pqg
 id: paragraph.teaser_external.default
 targetEntityType: paragraph
 bundle: teaser_external

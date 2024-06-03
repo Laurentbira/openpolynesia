@@ -1,4 +1,4 @@
-uuid: 859b473e-b11c-4120-9b40-210074c5959d
+uuid: 2e49a99e-ae78-4fc7-8d8c-8bec6d46866b
 langcode: en
 status: true
 dependencies:
@@ -18,7 +18,7 @@ dependencies:
     - field.field.node.article.field_sub_type
     - field.field.node.article.field_subtitle
     - node.type.article
-    - workflows.workflow.draften_member
+    - workflows.workflow.draften
   module:
     - allowed_formats
     - choices
@@ -36,7 +36,6 @@ third_party_settings:
     group_administrative:
       children:
         - created
-        - field_comments_mode
         - langcode
         - path
         - promote
@@ -44,6 +43,7 @@ third_party_settings:
         - sticky
         - uid
         - url_redirects
+        - field_comments_mode
       label: Administrative
       region: content
       parent_name: ''
@@ -147,6 +147,8 @@ third_party_settings:
         effect: none
         speed: fast
         required_fields: true
+_core:
+  default_config_hash: ajgc41OM5MB2848-mDiN7BlZ4blz4s4IAeM2T6xkqg4
 id: node.article.default
 targetEntityType: node
 bundle: article

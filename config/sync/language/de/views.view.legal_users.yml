@@ -14,16 +14,16 @@ display:
         revision:
           label: Revision
         accepted:
-          label: 'Zeit der Annahme'
+          label: 'Zeitpunkt der Zustimmung'
       pager:
         options:
           tags:
-            next: 'Nächste ›'
-            previous: '‹ Vorige'
+            next: 'Nächste Seite ›'
+            previous: '‹ Vorherige Seite'
             first: '« Anfang'
             last: 'Ende »'
           expose:
-            items_per_page_label: Anzahl/Seite
+            items_per_page_label: 'Elemente pro Seite'
             items_per_page_options_all_label: '- Alle -'
             offset_label: Versatz
       exposed_form:
@@ -36,5 +36,7 @@ display:
       empty:
         area:
           admin_label: Akzeptiert
+          content:
+            value: 'Die Nutzungsbedingungen wurden noch von niemandem akzeptiert.'
   page_1:
     display_title: Seite

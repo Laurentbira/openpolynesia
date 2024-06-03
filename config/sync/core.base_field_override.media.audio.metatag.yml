@@ -1,9 +1,11 @@
-uuid: 16c2f933-683e-4e6a-acca-6555608384c1
+uuid: baac8a88-b764-48ac-a623-207aecf5b860
 langcode: en
 status: true
 dependencies:
   config:
     - media.type.audio
+_core:
+  default_config_hash: soBkdT9PfGSBJDrP9F6CFN3CLJzBguzFnq6CcaRPqVU
 id: media.audio.metatag
 field_name: metatag
 entity_type: media

@@ -1,7 +1,9 @@
-uuid: 9d43f8f0-9aa0-490a-854e-6e85b3f462f3
+uuid: 84f3bd20-2e5d-4a79-aae9-a60b27e176b8
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: Pihod9bFgvFdifbKLIypsOQdgwV4MMHqNCOi9G1vWvs
 id: address_data
 label: 'Address data'
 icon_uuid: null

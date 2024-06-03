@@ -1,4 +1,4 @@
-uuid: 0b6af20f-dc42-4a6c-b1fc-e4ee29153597
+uuid: 02c390a0-55ef-4e89-ac18-c8d86d07600e
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
     - media.type.audio
   module:
     - svg_image
+_core:
+  default_config_hash: bZWrEurToH1t8R_YX-ghO85nYPjZUeAmoWA5vOrxp8k
 id: media.audio.media_library
 targetEntityType: media
 bundle: audio

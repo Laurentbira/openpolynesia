@@ -1,4 +1,4 @@
-uuid: 1ad95f83-c6c8-4fff-a651-8cc265d6bcbe
+uuid: 8d2524a4-4b92-4798-bdca-9db54c489751
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.bookable_event
   module:
     - text
+_core:
+  default_config_hash: c_KqxyQNEYkVe2CuE4qsYtK_6FsPfknJ-OHcB5xInDw
 id: paragraph.bookable_event.field_body
 field_name: field_body
 entity_type: paragraph

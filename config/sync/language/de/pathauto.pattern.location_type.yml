@@ -1,0 +1,4 @@
+label: Standortart
+relationships:
+  'taxonomy_term:langcode:language':
+    label: Sprache

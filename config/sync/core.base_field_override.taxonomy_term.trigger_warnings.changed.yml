@@ -1,9 +1,11 @@
-uuid: d7c6e8f4-05aa-4d2e-b906-3e7c1ce2f1ed
+uuid: 24b42a60-074b-4cd2-be66-e6332c14b114
 langcode: en
 status: true
 dependencies:
   config:
     - taxonomy.vocabulary.trigger_warnings
+_core:
+  default_config_hash: z3uRkH2tziBh8W7_MeCG0K_VhpbKNNRR65LKmWWe6GI
 id: taxonomy_term.trigger_warnings.changed
 field_name: changed
 entity_type: taxonomy_term

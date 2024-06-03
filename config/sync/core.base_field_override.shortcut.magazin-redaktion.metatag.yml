@@ -1,9 +1,11 @@
-uuid: 70f04caa-304e-4cc1-989f-3078d424cf17
+uuid: 08bc86b9-934f-4b8f-9fc8-9710fdfb8850
 langcode: en
 status: true
 dependencies:
   config:
     - shortcut.set.magazin-redaktion
+_core:
+  default_config_hash: 9jKaRdFFsi4FKwp15k6ZYd-jxQOvaNHN2qT4FnmlhWA
 id: shortcut.magazin-redaktion.metatag
 field_name: metatag
 entity_type: shortcut

@@ -18,7 +18,13 @@ third_party_settings:
       label: Galerie
     group_recommendations:
       label: Empfehlungen
+    group_recommended_by:
+      label: 'Empfohlen von'
+    group_interact:
+      label: Interaktion
     group_press_quotes:
       label: Pressestimmen
-    group_comments:
-      label: Kommentare
+    group_sponsors:
+      label: 'Gefördert von'
+    group_workflow:
+      label: Arbeitsablauf

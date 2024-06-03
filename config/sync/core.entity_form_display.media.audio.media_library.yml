@@ -1,4 +1,4 @@
-uuid: 9612fac1-ad6d-4b48-a3a6-9ad9ce308c24
+uuid: aafd1ee7-6b0f-4879-a990-3452a61aeaae
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.field.media.audio.field_licenses
     - field.field.media.audio.field_media_audio_file
     - media.type.audio
+_core:
+  default_config_hash: mLrHtDeDt8a09ZSa-kBn2ykk_6mk-RlGmx1Y4vuC_Xw
 id: media.audio.media_library
 targetEntityType: media
 bundle: audio
@@ -20,6 +22,11 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
 hidden:
   created: true
   field_licenses: true

@@ -1,4 +1,4 @@
-uuid: 1d5c382f-38af-4542-9bb5-f64e01ac7275
+uuid: 56a016cb-c555-429b-9fe5-9f531b091a68
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: Fi23uCH6TaMJsQTREUyQAZDwE2kG2F569kkcSUQHwcM
 id: media.field_caption
 field_name: field_caption
 entity_type: media

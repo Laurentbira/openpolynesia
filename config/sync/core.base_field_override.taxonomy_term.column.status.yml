@@ -1,9 +1,11 @@
-uuid: a7950164-f1a0-4caa-9c74-f2a4b1de3ad2
+uuid: 456aab35-d776-498b-af44-6e9a6de73aa3
 langcode: en
 status: true
 dependencies:
   config:
     - taxonomy.vocabulary.column
+_core:
+  default_config_hash: NemrW8hWmdEI1QoBjcjahEUKYBrLH3iXGcID_qVZSY8
 id: taxonomy_term.column.status
 field_name: status
 entity_type: taxonomy_term

@@ -1,4 +1,4 @@
-uuid: 6499e305-483b-4939-b78f-e5a2facc3542
+uuid: 695125d5-3b2c-4124-b908-c3e17933ec87
 langcode: en
 status: true
 dependencies:
@@ -32,6 +32,8 @@ dependencies:
   module:
     - text
     - user
+_core:
+  default_config_hash: hT_OAsIhfFjpZxiMiuJGPsIe3at3PunToKrTXy4uCpo
 id: node.event.compact
 targetEntityType: node
 bundle: event

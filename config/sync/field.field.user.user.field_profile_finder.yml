@@ -1,4 +1,4 @@
-uuid: 446500ba-714a-49c4-94eb-cc85af300875
+uuid: 9e251765-3000-4cfc-a954-bfa6a16f9696
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
   module:
     - user
     - viewfield
+_core:
+  default_config_hash: 9KX1vqHVR-4HakXEu1BRozB4xzbbERRv7weW5m_IpA4
 id: user.user.field_profile_finder
 field_name: field_profile_finder
 entity_type: user

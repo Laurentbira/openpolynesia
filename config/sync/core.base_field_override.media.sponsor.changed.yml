@@ -1,9 +1,11 @@
-uuid: 6736fd30-f965-4198-9571-41141c1c7f84
+uuid: 0131f836-f559-4ee4-a474-3b4e24558517
 langcode: en
 status: true
 dependencies:
   config:
     - media.type.sponsor
+_core:
+  default_config_hash: HIpzKVmYuVpchtjp-tQMX9yLj1cVIWPyft7E3U8EpCM
 id: media.sponsor.changed
 field_name: changed
 entity_type: media

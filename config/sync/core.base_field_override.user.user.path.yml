@@ -1,10 +1,12 @@
-uuid: db36eb8e-f98c-426d-a605-fa98dfabc1fd
+uuid: 1a1dac2c-431d-4a64-ab0d-0326efec6615
 langcode: en
 status: true
 dependencies:
   module:
     - path
     - user
+_core:
+  default_config_hash: iBQ-sHJb0kNyyLKSlgDFWWwgISn86tX6TtC4Y3vDRJc
 id: user.user.path
 field_name: path
 entity_type: user

@@ -1,4 +1,4 @@
-uuid: f5e44b31-7a2b-4d6f-8ac3-592fc3745114
+uuid: 2fb30d6e-209b-4c0e-a1aa-55afbe1e4c43
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.field.taxonomy_term.page_type.field_related_article_view_ref
     - field.field.taxonomy_term.page_type.field_term_children_view_ref
     - taxonomy.vocabulary.page_type
+_core:
+  default_config_hash: UaM01G_-mCmQIQB7m987nGDKC3K5-m3dDfkhMSus9u8
 id: taxonomy_term.page_type.default
 targetEntityType: taxonomy_term
 bundle: page_type

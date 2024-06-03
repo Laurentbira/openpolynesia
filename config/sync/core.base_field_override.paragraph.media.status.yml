@@ -1,9 +1,11 @@
-uuid: 47a0a803-bbe4-4298-a3f4-f450cd020935
+uuid: c7807703-d111-4024-8f9a-bfd623f881eb
 langcode: en
 status: true
 dependencies:
   config:
     - paragraphs.paragraphs_type.media
+_core:
+  default_config_hash: 38m7ip2lcV0wEWsRd-uTwRl2_OsZLBWgEHJCZOpetm8
 id: paragraph.media.status
 field_name: status
 entity_type: paragraph

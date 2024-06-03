@@ -1,4 +1,4 @@
-uuid: 559cb780-bb9f-4134-ad72-dc30719f82c0
+uuid: caf474fa-c287-4e54-b5f8-94b888a0e464
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.paragraph.field_media_multiple
     - media.type.document
     - paragraphs.paragraphs_type.bookable_event
+_core:
+  default_config_hash: 6VIzm8Ia8vxgBf2XyKDfVkjDT1HgpJq_aPPv7MNNeHc
 id: paragraph.bookable_event.field_media_multiple
 field_name: field_media_multiple
 entity_type: paragraph

@@ -1,4 +1,4 @@
-uuid: f0ef4c7d-e8b6-453b-9e70-2852e375c9fd
+uuid: 4367b1c7-b12a-4a80-9c35-612e24dfaf4d
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - user.role.oc_member
   module:
     - user
+_core:
+  default_config_hash: 7_d9i23pD979hjKqrEqOKqF_Ynexkry0ClGXZfnoJ-w
 id: user_remove_role_action.oc_member
 label: 'Remove the OC member role from the selected user(s)'
 type: user

@@ -1,4 +1,4 @@
-uuid: f567b54e-aed3-4efc-bc71-1c9903f53e67
+uuid: f2289efc-85d5-4785-a46f-980a3b244420
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - flag.flag.claim_ownership
   module:
     - flag
+_core:
+  default_config_hash: PvmCauSRXFuFXubs_ZdwRH-DKs9IFmx58xeVLVxo_z8
 id: flag_action.claim_ownership_unflag
 label: 'Claim ownership withdraw'
 type: node

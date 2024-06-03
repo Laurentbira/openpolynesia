@@ -1,4 +1,4 @@
-uuid: 4585b2f7-5dc3-4aa1-93b5-28bcf219c5b8
+uuid: de899c71-a4a8-4ee6-91be-3ad91a4de9ce
 langcode: en
 status: true
 dependencies:
@@ -22,6 +22,8 @@ dependencies:
     - path
     - taxonomy
     - toolbar
+_core:
+  default_config_hash: yY7cfsumle2np4dAXDlGIfyd8j9ELTz_b9Sm-2Gz8uQ
 id: magazine_editor
 label: 'OC magazine editor'
 weight: -6

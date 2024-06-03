@@ -1,4 +1,4 @@
-uuid: 8fe8caee-81aa-42d7-96b7-ef9f4ab2175e
+uuid: 0da8f655-62a4-4cbe-ab07-06fe4a881222
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - taxonomy
     - viewfield
     - views
+_core:
+  default_config_hash: BtLtSY2zty92T3TdllS2G_dDeyj3jBhK-zUNZ5pVMnE
 id: taxonomy_term.field_related_date_view_ref
 field_name: field_related_date_view_ref
 entity_type: taxonomy_term

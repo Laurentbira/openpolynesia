@@ -1,4 +1,4 @@
-uuid: 2c329430-b9f1-4d3c-a3c7-bed2ae3fa056
+uuid: 61bd2fb1-d508-4032-aff0-955a69564a1f
 langcode: en
 status: true
 dependencies:
@@ -14,6 +14,8 @@ dependencies:
     - link
     - social_media_links_field
     - telephone
+_core:
+  default_config_hash: dFdgnwNNLs3ipJk86Tagdt60orhJvoWC6z5n3Zzq9C4
 id: paragraph.contact_data.default
 targetEntityType: paragraph
 bundle: contact_data

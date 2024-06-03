@@ -1,4 +1,4 @@
-uuid: 43baf4b3-74e1-468a-bcc4-660edd6f830b
+uuid: cb02b6f5-87bd-4607-ad9d-9013fd2d0476
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.media_mention
   module:
     - link
+_core:
+  default_config_hash: 7z7CQa9LBBWmX8OHAylUp7m8nXkUBqXtMCYXoImXc3A
 id: paragraph.media_mention.field_media_mention_link_source
 field_name: field_media_mention_link_source
 entity_type: paragraph

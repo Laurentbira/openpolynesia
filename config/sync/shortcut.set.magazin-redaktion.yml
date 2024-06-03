@@ -1,6 +1,8 @@
-uuid: 63841fca-83c1-4e08-8344-0fc528217328
+uuid: 8e3a0437-0aa5-4801-b5bf-e7f66d96abcd
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 5X7GE3XW0vW_9_TfIz2V4cPb09yCFxL_V6WiRpp5xeY
 id: magazin-redaktion
 label: Magazin-Redaktion

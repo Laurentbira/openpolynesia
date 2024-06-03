@@ -1,9 +1,11 @@
-uuid: bac41d19-582f-4f93-aee9-fc6ffbfb52ca
+uuid: ab43b8c1-8dc1-41dc-becc-ca5941aa9b3c
 langcode: en
 status: true
 dependencies:
   module:
     - taxonomy
+_core:
+  default_config_hash: 1SlBRTscvyWy2wYdAHpNSnK6ALJseebQ_bIEtEpWb8I
 id: taxonomy_term.teaser
 label: Teaser
 description: ''

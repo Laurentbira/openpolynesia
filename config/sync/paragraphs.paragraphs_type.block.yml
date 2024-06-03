@@ -1,7 +1,9 @@
-uuid: 7cdaf79c-17a0-4c44-a101-4f1d5405e1f2
+uuid: 8c0d4192-56a3-44cf-b501-6eff74308030
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: vmyqUPppBULqSZRYeltV-gZWX7Cm59jf5pE_lZjm56E
 id: block
 label: Block
 icon_uuid: null

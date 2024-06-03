@@ -1,4 +1,4 @@
-uuid: 1d813878-c807-4b4b-ba36-23f73ab0731a
+uuid: d0464e89-3a51-4159-a7a4-c996ace25494
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.field.taxonomy_term.location_type.field_related_location_view_ref
     - field.field.taxonomy_term.location_type.field_term_children_view_ref
     - taxonomy.vocabulary.location_type
+_core:
+  default_config_hash: PXYIb3A-wp0kUo_dtBxRUC1GElv6rPqs2pfP-8H3CRw
 id: taxonomy_term.location_type.default
 targetEntityType: taxonomy_term
 bundle: location_type

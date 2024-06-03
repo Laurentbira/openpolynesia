@@ -1,4 +1,4 @@
-uuid: 2cc84262-43f4-4fc8-a008-87d5c82c4d9c
+uuid: 571a29cc-93e5-4703-b168-e025ecf30c51
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
 third_party_settings:
   crop:
     image_field: _none
+_core:
+  default_config_hash: P7Rmovg6v31NchmBP9RBC3sd_nzEy1fICgy2160zq3o
 id: document
 label: Document
 description: ''

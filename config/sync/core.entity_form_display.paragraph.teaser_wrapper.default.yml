@@ -1,4 +1,4 @@
-uuid: d76a8dcb-ac1a-4a9d-87ee-e84bec376836
+uuid: 09957f93-9087-4e0c-909c-9a7469c3a757
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
   module:
     - paragraph_view_mode
     - paragraphs
+_core:
+  default_config_hash: WyOh4HG5WqNOJ64Cw4LXN6CGkO0eTyanvd1TJVeIvQ8
 id: paragraph.teaser_wrapper.default
 targetEntityType: paragraph
 bundle: teaser_wrapper

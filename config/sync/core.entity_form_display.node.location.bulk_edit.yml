@@ -1,4 +1,4 @@
-uuid: d1f4e145-4892-4528-8d5a-515a7e744260
+uuid: 8ff491b1-6185-4631-b255-1dc2bab3d86e
 langcode: en
 status: true
 dependencies:
@@ -31,9 +31,11 @@ dependencies:
     - field.field.node.location.field_subtitle
     - field.field.node.location.field_supporters
     - node.type.location
-    - workflows.workflow.draften_member
+    - workflows.workflow.draften
   module:
     - content_moderation
+_core:
+  default_config_hash: hgXromurjKM-7Qk439FuligosYq-5v0gddGbXIyFx-w
 id: node.location.bulk_edit
 targetEntityType: node
 bundle: location

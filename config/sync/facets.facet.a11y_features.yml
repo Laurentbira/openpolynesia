@@ -1,4 +1,4 @@
-uuid: 4ec77e33-1ffd-49a0-840e-7ac9bead09c0
+uuid: 079f6d99-297a-46e4-a977-339fa60db2c0
 langcode: en
 status: true
 dependencies:
@@ -7,25 +7,18 @@ dependencies:
     - views.view.search
   module:
     - search_api
+_core:
+  default_config_hash: RPZft-Aqzzl6Mz8Szt66yPalRqBUZQmvYMICLySXnB4
 id: a11y_features
 name: Accessibility
+url_alias: a11y_features
 weight: 0
 min_count: 1
 missing: false
 missing_label: others
-url_alias: a11y_features
-facet_source_id: 'search_api:views_page__search__search_page'
+show_only_one_result: false
 field_identifier: field_a11y_features
-query_operator: or
-hard_limit: 0
-exclude: false
-use_hierarchy: false
-keep_hierarchy_parents_active: false
-hierarchy:
-  type: taxonomy
-  config: {  }
-expand_hierarchy: false
-enable_parent_when_child_gets_disabled: true
+facet_source_id: 'search_api:views_page__search__search_page'
 widget:
   type: links
   config:
@@ -37,11 +30,17 @@ widget:
     soft_limit_settings:
       show_less_label: 'Show less'
       show_more_label: 'Show more'
-empty_behavior:
-  behavior: none
+query_operator: or
+use_hierarchy: false
+keep_hierarchy_parents_active: false
+hierarchy:
+  type: taxonomy
+  config: {  }
+expand_hierarchy: false
+enable_parent_when_child_gets_disabled: true
+hard_limit: 0
+exclude: false
 only_visible_when_facet_source_is_visible: true
-show_only_one_result: false
-show_title: true
 processor_configs:
   active_widget_order:
     processor_id: active_widget_order
@@ -83,3 +82,6 @@ processor_configs:
       pre_query: 50
       build: 15
     settings: {  }
+empty_behavior:
+  behavior: none
+show_title: true

@@ -1,9 +1,11 @@
-uuid: ca852780-4aa5-4fcb-a59a-7904d1bf1e63
+uuid: 65933f91-daef-4fba-aac6-793d977b7ac9
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: qMaO2ATpStIigvYR-0VYc5Svz317Nmn2f_RDo-pcOkc
 id: paragraph.address_line_complete
 label: 'Address line complete'
 description: ''

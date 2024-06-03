@@ -1,4 +1,4 @@
-uuid: 92e0e952-a0f8-407f-b13b-bfed65904a1c
+uuid: ad9b621e-76d1-4fac-8a6f-90c25acf86e9
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.paragraph.field_a11y_features
     - paragraphs.paragraphs_type.accessibility
     - taxonomy.vocabulary.accessibility
+_core:
+  default_config_hash: 6XTWwI5-js_XKG0RpJTIER8LPJTgv4tjflvSfUxJeiU
 id: paragraph.accessibility.field_a11y_features
 field_name: field_a11y_features
 entity_type: paragraph

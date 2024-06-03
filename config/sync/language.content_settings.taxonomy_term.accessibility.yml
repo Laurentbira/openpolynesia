@@ -1,4 +1,4 @@
-uuid: 346c533d-569e-407d-b4da-a38fb28eacd2
+uuid: a4c1f7c2-d89a-47ba-9fb5-74c2e884f777
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ third_party_settings:
     enabled: true
     bundle_settings:
       untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: oqA2PhXr3qliUSFptdlvVaiOpgYo6Zt2Mouj_tyd7mc
 id: taxonomy_term.accessibility
 target_entity_type_id: taxonomy_term
 target_bundle: accessibility

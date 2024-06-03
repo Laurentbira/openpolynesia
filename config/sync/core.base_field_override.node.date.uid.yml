@@ -1,9 +1,11 @@
-uuid: 06c7a509-1cf9-4f62-aa10-c29480e74a43
+uuid: 2a66f9dd-3fc6-4f25-b0a8-9728b7ca768f
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.date
+_core:
+  default_config_hash: o5xU7GaoHUNCGMMope6bx48mbj7kARebxuY3sCEK2_g
 id: node.date.uid
 field_name: uid
 entity_type: node

@@ -1,7 +1,9 @@
-uuid: 07fe7c4b-1a50-45e5-b02d-63ca9ab77013
+uuid: b2165283-716b-459e-aa0f-7e82f7a0dc54
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 1FqKdLtQEGpMABSMUgnFIwY8HyaSFttjiGHgvTgBLBI
 id: oc-event
 label: 'OC Event'
 module: tour

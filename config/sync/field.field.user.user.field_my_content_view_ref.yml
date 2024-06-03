@@ -1,4 +1,4 @@
-uuid: bd7619aa-6335-496c-9043-d82feeb96f8d
+uuid: 4a75d6b9-d4b8-4d5a-ae4a-7c1fef90fa61
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
   module:
     - user
     - viewfield
+_core:
+  default_config_hash: Fux_Mn8At66UHzcnZpe8mrnLAOpU4FhBWd_YLLBN_ok
 id: user.user.field_my_content_view_ref
 field_name: field_my_content_view_ref
 entity_type: user

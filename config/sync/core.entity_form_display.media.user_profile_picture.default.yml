@@ -1,4 +1,4 @@
-uuid: 20a38f8d-274a-45a0-a9e7-e9245254a808
+uuid: 0c422e07-e52e-4e59-a76a-d4a437809348
 langcode: en
 status: true
 dependencies:
@@ -31,6 +31,8 @@ third_party_settings:
         description: ''
         required_fields: true
         weight: 0
+_core:
+  default_config_hash: OQFuxJmmWZFyBnFiIysBtWAcjeHdkhlew_SZpWKxJOI
 id: media.user_profile_picture.default
 targetEntityType: media
 bundle: user_profile_picture

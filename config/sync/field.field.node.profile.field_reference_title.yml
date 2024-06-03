@@ -1,10 +1,12 @@
-uuid: 22908a27-5284-4018-8aca-ba3a684b5294
+uuid: 2c54d4f7-fb37-4370-9646-544dc30b0e5b
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_reference_title
     - node.type.profile
+_core:
+  default_config_hash: tGHMtWG-bFjKHsR9P6beK8HEl3ctzsyNCXTcXCHv-zM
 id: node.profile.field_reference_title
 field_name: field_reference_title
 entity_type: node

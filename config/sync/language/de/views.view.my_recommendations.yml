@@ -1,38 +1,52 @@
-description: 'OpenCulturas: Liste der Empfehlungs-Flags'
 display:
   default:
+    display_title: Standard
     display_options:
-      title: 'Meine Empfehlungen'
-      header:
-        area:
-          content:
-            value: "<h3>[view:title]</h3>\r\n"
-            format: basic_html
       pager:
         options:
+          tags:
+            next: 'Nächste Seite ›'
+            previous: '‹ Vorherige Seite'
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
           views_infinite_scroll:
-            button_text: 'Mehr anzeigen'
-    display_title: Standard
+            button_text: 'Weitere anzeigen'
+      exposed_form:
+        options:
+          submit_button: Anwenden
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
+      arguments:
+        field_behalf_target_id:
+          exception:
+            title: Alle
+  block_all:
+    display_title: 'Alle Typen'
+    display_options:
+      title: Profil
   date:
+    display_title: Datum
     display_options:
       title: Termine
-    display_title: Termine
   event:
     display_title: Veranstaltungen
   location:
-    display_options:
-      title: Veranstaltungsorte
     display_title: Orte
+    display_options:
+      title: Orte
   magazine:
+    display_title: Artikel
     display_options:
       title: Magazin
-    display_title: Magazin
   page:
+    display_title: Seiten
     display_options:
       title: Seiten
-    display_title: Seiten
   profile:
     display_title: Profile
-  block_all:
-    display_title: 'Alle Typen'
-label: 'Meine Empfehlungen'
+    display_options:
+      title: Profil

@@ -1,4 +1,4 @@
-uuid: 4a3f38e9-9f95-45a7-b307-afbc2e631989
+uuid: 9e3d345c-0bae-4da7-84ca-884225bd0bb4
 langcode: en
 status: true
 dependencies:
@@ -15,7 +15,7 @@ dependencies:
   module:
     - entity_reference_revisions
 _core:
-  default_config_hash: ZIYBX7D5kV5RR6a3rPrAq_65ZC2vI090XKJ8s_CoPgQ
+  default_config_hash: EFLpCnG3fX2KdbwdSV4Kl-Pl_BIvushv70nSxu5GaZ4
 id: node.faq.field_content_paragraphs
 field_name: field_content_paragraphs
 entity_type: node

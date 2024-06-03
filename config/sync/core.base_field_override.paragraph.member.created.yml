@@ -1,9 +1,11 @@
-uuid: fe8a2771-300b-41ac-99ad-0e67feb02bba
+uuid: 2135d6a1-3bf8-444f-969c-9aee4ab9a258
 langcode: en
 status: true
 dependencies:
   config:
     - paragraphs.paragraphs_type.member
+_core:
+  default_config_hash: DtbemGirSxdka_fRpmdWjykWUy7ObyAS-zKHx72bcI0
 id: paragraph.member.created
 field_name: created
 entity_type: paragraph

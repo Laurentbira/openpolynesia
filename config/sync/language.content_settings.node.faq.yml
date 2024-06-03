@@ -1,4 +1,4 @@
-uuid: a8edf2ef-e82f-4bd9-977c-1e9d40398b4c
+uuid: b56a5719-b3c5-4b7b-9344-bd2db52ea684
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ third_party_settings:
     bundle_settings:
       untranslatable_fields_hide: '0'
 _core:
-  default_config_hash: 4GBVeOGH3HYZCWCLhxeqgRnlzQOtfsKaug4LP5p3_Dc
+  default_config_hash: x11YBe3j7f6CwokqL3c0Ey-ziCT7X7WYmOD5u9ZpFTU
 id: node.faq
 target_entity_type_id: node
 target_bundle: faq

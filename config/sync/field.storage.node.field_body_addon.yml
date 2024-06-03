@@ -1,4 +1,4 @@
-uuid: 32c6ca4d-4d5b-4ae7-9c0f-edc1517c1725
+uuid: 915d8b3a-505b-4c5d-97a0-12f6a901b7ea
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: hMWnAJYhr46YymDdohF1ga0fnNqgi0gaAsjhw9vUg2U
 id: node.field_body_addon
 field_name: field_body_addon
 entity_type: node

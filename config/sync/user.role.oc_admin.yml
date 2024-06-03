@@ -1,4 +1,4 @@
-uuid: 666b8271-bc9d-4d54-8d8a-020b4ebcaf17
+uuid: 91862a81-c05f-4dbc-8d41-17ea6b0f0a7c
 langcode: en
 status: true
 dependencies:
@@ -55,6 +55,8 @@ dependencies:
     - toolbar
     - tour
     - views_bulk_edit
+_core:
+  default_config_hash: JRq6fb3y4LtoJQyCy0SNRHeE3nLjc80ZRxgWUIinyas
 id: oc_admin
 label: 'OC admin'
 weight: -5

@@ -1,4 +1,4 @@
-uuid: deef7b98-cafd-4823-82f8-9e7e100910f4
+uuid: ba472c6c-1571-4cba-9d1d-9f55b825d8c5
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ dependencies:
     - media.type.sponsor
   module:
     - svg_image
+_core:
+  default_config_hash: uRTanooAJKbm9ZOweI_d6hGmGY46f9fcjhkyMqaZF1o
 id: media.sponsor.media_library
 targetEntityType: media
 bundle: sponsor

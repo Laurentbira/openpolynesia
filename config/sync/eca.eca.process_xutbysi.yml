@@ -1,4 +1,4 @@
-uuid: dea6d2fe-20d2-4b8e-a8bf-4d6dd303b774
+uuid: 6f575bf0-a1bb-4b67-8d7d-a148c0d7e4a7
 langcode: en
 status: true
 dependencies:
@@ -12,6 +12,8 @@ dependencies:
     - eca_content
     - eca_language
     - openculturas_custom
+_core:
+  default_config_hash: gku6iuL0dnjiOdmx3e0Kr9dtTDej_czlsXvA0aCLgi0
 id: process_xutbysi
 modeller: bpmn_io
 label: 'Claim ownership'

@@ -1,4 +1,4 @@
-uuid: 6a7795a4-3122-4de9-b2ba-03f9618ff170
+uuid: 28bce9d0-bd56-4c46-8f2f-2ac60f850a1a
 langcode: en
 status: true
 dependencies:
@@ -62,7 +62,7 @@ third_party_settings:
         effect: none
         speed: fast
 _core:
-  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+  default_config_hash: gm5GARLgiqauSg8ActdPthnsx1x3JJ4_fOuYTW-kjA0
 id: node.page.full
 targetEntityType: node
 bundle: page

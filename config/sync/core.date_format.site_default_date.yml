@@ -1,7 +1,9 @@
-uuid: febc3c77-e889-4758-80ca-f76e19d335c8
+uuid: ef886daf-e154-44b9-9cdf-32678c3d8d3e
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: SlFKDxOvTvXKczPvDXGg1td81hlwnsh7CjGhbTiTgDc
 id: site_default_date
 label: 'Site default date'
 locked: false

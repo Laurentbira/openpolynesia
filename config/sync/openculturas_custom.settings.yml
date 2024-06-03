@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: YGG51QqUkkd2OZDGct_WqIWLcrB8GBUhthF8JLh88Oc
 allowed_classes:
   style__slight_contrast: 'Slight contrast'
   style__vivid_contrast: 'Vivid contrast'

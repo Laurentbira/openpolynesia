@@ -1,10 +1,12 @@
-uuid: bdabeebc-07c8-424e-9abc-8e1907f0d5a2
+uuid: a02e03d5-0ff2-4f51-b3c0-adefbdd3b219
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
     - taxonomy
+_core:
+  default_config_hash: JeqDdtlo8rExKZwafjuZEc4v6W0b6hH7tCC6rQk9hbU
 id: paragraph.field_a11y_features
 field_name: field_a11y_features
 entity_type: paragraph

@@ -1,4 +1,4 @@
-uuid: 92e69638-1df2-49ef-85ac-67d115a1a68c
+uuid: 1556d333-3722-49aa-adbb-ee1d4188c433
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - media.type.document
   module:
     - image
+_core:
+  default_config_hash: Q6oKNFiZboWMZWJGB0E7m8dh2nZ0aNe1piIp6WmCXdA
 id: media.document.thumbnail
 field_name: thumbnail
 entity_type: media

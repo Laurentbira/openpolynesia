@@ -1,7 +1,9 @@
-uuid: be278819-badc-445a-9b67-d92c2de99863
+uuid: 2a216c04-d1ec-410c-b890-ba05702c0f2d
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: fLdT4e62BubXlTsNAdNlDxoYxtwoqOZRoIsSEdt25dM
 id: search_api__views_block__search__search_input
 name: 'search_api:views_block__search__search_input'
 filter_key: null

@@ -1,151 +1,219 @@
-description: 'OpenCulturas: Listen von im Zusammenhang stehenden Terminen'
 display:
   default:
+    display_title: Standard
     display_options:
       title: 'Nächste Termine'
-      pager:
-        options:
-          views_infinite_scroll:
-            button_text: 'Mehr anzeigen'
-      empty:
-        area:
-          content:
-            value: '<p>Aktuell stehen keine Termine im Zusammenhang mit diesem Inhalt.</p>'
-            format: basic_html
-      display_comment: 'Der Link zeigt auf den Inhalt des Datumseintrags, verwendet als Linktext aber den Titel der Veranstaltung.'
-      exposed_form:
-        options:
-          submit_button: Anwenden
-          reset_button_label: Zurücksetzen
-          exposed_sorts_label: Sortierung
-          sort_asc_label: Aufsteigend
-          sort_desc_label: Absteigend
-    display_title: Standard
-  related_date_alternative:
-    display_title: 'Alternative Termine'
-    display_options:
-      display_description: 'Überspringt das erste Datum'
-      display_comment: 'Der Link zeigt auf den Inhalt des Datumseintrags, verwendet als Linktext aber den Titel der Veranstaltung.'
-      title: 'Weitere Termine'
-      pager:
-        options:
-          views_infinite_scroll:
-            button_text: 'Mehr anzeigen'
-  related_date_event:
-    display_options:
-      display_comment: 'Der Link zeigt auf den Inhalt des Datumseintrags, verwendet als Linktext aber den Titel der Veranstaltung.'
-    display_title: 'Nach Veranstaltung'
-  related_date_location:
-    display_options:
-      display_comment: 'Der Link zeigt auf den Inhalt des Datumseintrags, verwendet als Linktext aber den Titel der Veranstaltung.'
-    display_title: 'Nach Ort'
-  related_date_organizer:
-    display_options:
-      display_comment: 'Der Link zeigt auf den Inhalt des Datumseintrags, verwendet als Linktext aber den Titel der Veranstaltung.'
-      title: 'Als Veranstalter:in'
-    display_title: 'Nach Organisator:in'
-  upcoming_dates:
-    display_title: 'Kommende Termine (mit Karte)'
-    display_options:
-      filters:
-        field_date_value_1:
-          expose:
-            placeholder: TT.MM.JJJJ
-            label: Startdatum
-        field_date_end_value:
-          expose:
-            placeholder: TT.MM.JJJJ
-            label: Enddatum
-        field_category_target_id:
-          expose:
-            label: Fokus
-        field_a11y_features_target_id:
-          expose:
-            label: Barrierefreiheit
-        field_address_location_proximity:
-          expose:
-            label: Umkreis
+      fields:
+        field_mood_image:
+          separator: ', '
+        field_date:
+          separator: ', '
         title:
-          expose:
-            label: 'Veranstalter:in'
-            placeholder: 'Name enthält ...'
+          separator: ', '
+        nid:
+          separator: ', '
+        field_event_status:
+          separator: ', '
+        field_event_status_1:
+          separator: ', '
+        delta:
+          format_plural_string: !!binary MQNAY291bnQ=
+        field_subtitle:
+          separator: ', '
+        body:
+          separator: ', '
         title_1:
+          separator: ', '
+        field_address_data:
+          separator: ', '
+        field_attendance_mode:
+          separator: ', '
+        field_attendance_mode_1:
+          separator: ', '
+        field_premiere_1:
+          separator: ', '
+        field_sub_type:
+          admin_label: Ereignistyp
+          separator: ', '
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
           expose:
-            label: Veranstaltungsort
-            placeholder: 'Name enthält ...'
-        field_date_duration:
-          expose:
-            label: Dauer
-          group_info:
-            label: 'Mehrtägige ausblenden'
-            group_items:
-              1:
-                title: Ja
-        field_sub_type_target_id:
-          expose:
-            label: Typ
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
+          views_infinite_scroll:
+            button_text: 'Weitere anzeigen'
       exposed_form:
         options:
           submit_button: Anwenden
           reset_button_label: Zurücksetzen
           exposed_sorts_label: 'Sortieren nach'
-          text_input_required: 'Wähle einen Filter und klicke auf <em>Anwenden</em>, um Ergebnisse zu sehen'
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
+  block_front_dates:
+    display_options:
+      fields:
+        field_mood_image:
+          separator: ', '
+        field_date:
+          separator: ', '
+        title:
+          separator: ', '
+        nid:
+          separator: ', '
+        field_event_status:
+          separator: ', '
+        field_event_status_1:
+          separator: ', '
+        delta:
+          format_plural_string: !!binary MQNAY291bnQ=
+        field_subtitle:
+          separator: ', '
+        body:
+          separator: ', '
+        title_1:
+          separator: ', '
+        field_address_data:
+          separator: ', '
+        field_attendance_mode:
+          separator: ', '
+        field_attendance_mode_1:
+          separator: ', '
+        field_premiere_1:
+          separator: ', '
+        field_sub_type:
+          admin_label: Ereignistyp
+          separator: ', '
+        title_2:
+          separator: ', '
+      exposed_form:
+        options:
+          submit_button: Anwenden
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
+          text_input_required: 'Wählen Sie einen beliebigen Filter und klicken Sie auf Anwenden, um Ergebnisse zu sehen'
           bef:
             general:
               secondary_label: 'Erweiterte Filter'
-          sort_asc_label: Aufsteigend
-          sort_desc_label: Absteigend
+      filters:
+        field_category_target_id:
+          expose:
+            label: Fokus
+        field_date_value_1:
+          expose:
+            label: Startdatum
+            placeholder: tt.mm.jjjj
+        field_date_end_value:
+          expose:
+            label: Enddatum
+            placeholder: tt.mm.jjjj
+        field_a11y_features_target_id:
+          expose:
+            label: Barrierefreiheit
+        field_address_location_proximity:
+          expose:
+            label: Entfernung
+        title:
+          expose:
+            label: Organisator
+            placeholder: 'Name enthält ...'
+        title_1:
+          expose:
+            label: Ort
+            placeholder: 'Name enthält ...'
+  block_online:
+    display_options:
+      fields:
+        field_mood_image:
+          separator: ', '
+        field_date:
+          separator: ', '
+        title:
+          separator: ', '
+        nid:
+          separator: ', '
+        field_event_status:
+          separator: ', '
+        field_event_status_1:
+          separator: ', '
+        delta:
+          format_plural_string: !!binary MQNAY291bnQ=
+        field_subtitle:
+          separator: ', '
+        body:
+          separator: ', '
+        title_1:
+          separator: ', '
+        field_address_data:
+          separator: ', '
+        field_attendance_mode:
+          separator: ', '
+        field_attendance_mode_1:
+          separator: ', '
+        field_premiere_1:
+          separator: ', '
+        field_sub_type:
+          admin_label: Ereignistyp
+          separator: ', '
+        title_2:
+          separator: ', '
       pager:
         options:
           tags:
+            next: ››
+            previous: ‹‹
             first: '« Anfang'
             last: 'Ende »'
           expose:
-            items_per_page_label: Anz./Seite
             items_per_page_options_all_label: '- Alle -'
-            offset_label: ab
-      display_comment: ''
-      empty:
-        area:
-          content:
-            value: '<p>Momentan stehen keine Termine an.</p>'
-            format: basic_html
-  upcoming_dates_map:
-    display_options:
-      header:
-        result:
-          content: '<div class="result-counter"><strong>@start - @end</strong> von insgesamt <strong>@total</strong></div>'
-      title: 'Kommende Termine: Karte'
-      fields:
-        nothing:
-          admin_label: Kartentitel
-      filters:
-        field_address_location_proximity:
-          expose:
-            label: Umkreis
-        title_1:
-          expose:
-            label: Titel
-      style:
+            offset_label: Versatz
+      exposed_form:
         options:
-          reset_map:
-            options: '{"position":"topleft","title":"Ansicht zurücksetzen"}'
-          locate:
-            options: '{"position":"topright","setView":"untilPanOrZoom","returnToPrevBounds":true,"keepCurrentZoomLevel":true,"strings":{"title":"Meinen Standort finden"}}'
-    display_title: 'Kommende Termine: Karte'
-  block_front_dates:
-    display_title: 'Startseite: Nächste Termine'
-    display_options:
-      use_more_text: 'Zum Kalender'
-      link_url: /de/kalender
-      display_comment: ''
-      empty:
-        area:
-          content:
-            value: '<p>Offenbar gibt es momentan keine anstehenden Termine in der Datenbank.</p>'
-            format: basic_html
+          submit_button: Anwenden
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
+          text_input_required: 'Wählen Sie einen beliebigen Filter und klicken Sie auf Anwenden, um Ergebnisse zu sehen'
+          bef:
+            general:
+              secondary_label: 'Erweiterte Filter'
+      filters:
+        field_category_target_id:
+          expose:
+            label: Fokus
+        field_sub_type_target_id:
+          admin_label: Ereignistyp
+          expose:
+            label: Typ
+        field_date_value_1:
+          expose:
+            label: Startdatum
+            placeholder: tt.mm.jjjj
+        field_date_end_value:
+          expose:
+            label: Enddatum
+            placeholder: tt.mm.jjjj
+        field_a11y_features_target_id:
+          expose:
+            label: Barrierefreiheit
+        title:
+          expose:
+            label: Organisator
+            placeholder: 'Name enthält ...'
   by_profile:
-    display_title: 'Nach Profil'
+    display_title: 'Per Profil'
+    display_options:
+      title: 'Per Profil'
+      arguments:
+        field_member_target_id:
+          exception:
+            title: Alle
   by_term:
     display_title: 'Nach Begriff'
     display_options:
@@ -153,89 +221,307 @@ display:
         term_node_tid_depth:
           exception:
             title: Alle
-  sub_dates:
-    display_title: 'Termine dieser Reihe'
+  related_date_alternative:
     display_options:
-      title: 'Termine in dieser Veranstaltungreihe'
-  block_online:
-    display_title: 'Kommende Online-Termine'
-    display_options:
-      title: 'Online- und Hybrid-Veranstaltungen'
+      fields:
+        field_mood_image:
+          separator: ', '
+        field_date:
+          separator: ', '
+        title:
+          separator: ', '
+        nid:
+          separator: ', '
+        field_event_status:
+          separator: ', '
+        field_event_status_1:
+          separator: ', '
+        delta:
+          format_plural_string: !!binary MQNAY291bnQ=
+        field_subtitle:
+          separator: ', '
+        body:
+          separator: ', '
+        title_1:
+          separator: ', '
+        field_address_data:
+          separator: ', '
+        field_attendance_mode:
+          separator: ', '
+        field_attendance_mode_1:
+          separator: ', '
+        field_premiere_1:
+          separator: ', '
       pager:
         options:
           tags:
+            next: ››
+            previous: ‹‹
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
+          views_infinite_scroll:
+            button_text: 'Weitere anzeigen'
+      arguments:
+        field_event_description_target_id:
+          exception:
+            title: Alle
+  related_date_event:
+    display_options:
+      fields:
+        field_mood_image:
+          separator: ', '
+        field_date:
+          separator: ', '
+        title:
+          separator: ', '
+        nid:
+          separator: ', '
+        field_event_status:
+          separator: ', '
+        field_event_status_1:
+          separator: ', '
+        delta:
+          format_plural_string: !!binary MQNAY291bnQ=
+        field_subtitle:
+          separator: ', '
+        body:
+          separator: ', '
+        title_1:
+          separator: ', '
+        field_address_data:
+          separator: ', '
+        field_attendance_mode:
+          separator: ', '
+        field_attendance_mode_1:
+          separator: ', '
+        field_premiere_1:
+          separator: ', '
+      arguments:
+        field_event_description_target_id:
+          exception:
+            title: Alle
+  related_date_location:
+    display_title: 'Nach Standort'
+    display_options:
+      fields:
+        field_mood_image:
+          separator: ', '
+        field_date:
+          separator: ', '
+        title:
+          separator: ', '
+        nid:
+          separator: ', '
+        field_event_status:
+          separator: ', '
+        field_event_status_1:
+          separator: ', '
+        delta:
+          format_plural_string: !!binary MQNAY291bnQ=
+        field_subtitle:
+          separator: ', '
+        body:
+          separator: ', '
+        title_1:
+          separator: ', '
+        field_address_data:
+          separator: ', '
+        field_attendance_mode:
+          separator: ', '
+        field_attendance_mode_1:
+          separator: ', '
+        field_premiere_1:
+          separator: ', '
+        field_sub_type:
+          admin_label: Ereignistyp
+          separator: ', '
+      arguments:
+        field_location_target_id:
+          exception:
+            title: Alle
+  related_date_organizer:
+    display_options:
+      arguments:
+        field_organizer_target_id:
+          exception:
+            title: Alle
+  sub_dates:
+    display_title: 'Termine in dieser Serie'
+    display_options:
+      title: 'Termine in dieser Serie'
+      arguments:
+        field_parent_date_target_id:
+          exception:
+            title: Alle
+  upcoming_dates:
+    display_options:
+      fields:
+        field_mood_image:
+          separator: ', '
+        field_date:
+          separator: ', '
+        title:
+          separator: ', '
+        nid:
+          separator: ', '
+        field_event_status:
+          separator: ', '
+        field_event_status_1:
+          separator: ', '
+        delta:
+          format_plural_string: !!binary MQNAY291bnQ=
+        field_subtitle:
+          separator: ', '
+        body:
+          separator: ', '
+        title_1:
+          separator: ', '
+        field_address_data:
+          separator: ', '
+        field_attendance_mode:
+          separator: ', '
+        field_attendance_mode_1:
+          separator: ', '
+        field_premiere_1:
+          separator: ', '
+        field_sub_type:
+          admin_label: Ereignistyp
+          separator: ', '
+        title_2:
+          separator: ', '
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
             first: '« Anfang'
             last: 'Ende »'
           expose:
-            items_per_page_label: Anz./Seite
             items_per_page_options_all_label: '- Alle -'
-            offset_label: ab
+            offset_label: Versatz
       exposed_form:
         options:
           submit_button: Anwenden
           reset_button_label: Zurücksetzen
-          exposed_sorts_label: Sortierung
+          exposed_sorts_label: 'Sortieren nach'
           sort_asc_label: Aufsteigend
           sort_desc_label: Absteigend
-          text_input_required: 'Wähle einen Filter und klicke auf <em>Anwenden</em>, um Ergebnisse zu sehen'
+          text_input_required: 'Wählen Sie einen beliebigen Filter und klicken Sie auf Anwenden, um Ergebnisse zu sehen'
           bef:
             general:
               secondary_label: 'Erweiterte Filter'
-      empty:
-        area:
-          content:
-            value: '<p>Momentan stehen keine Online-Veranstaltungen an.</p>'
-            format: basic_html
       filters:
         field_category_target_id:
           expose:
             label: Fokus
         field_sub_type_target_id:
-          admin_label: Typ
+          admin_label: Ereignistyp
           expose:
             label: Typ
         field_date_value_1:
           expose:
             label: Startdatum
-            placeholder: TT.MM.JJJJ
+            placeholder: tt.mm.jjjj
         field_date_end_value:
           expose:
             label: Enddatum
-            placeholder: TT.MM.JJJJ
+            placeholder: tt.mm.jjjj
+        field_date_duration:
+          group_info:
+            group_items:
+              1:
+                title: Ja
         field_a11y_features_target_id:
           expose:
             label: Barrierefreiheit
+        field_address_location_proximity:
+          expose:
+            label: Entfernung
         title:
           expose:
-            label: 'Veranstalter:in'
+            label: Organisator
+            placeholder: 'Name enthält ...'
+        title_1:
+          expose:
+            label: Ort
             placeholder: 'Name enthält ...'
   upcoming_dates_list:
-    display_title: 'Kommende Termine (nur Liste)'
     display_options:
-      empty:
-        area:
-          content:
-            value: '<p>Momentan stehen keine Termine an.</p>'
-            format: basic_html
+      fields:
+        field_mood_image:
+          separator: ', '
+        field_date:
+          separator: ', '
+        title:
+          separator: ', '
+        nid:
+          separator: ', '
+        field_event_status:
+          separator: ', '
+        field_event_status_1:
+          separator: ', '
+        delta:
+          format_plural_string: !!binary MQNAY291bnQ=
+        field_subtitle:
+          separator: ', '
+        body:
+          separator: ', '
+        title_1:
+          separator: ', '
+        field_address_data:
+          separator: ', '
+        field_attendance_mode:
+          separator: ', '
+        field_attendance_mode_1:
+          separator: ', '
+        field_premiere_1:
+          separator: ', '
+        field_sub_type:
+          admin_label: Ereignistyp
+          separator: ', '
+        title_2:
+          separator: ', '
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
+            first: '« Anfang'
+            last: 'Ende »'
+          expose:
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
+      exposed_form:
+        options:
+          submit_button: Anwenden
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
+          text_input_required: 'Wählen Sie einen beliebigen Filter und klicken Sie auf Anwenden, um Ergebnisse zu sehen'
+          bef:
+            general:
+              secondary_label: 'Erweiterte Filter'
       filters:
         field_category_target_id:
           expose:
             label: Fokus
         field_sub_type_target_id:
-          admin_label: Typ
+          admin_label: Ereignistyp
           expose:
             label: Typ
         field_date_value_1:
           expose:
             label: Startdatum
-            placeholder: TT.MM.YYYY
+            placeholder: tt.mm.jjjj
         field_date_end_value:
           expose:
             label: Enddatum
-            placeholder: TT.MM.YYYY
+            placeholder: tt.mm.jjjj
         field_date_duration:
           group_info:
-            label: 'Mehrtägige ausblenden'
             group_items:
               1:
                 title: Ja
@@ -244,29 +530,37 @@ display:
             label: Barrierefreiheit
         title:
           expose:
-            label: 'Veranstalter:in'
+            label: Organisator
             placeholder: 'Name enthält ...'
         title_1:
           expose:
             label: Ort
             placeholder: 'Name enthält ...'
-      pager:
-        options:
-          tags:
-            first: '« Anfang'
-            last: 'Ende »'
+  upcoming_dates_map:
+    display_options:
+      fields:
+        title_1:
+          separator: ', '
+        field_address_location:
+          separator: ', '
+        field_date:
+          separator: ', '
+        title:
+          separator: ', '
+      filters:
+        field_category_target_id:
           expose:
-            items_per_page_label: Anz./Seite
-            items_per_page_options_all_label: '- Alle -'
-            offset_label: ab
-      exposed_form:
-        options:
-          submit_button: Anwenden
-          reset_button_label: Zurücksetzen
-          exposed_sorts_label: Sortierung
-          sort_asc_label: Aufsteigend
-          sort_desc_label: Absteigend
-          bef:
-            general:
-              secondary_label: 'Erweiterte Filter'
-label: 'Verwandte Termine'
+            label: Fokus
+        field_a11y_features_target_id:
+          expose:
+            label: Barrierefreiheit
+        field_address_location_proximity:
+          expose:
+            label: Entfernung
+        title_1:
+          expose:
+            label: Titel
+        field_sub_type_target_id:
+          admin_label: Ereignistyp
+          expose:
+            label: Ereignistyp

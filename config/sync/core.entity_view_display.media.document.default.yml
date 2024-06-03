@@ -1,4 +1,4 @@
-uuid: e8722936-0e36-4187-9e4b-b090da30713f
+uuid: 77b97bae-caf9-4f32-abbb-5ae97cb4e42f
 langcode: en
 status: true
 dependencies:
@@ -12,6 +12,8 @@ dependencies:
     - field_formatter_class
     - languagefield
     - media_entity_download
+_core:
+  default_config_hash: he_3_vYEOJG3JLumxDn6K4fTAVjYQClE0UcLLZcwOrA
 id: media.document.default
 targetEntityType: media
 bundle: document

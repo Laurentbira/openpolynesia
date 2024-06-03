@@ -1,14 +1,17 @@
-uuid: 17b0af4c-5147-4806-8f8c-3cdd4c31d4b3
+uuid: 9d2a8fa6-6f68-40cc-b3e2-a1af6e3c35f7
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: HC3cXGDOQ07IPR6mDtQOPN5XwI9jO2H5mKBU04Y71yM
 id: bookmark_node
 label: 'Bookmark node'
 bundles: {  }
 entity_type: node
 global: false
+weight: 0
 flag_short: Bookmark
 flag_long: 'Add to your personal bookmarks list'
 flag_message: Bookmarked
@@ -16,7 +19,6 @@ unflag_short: 'Remove bookmark'
 unflag_long: 'Remove from your personal bookmarks list'
 unflag_message: 'Bookmark removed'
 unflag_denied_text: 'Bookmark removal not possible'
-weight: 0
 flag_type: 'entity:node'
 link_type: ajax_link
 flagTypeConfig:

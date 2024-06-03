@@ -1,4 +1,4 @@
-uuid: 87c93026-8fe9-48b4-9036-bd411f31859b
+uuid: b3f995d3-9de1-449c-94c7-d4b6e70a42ec
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: kf_yltSwGwqz1S1YKnREENK_COa107gdMqP7g_gCXdc
 id: node.field_supporters
 field_name: field_supporters
 entity_type: node

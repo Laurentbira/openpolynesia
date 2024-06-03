@@ -1,4 +1,4 @@
-uuid: 9627a932-417b-43c2-b73d-dda9ffc7bcd8
+uuid: 3ec4160b-1887-47c9-bc8e-2ef355c2a090
 langcode: en
 status: true
 dependencies:
@@ -32,6 +32,8 @@ third_party_settings:
         description: ''
         required_fields: true
         weight: 0
+_core:
+  default_config_hash: OuSM6_FnrjbiR72det9OfsqMG2no2zBSfe9GXJSy8EM
 id: media.audio.default
 targetEntityType: media
 bundle: audio

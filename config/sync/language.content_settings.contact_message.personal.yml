@@ -1,9 +1,11 @@
-uuid: ebe175aa-95f7-49d0-81c8-da86316e9768
+uuid: 369d2202-7099-49b5-bd1f-2740f0f97b1a
 langcode: en
 status: true
 dependencies:
   config:
     - contact.form.personal
+_core:
+  default_config_hash: PEEDLLufEXpt5cvwnV4huMl_ZSJM170mffIC5ItwAIU
 id: contact_message.personal
 target_entity_type_id: contact_message
 target_bundle: personal

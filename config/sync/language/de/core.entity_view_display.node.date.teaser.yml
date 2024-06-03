@@ -1,0 +1,12 @@
+content:
+  field_date:
+    third_party_settings:
+      date_augmenter:
+        instances:
+          settings:
+            addtocal:
+              label: 'Zum Kalender hinzufügen'
+        rule:
+          settings:
+            addtocal:
+              label: 'Zum Kalender hinzufügen'

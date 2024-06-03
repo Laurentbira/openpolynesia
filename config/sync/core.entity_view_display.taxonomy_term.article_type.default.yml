@@ -1,4 +1,4 @@
-uuid: 4cf157ac-f6ff-4bd2-99bc-e65e01f8e981
+uuid: 53314b89-a4da-4a5c-99c2-cf23e73765a7
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.field.taxonomy_term.article_type.field_related_article_view_ref
     - field.field.taxonomy_term.article_type.field_term_children_view_ref
     - taxonomy.vocabulary.article_type
+_core:
+  default_config_hash: 9LB9hhRA_0XiT-XvrL1jiE-F1ZzrQzq2t4vCkSMKNS0
 id: taxonomy_term.article_type.default
 targetEntityType: taxonomy_term
 bundle: article_type

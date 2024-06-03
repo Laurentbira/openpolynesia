@@ -1,4 +1,4 @@
-uuid: f7f3c83e-6575-4c72-87b4-6709f300d0cb
+uuid: d3a7d105-fc2d-42ab-aad0-84e1897fcb5c
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.field.taxonomy_term.event_type.field_related_event_view_ref
     - field.field.taxonomy_term.event_type.field_term_children_view_ref
     - taxonomy.vocabulary.event_type
+_core:
+  default_config_hash: VjjaLMeeEmiehAr0r5IMkLdxGnzkxhGJadXbKVFqAsE
 id: taxonomy_term.event_type.default
 targetEntityType: taxonomy_term
 bundle: event_type

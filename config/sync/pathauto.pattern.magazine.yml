@@ -1,10 +1,12 @@
-uuid: bcf0400e-5f1b-4f24-9084-3ab59a66208d
+uuid: c2c3eb91-2c24-4d88-8096-73fc6fb013ae
 langcode: en
 status: true
 dependencies:
   module:
     - language
     - node
+_core:
+  default_config_hash: NVZGW7yP1tZwISeW_zOfUZ7JaTrkjvAE2Osq1GwMfPQ
 id: magazine
 label: Magazine
 type: 'canonical_entities:node'

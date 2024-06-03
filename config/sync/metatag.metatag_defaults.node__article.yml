@@ -1,7 +1,9 @@
-uuid: 99e209dc-c22d-44a3-b598-180869ef414c
+uuid: 262e9a3a-7bd6-480e-9ba0-022d0b5e91a5
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: TUekd-WEk1Tms7SVSmAWixE4LsSGbBQi-QOoAqYWYkY
 id: node__article
 label: 'Content: Magazine article'
 tags:

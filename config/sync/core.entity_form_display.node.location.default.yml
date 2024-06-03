@@ -1,4 +1,4 @@
-uuid: 1119878c-55ec-400d-ac94-5d77a4dfa55b
+uuid: 5718c8fd-0af4-481f-8cc9-e0b3ce929d49
 langcode: en
 status: true
 dependencies:
@@ -47,7 +47,6 @@ third_party_settings:
     group_administrative:
       children:
         - created
-        - field_comments_mode
         - langcode
         - path
         - promote
@@ -55,6 +54,7 @@ third_party_settings:
         - sticky
         - uid
         - url_redirects
+        - field_comments_mode
       label: Administrative
       region: content
       parent_name: ''
@@ -198,6 +198,8 @@ third_party_settings:
         effect: none
         speed: fast
         required_fields: true
+_core:
+  default_config_hash: 6osCCailWX9uKW_VcyxHrQigJKXQiTW1YBhGpPQ-HLc
 id: node.location.default
 targetEntityType: node
 bundle: location

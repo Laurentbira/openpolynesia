@@ -1,4 +1,4 @@
-uuid: 476fc9cd-c859-4146-aabd-f7dad8db53c5
+uuid: 840a35b1-a9f7-4fff-9067-1a64d1a43582
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
   module:
     - field_formatter_class
     - swiffy_slider
+_core:
+  default_config_hash: czsdP41ynLRAGKQwjj9I6jJuT5vCE-VkjwM5nBsGpVI
 id: paragraph.gallery.default
 targetEntityType: paragraph
 bundle: gallery

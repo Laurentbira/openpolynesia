@@ -1,4 +1,4 @@
-uuid: fb00a890-37ed-49bf-9c06-049a08815d7f
+uuid: ec065f31-b8a7-4c54-a81d-a307a11efad1
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - user.role.oc_admin
   module:
     - user
+_core:
+  default_config_hash: eYPjXx3HBCdrBaBfOUKcElV-xLWeAYdqPZVOh8tbAZw
 id: user_remove_role_action.oc_admin
 label: 'Remove the OC admin role from the selected user(s)'
 type: user

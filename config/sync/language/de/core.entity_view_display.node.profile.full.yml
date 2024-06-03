@@ -20,9 +20,13 @@ third_party_settings:
       label: 'Regelmäßige Veranstaltungsorte'
     group_gallery:
       label: Galerie
+    group_recommended_by:
+      label: 'Empfohlen von'
     group_upcoming_dates:
       label: 'Nächste Termine'
+    group_interact:
+      label: Interaktion
     group_press_quotes:
       label: Pressestimmen
-    group_comments:
-      label: Kommentare
+    group_workflow:
+      label: Arbeitsablauf

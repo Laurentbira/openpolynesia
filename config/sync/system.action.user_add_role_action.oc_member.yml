@@ -1,4 +1,4 @@
-uuid: 5fe63ad8-1153-4e69-a3a9-ced86b154504
+uuid: 88eae607-deed-448a-8afb-8b87688b8021
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - user.role.oc_member
   module:
     - user
+_core:
+  default_config_hash: up4-Nc865alh06p2EpUrESEivrA1BhBtPgdWI0bljyc
 id: user_add_role_action.oc_member
 label: 'Add the OC member role to the selected user(s)'
 type: user

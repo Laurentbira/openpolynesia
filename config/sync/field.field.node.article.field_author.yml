@@ -1,4 +1,4 @@
-uuid: f442a6b6-c037-49f9-b5e9-993b849efc16
+uuid: 64e99949-f58e-431a-9754-89b1953213d7
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_author
     - node.type.article
     - node.type.profile
+_core:
+  default_config_hash: De6cgXY3tnVYzIFSltLaLJ9qGOYBIvhBIIbTrmWIGts
 id: node.article.field_author
 field_name: field_author
 entity_type: node

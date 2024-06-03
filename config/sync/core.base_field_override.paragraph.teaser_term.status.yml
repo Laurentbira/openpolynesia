@@ -1,9 +1,11 @@
-uuid: 904093a9-7322-40dc-ad03-770e51495721
+uuid: 0b02b47b-377e-4d64-8757-7e139db73237
 langcode: en
 status: true
 dependencies:
   config:
     - paragraphs.paragraphs_type.teaser_term
+_core:
+  default_config_hash: c45f4DWm5wuekNURWfouORvZFHHIaz5A-MAHqgQzd0s
 id: paragraph.teaser_term.status
 field_name: status
 entity_type: paragraph

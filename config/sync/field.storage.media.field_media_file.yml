@@ -1,4 +1,4 @@
-uuid: ed0504d1-13b4-437b-839a-1567f2dc8057
+uuid: 937a5a5f-cffc-45b0-81d8-f90992e86d35
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: WWwYqYF5b4FX2IHl_ilkeDYZECVC56-h438hnJwF7qo
 id: media.field_media_file
 field_name: field_media_file
 entity_type: media

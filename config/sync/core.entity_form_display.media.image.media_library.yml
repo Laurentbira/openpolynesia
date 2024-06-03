@@ -1,4 +1,4 @@
-uuid: 553d3bfc-e533-438f-a39c-d1e6d8d79d8d
+uuid: 31d7bddf-5c35-4147-8ba2-61bc36168711
 langcode: en
 status: true
 dependencies:
@@ -14,6 +14,8 @@ dependencies:
     - attribution
     - image_widget_crop
     - text
+_core:
+  default_config_hash: 6mwEOm35vtSYAfC5gUa1KkssPTreeRdco9l6jiH1YGQ
 id: media.image.media_library
 targetEntityType: media
 bundle: image

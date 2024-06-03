@@ -1,10 +1,12 @@
-uuid: a0e8baff-b6a8-4485-a7ee-ddf96cdb97c4
+uuid: 36f6a605-be0f-42b5-ad79-423bf72df8b8
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_organizer
     - node.type.date
+_core:
+  default_config_hash: SwFeACHS5h30lbBs2R6Zwb0wnoL-g1K2K_aDxPAVPV4
 id: node.date.field_organizer
 field_name: field_organizer
 entity_type: node

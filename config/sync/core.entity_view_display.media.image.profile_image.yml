@@ -1,4 +1,4 @@
-uuid: 8a9edbb1-ccdd-407f-80f9-b607a5b5c399
+uuid: 40792cee-97cd-47a4-8dbd-93d0126e3578
 langcode: en
 status: false
 dependencies:
@@ -12,6 +12,8 @@ dependencies:
   module:
     - field_formatter_class
     - svg_image
+_core:
+  default_config_hash: VUc24BFFg8r8pONNLzN5xgUIj2HzfGWBf4VosjWK0Sg
 id: media.image.profile_image
 targetEntityType: media
 bundle: image

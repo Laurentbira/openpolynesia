@@ -1,4 +1,4 @@
-uuid: aa8abad0-6a04-43b7-9830-21d288ba5ef0
+uuid: 99ef752d-f0e3-4f11-bac1-ff60be12d12c
 langcode: en
 status: true
 dependencies:
@@ -31,7 +31,7 @@ dependencies:
     - field.field.node.profile.field_subtitle
     - field.field.node.profile.field_upcoming_dates_by_profile
     - node.type.profile
-    - workflows.workflow.draften_member
+    - workflows.workflow.draften
   module:
     - allowed_formats
     - conditional_fields
@@ -67,13 +67,13 @@ third_party_settings:
         - created
         - uid
         - field_badges
-        - field_comments_mode
         - langcode
         - path
         - promote
         - simple_sitemap
         - sticky
         - url_redirects
+        - field_comments_mode
       label: Administrative
       region: content
       parent_name: ''
@@ -176,6 +176,8 @@ third_party_settings:
         description: ''
         required_fields: true
         open: true
+_core:
+  default_config_hash: jxx0-w4XLptyPhvFSuyaG7V-cLXc_7QbdlTUk7XT9-Q
 id: node.profile.default
 targetEntityType: node
 bundle: profile
@@ -250,7 +252,7 @@ content:
     third_party_settings: {  }
   field_comments_mode:
     type: options_select
-    weight: 4
+    weight: 1
     region: content
     settings: {  }
     third_party_settings: {  }

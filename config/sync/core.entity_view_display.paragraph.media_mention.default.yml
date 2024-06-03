@@ -1,4 +1,4 @@
-uuid: 82ece9b0-fb70-43e7-827f-16fa42dffc41
+uuid: 1f42fee0-13b0-4987-a757-fe00644f6003
 langcode: en
 status: true
 dependencies:
@@ -12,6 +12,8 @@ dependencies:
     - link
     - options
     - text
+_core:
+  default_config_hash: 3LhojJoK9dbAUMlfAsfDvOpHmjTo93kYpY8MeqWdg_o
 id: paragraph.media_mention.default
 targetEntityType: paragraph
 bundle: media_mention

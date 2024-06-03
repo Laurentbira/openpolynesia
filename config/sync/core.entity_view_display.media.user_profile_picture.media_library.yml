@@ -1,4 +1,4 @@
-uuid: a1319ec0-f36d-430f-bbb5-0b872b7c4efd
+uuid: b48d10b2-b8d5-4bf7-983d-fbdec5e95f5f
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
     - media.type.user_profile_picture
   module:
     - svg_image
+_core:
+  default_config_hash: iK4iT4b56vS4oJDyY9yX3Bgihclj2GLWQnlVqEw2EZs
 id: media.user_profile_picture.media_library
 targetEntityType: media
 bundle: user_profile_picture

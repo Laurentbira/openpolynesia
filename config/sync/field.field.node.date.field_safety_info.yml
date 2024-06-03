@@ -1,4 +1,4 @@
-uuid: b0acfc8e-891a-4cbc-8150-37cc731f7bb8
+uuid: 872fd3e7-2c82-4290-b8f4-303aa3c3db31
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - node.type.date
   module:
     - text
+_core:
+  default_config_hash: PDKYFKYJG4esI0tZxKWFpGNrDjMvTmbSn1EpTrN84tc
 id: node.date.field_safety_info
 field_name: field_safety_info
 entity_type: node

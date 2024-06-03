@@ -1,4 +1,4 @@
-uuid: 53c4ce75-2da5-4909-b074-485028a8d873
+uuid: ba7d1ba4-38a4-4f3f-ba11-0649ff90ed55
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ dependencies:
     - media_library
     - media_library_edit
     - text
+_core:
+  default_config_hash: 1fxJKXZtOObs0Jem5tJSoPXzb03wcnl5Xf4ztDLSHwI
 id: paragraph.media.default
 targetEntityType: paragraph
 bundle: media
@@ -41,6 +43,11 @@ content:
     third_party_settings:
       media_library_edit:
         show_edit: '1'
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
 hidden:
   created: true
   status: true

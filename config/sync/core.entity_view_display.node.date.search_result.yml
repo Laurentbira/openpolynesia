@@ -1,4 +1,4 @@
-uuid: be4c6005-1064-4281-8051-9b73c00fbe07
+uuid: 7041287a-5d1c-4215-8af3-82ec2c033e6f
 langcode: en
 status: true
 dependencies:
@@ -28,6 +28,8 @@ dependencies:
     - node.type.date
   module:
     - user
+_core:
+  default_config_hash: p0jI2SUxAw1R_d--4h05oCELhjp2v0cw0T9VU82685g
 id: node.date.search_result
 targetEntityType: node
 bundle: date

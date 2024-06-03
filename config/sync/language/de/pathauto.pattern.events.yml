@@ -1,0 +1,4 @@
+label: Veranstaltungen
+relationships:
+  'node:langcode:language':
+    label: Sprache

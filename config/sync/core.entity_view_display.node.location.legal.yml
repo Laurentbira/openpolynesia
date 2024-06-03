@@ -1,4 +1,4 @@
-uuid: 74ea8a41-a4ca-4251-9b7a-96f234879019
+uuid: 954db378-c5fd-4301-af22-80b23dd726f6
 langcode: en
 status: true
 dependencies:
@@ -35,6 +35,8 @@ dependencies:
     - entity_reference_revisions
     - field_formatter_class
     - user
+_core:
+  default_config_hash: r70Uu_VcylSPoRZ_m_IZazmx6UwK1aVRuZ4z7YzvUQU
 id: node.location.legal
 targetEntityType: node
 bundle: location

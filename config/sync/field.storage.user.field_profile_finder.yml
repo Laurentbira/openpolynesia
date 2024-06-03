@@ -1,4 +1,4 @@
-uuid: 0de47591-d830-451d-b419-335dbc870d93
+uuid: 9dd274ac-ddac-4d24-981d-91011e562ee1
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: ucFBx9wdhTos0fUSh-gigPnfWs_7Ubl_2_iBrzLNH1E
 id: user.field_profile_finder
 field_name: field_profile_finder
 entity_type: user

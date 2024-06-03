@@ -1,4 +1,4 @@
-uuid: 662e10f2-a25f-413d-8bba-fb92ce62b9ef
+uuid: 0790c546-467f-4b54-a056-e049d5e41017
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.paragraph.field_contact_person
     - node.type.profile
     - paragraphs.paragraphs_type.bookable_event
+_core:
+  default_config_hash: HITi18whrgaQPuo9TQQapOf2w-XA-VsKBBesnPnB7N4
 id: paragraph.bookable_event.field_contact_person
 field_name: field_contact_person
 entity_type: paragraph

@@ -12,6 +12,8 @@ dependencies:
     - taxonomy
     - user
     - views_infinite_scroll
+_core:
+  default_config_hash: RX974Ch0wQ365mL5uvkZNZ8n6FUOBvCLfuVNRBeiYks
 id: my_bookmarks_taxonomy
 label: 'My bookmarks (taxonomy)'
 module: views

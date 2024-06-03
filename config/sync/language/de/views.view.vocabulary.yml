@@ -1,25 +1,34 @@
-description: 'OpenCulturas: Taxonomie-Begriffsteaser'
+label: Vokabular
 display:
-  block_term_grid_category:
-    display_options:
-      block_description: 'Taxonomy-Grid - Kategorien'
-    display_title: Fokus-Teaser-Raster
-  block_term_grid_columns:
-    display_options:
-      block_description: 'Taxonomy-Grid - Rubriken'
-    display_title: Rubrik-Teaser-Raster
   default:
     display_title: Standard
     display_options:
+      fields:
+        name:
+          separator: ', '
       exposed_form:
         options:
           submit_button: Anwenden
           reset_button_label: Zurücksetzen
-          exposed_sorts_label: Sortierung
+          exposed_sorts_label: 'Sortieren nach'
           sort_asc_label: Aufsteigend
           sort_desc_label: Absteigend
   block_filter_vocabulary:
-    display_title: 'Taxonomie wählen für Teaser-Raster'
+    display_title: 'Vokabular für die Rasterdarstellung wählen'
+    display_options:
+      arguments:
+        vid:
+          exception:
+            title: Alle
   block_term_grid:
     display_title: 'Untergeordnete Begriffe'
-label: Taxonomien
+    display_options:
+      arguments:
+        parent_target_id:
+          exception:
+            title: Alle
+      display_description: 'Für alle Vokabulare: dem aktuellen Begriff untergeordnete Begriffe'
+  block_term_grid_category:
+    display_title: Fokus-Raster
+  block_term_grid_columns:
+    display_title: Rubriken-Raster

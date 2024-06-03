@@ -17,7 +17,7 @@ display:
         timestamp:
           label: Datum
         message:
-          label: Nachricht
+          label: Benachrichtigung
           alter:
             path: 'admin/reports/dblog/event/{{ wid }}'
             alt: '{{ message }}'
@@ -32,12 +32,12 @@ display:
             next: ››
             previous: ‹‹
           expose:
-            items_per_page_label: Anzahl/Seite
+            items_per_page_label: 'Elemente pro Seite'
             items_per_page_options_all_label: '- Alle -'
             offset_label: Versatz
       exposed_form:
         options:
-          submit_button: Filtern
+          submit_button: Filter
           reset_button_label: Zurücksetzen
           exposed_sorts_label: 'Sortieren nach'
           sort_asc_label: Aufsteigend

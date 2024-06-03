@@ -1,22 +1,84 @@
 label: 'Verwandte Seiten'
-description: 'OpenCulturas: Listen von im Zusammenhang stehenden Seiten'
 display:
   default:
     display_title: Standard
     display_options:
-      empty:
-        area:
-          content:
-            value: "<p>Aktuell stehen keine Seiten mit diesem Inhalt in Zusammenhang.</p>\r\n"
-            format: basic_html
+      title: 'Verwandte Seiten'
+      fields:
+        title:
+          separator: ', '
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
+          views_infinite_scroll:
+            button_text: 'Weitere anzeigen'
+      exposed_form:
+        options:
+          submit_button: Anwenden
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
+      arguments:
+        field_category_target_id:
+          exception:
+            title: Alle
       header:
         views_add_button:
           button_text: 'Seite hinzufügen'
   by_author:
-    display_title: 'Nach Verfasser:in'
+    display_title: 'Nach Autor:in'
+    display_options:
+      title: 'Nach Autor:in'
+      arguments:
+        field_author_target_id:
+          exception:
+            title: Alle
   by_page_type:
     display_title: 'Nach Seitentyp - auf Begriffsseite'
+    display_options:
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
+            first: '« Anfang'
+            last: 'Ende »'
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
+      arguments:
+        field_sub_type_target_id:
+          exception:
+            title: Alle
   mention_by_article:
-    display_title: 'Erwähnung durch'
+    display_options:
+      fields:
+        field_references:
+          separator: ', '
+      arguments:
+        nid:
+          exception:
+            title: Alle
   related_article_latest:
-    display_title: Aktuellste
+    display_title: Neueste
+    display_options:
+      title: 'Neueste Beiträge'
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
+            first: '« Anfang'
+            last: 'Ende »'
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz

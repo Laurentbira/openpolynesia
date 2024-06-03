@@ -1,4 +1,4 @@
-uuid: d3f0d526-c9bb-4f78-8c06-6a0307aa953e
+uuid: 6140f84b-b06f-4218-be8b-7241858ee008
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
   module:
     - field_formatter_class
     - file
+_core:
+  default_config_hash: gBcaAkKM3EQSFAmBu-6uINOudqMySB9NrIKbdk3gRec
 id: media.audio.default
 targetEntityType: media
 bundle: audio

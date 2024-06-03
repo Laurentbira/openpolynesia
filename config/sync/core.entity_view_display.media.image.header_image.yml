@@ -1,4 +1,4 @@
-uuid: 1cf08492-0fc7-4ec0-bb88-0c692a0a89b6
+uuid: 3f7105ca-3373-4dde-bc9d-acbabc5e3bb2
 langcode: en
 status: true
 dependencies:
@@ -12,6 +12,8 @@ dependencies:
   module:
     - attribution
     - svg_image
+_core:
+  default_config_hash: bU_2rjRn4wDn99iIFj5_vJeInFT2iS0lvJ32__0vnWM
 id: media.image.header_image
 targetEntityType: media
 bundle: image

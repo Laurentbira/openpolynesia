@@ -1,4 +1,4 @@
-uuid: ae0295bb-e176-463c-800c-485eb4d38c2d
+uuid: cbda6180-9887-43b6-9360-5604089db99d
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - views.view.related_date
   module:
     - viewfield
+_core:
+  default_config_hash: VtY8ZFqRlOXUSDgk3Bu2hVlPSXlkstDKPZ4OL1iqx10
 id: node.date.field_sub_dates_view_ref
 field_name: field_sub_dates_view_ref
 entity_type: node

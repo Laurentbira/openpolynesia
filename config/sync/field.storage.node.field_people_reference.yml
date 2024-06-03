@@ -1,4 +1,4 @@
-uuid: 6a11b516-2f84-4e85-9463-9b7cf834c3e8
+uuid: 012cb02c-094f-428d-a3d7-65771ab324f6
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: 7Fl_tdvQNRHfhdD1Cqguz8PVEVUEL7ViDt4vf1o2YFE
 id: node.field_people_reference
 field_name: field_people_reference
 entity_type: node

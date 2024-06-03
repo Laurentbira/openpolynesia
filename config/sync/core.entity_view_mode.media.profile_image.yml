@@ -1,9 +1,11 @@
-uuid: 5a9150ff-9740-4bd7-8dd9-c543352d4c13
+uuid: f44fa24c-5207-445a-91aa-c20687f0a250
 langcode: en
 status: true
 dependencies:
   module:
     - media
+_core:
+  default_config_hash: LrMCWa4iVb-ddg89JQkZsSr-CrmrI9vsLluqZfP5R0I
 id: media.profile_image
 label: 'Profile image'
 description: ''

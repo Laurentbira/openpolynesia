@@ -1,7 +1,9 @@
-uuid: 539d3a91-f9a6-45c6-babc-8393f297e19c
+uuid: 9a3c01c6-7dbc-42bc-8ce4-f319de2fc934
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: Nn_Zp4JFf_IEP4D-nySS6I0_Qe8-Ulyh67R4bIKx1zo
 id: text
 label: Text
 icon_uuid: null

@@ -1,10 +1,12 @@
-uuid: 5e7d1a83-404a-4819-812c-05aafa6fe408
+uuid: 586cd278-27a5-4895-9d03-3ebeee4c78c9
 langcode: en
 status: true
 dependencies:
   module:
     - language
     - node
+_core:
+  default_config_hash: OiCBGDaLXsLW6MWSX692-vmwKUxHZrgpvt0oTqf756I
 id: events_de
 label: 'Events DE'
 type: 'canonical_entities:node'

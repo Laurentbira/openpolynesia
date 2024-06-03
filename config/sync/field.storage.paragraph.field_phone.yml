@@ -1,10 +1,12 @@
-uuid: a5eca0cd-ed1f-4308-ab7e-3fa3a252d4b6
+uuid: f5d6ddf8-bcd1-4ca3-a7fc-215ac50d1e78
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
     - telephone
+_core:
+  default_config_hash: QwXsDDEjMWdobafyx8ynJiEIa_oYV21yBx2V9rWK50o
 id: paragraph.field_phone
 field_name: field_phone
 entity_type: paragraph

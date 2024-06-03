@@ -1,4 +1,4 @@
-uuid: bc3cf980-9842-44be-b3c0-50dcdfeb48c7
+uuid: 245347b7-7cfe-4eb7-adf5-f0be2c4b7d61
 langcode: en
 status: true
 dependencies:
@@ -14,6 +14,8 @@ dependencies:
     - media
     - node
     - smart_date_recur
+_core:
+  default_config_hash: d4ct-AOjL2GrmNdjAOVvt-w1P7k8W3CKy2CZ-oWYBik
 id: oc_organizer
 label: 'OC organizer'
 weight: -7

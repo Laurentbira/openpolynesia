@@ -1,9 +1,11 @@
-uuid: e6a7e326-7a09-44a5-ba7b-c8d62e4c2797
+uuid: 301c7fd0-edf8-459c-97fb-8e7510777bc6
 langcode: en
 status: true
 dependencies:
   config:
     - media.type.audio
+_core:
+  default_config_hash: 4iwJdqg2IVrscuIDQEBMuMwY8mE8dXnZZyVjrHrvJ5U
 id: media.audio.changed
 field_name: changed
 entity_type: media

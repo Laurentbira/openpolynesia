@@ -1,4 +1,4 @@
-uuid: eb427d5e-9f25-4e23-a858-d3b76d74ab4f
+uuid: 9a23e71e-1715-48d7-86df-ce74204c66e5
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
+_core:
+  default_config_hash: dfG3lrDZP6-jTDsYMX_4-Qi81t6ucWSkEG59pu5_t_c
 name: Location
 type: location
 description: 'Add a location with a physical address where events can take place. '

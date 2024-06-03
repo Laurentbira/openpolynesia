@@ -1,7 +1,9 @@
-uuid: 882c1fe2-cea1-4d94-9b73-695b12a3e7bd
+uuid: bb13e903-a013-4d89-aaf5-bdd5a0f03458
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: TeD0f-b5irz_-J-sM5QCQ2mzZhxfTdU1V7fMEpKQLio
 id: member
 label: Member
 icon_uuid: null

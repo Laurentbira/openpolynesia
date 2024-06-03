@@ -1,4 +1,4 @@
-uuid: 539961b2-4b1f-4feb-b4a0-39c0166afa92
+uuid: e3678c84-5d38-442f-853d-6fc9ed9ff697
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.page
   module:
     - content_moderation
+_core:
+  default_config_hash: a9mnz0-MiqO2jZwWw5Nd6NeLPCAqRc3kM107b_nL9kM
 id: magazine_article
 label: 'Magazine article and basic page'
 type: content_moderation

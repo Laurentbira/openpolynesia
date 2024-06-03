@@ -1,9 +1,11 @@
-uuid: 4778866d-945e-4536-a16d-16fe2217d8f9
+uuid: 933d406a-832a-4d8a-ba8a-dfce4011ffd9
 langcode: en
 status: true
 dependencies:
   config:
     - eca.eca.process_zo0uuo3
+_core:
+  default_config_hash: LT7qfTbHaUwB06yyUSPTRAdB6J9MmLwIlGMhB0u2758
 id: process_zo0uuo3
 label: 'Moderation state (published) was set'
 tags:

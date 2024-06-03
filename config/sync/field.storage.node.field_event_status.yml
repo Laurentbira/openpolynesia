@@ -1,10 +1,12 @@
-uuid: 8167f2ac-ccf5-412d-b5ac-2e04a9c21c2e
+uuid: 2a2e5740-c226-4c96-ba90-b72a21547e04
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - options
+_core:
+  default_config_hash: 8iKIoqfryeMCiefMydSpSoiF9hlc551c-pHpIHM9SyI
 id: node.field_event_status
 field_name: field_event_status
 entity_type: node

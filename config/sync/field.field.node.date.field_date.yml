@@ -1,4 +1,4 @@
-uuid: 23bcc078-a298-40ad-9adf-945e5c89939d
+uuid: 0d8c33f3-bb54-4ca6-88be-45878fe4f540
 langcode: en
 status: true
 dependencies:
@@ -12,6 +12,8 @@ third_party_settings:
   smart_date_recur:
     allow_recurring: true
     month_limit: 12
+_core:
+  default_config_hash: ZGGJGvOHWnahgDpXA8QyZde-9wHm07M3Vq71vhzbZkc
 id: node.date.field_date
 field_name: field_date
 entity_type: node

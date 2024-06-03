@@ -1,4 +1,4 @@
-uuid: bc1d4858-9705-4e77-8134-6e180613622b
+uuid: 8eb1ae55-f9f9-4055-ac8c-029a1749406c
 langcode: en
 status: true
 dependencies:
@@ -142,6 +142,8 @@ third_party_settings:
         open: true
         description: ''
         required_fields: false
+_core:
+  default_config_hash: CHkUk9npDRDGB7y1KngHbcSFP9kbDYhv4M6I09Q1ZbU
 id: taxonomy_term.category.full
 targetEntityType: taxonomy_term
 bundle: category

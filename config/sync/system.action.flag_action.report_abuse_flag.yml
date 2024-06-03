@@ -1,4 +1,4 @@
-uuid: ffce8851-cbde-4531-ac69-dc373e10adb3
+uuid: ce2b500d-9d2c-46cf-b8dc-9964b1f65f28
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - flag.flag.report_abuse
   module:
     - flag
+_core:
+  default_config_hash: VzZ_TzCrB8ck0aMM-Mrny8tucA8r5Na7Nlj2nyNCm4c
 id: flag_action.report_abuse_flag
 label: 'Report abuse'
 type: node

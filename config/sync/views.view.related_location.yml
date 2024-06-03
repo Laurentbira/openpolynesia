@@ -13,6 +13,8 @@ dependencies:
     - taxonomy
     - user
     - views_infinite_scroll
+_core:
+  default_config_hash: 8pHUcAEaHtZQDKWdrjaR1K9doU0mBfrA3_QlJ30Fho4
 id: related_location
 label: 'Related locations'
 module: views

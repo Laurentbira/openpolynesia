@@ -1,4 +1,23 @@
 third_party_settings:
   field_group:
+    group_administrative:
+      label: Administrativ
+    group_about:
+      label: Profil
+    group_location_tabs_container:
+      label: Tabs
     group_location_tab_basics:
       label: Basis-Informationen
+    group_location_tab_media:
+      label: 'Bilder und Medien'
+    group_location_tab_advanced:
+      label: Erweitert
+    group_location_tab_performer:
+      label: Beteiligte
+    group_tabs_wrapper:
+      label: 'Tabs wrapper'
+content:
+  field_address_data:
+    settings:
+      title: Adressinformation
+      title_plural: Adressinformation

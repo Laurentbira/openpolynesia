@@ -1,4 +1,4 @@
-uuid: e270b921-331a-4c68-b55c-0c1e11ecc278
+uuid: 88d5dbd9-75c2-4683-96c3-0ff89a3eaaa6
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
   module:
     - field_formatter_class
     - text
+_core:
+  default_config_hash: BtuaWjlprN-yfnp5-kyPQMuxU-Otbeh5ml0ycRxPS10
 id: paragraph.media.default
 targetEntityType: paragraph
 bundle: media

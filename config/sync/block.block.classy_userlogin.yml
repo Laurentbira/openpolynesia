@@ -1,0 +1,28 @@
+uuid: 0e4db213-29bb-4f08-b861-7be661384979
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - classy
+_core:
+  default_config_hash: jXeKHs3QLs56pAxDH3Z2lyBHoA8tuCfephzpKQFVcvw
+id: classy_userlogin
+theme: classy
+region: content
+weight: -10
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  label_display: '0'
+  provider: user
+visibility:
+  response_status:
+    id: response_status
+    negate: false
+    status_codes:
+      - 403

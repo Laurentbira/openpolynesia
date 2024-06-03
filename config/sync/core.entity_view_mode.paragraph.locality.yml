@@ -1,9 +1,11 @@
-uuid: 2cf044bf-f870-496c-a82c-8627fc65e17b
+uuid: b1cd0e0f-3c51-4140-bb66-66fcd5e118e6
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: NWn9MZ3HGiYAliHtiWXGWorenr7CSNmDHW9I1yzumek
 id: paragraph.locality
 label: Locality
 description: ''

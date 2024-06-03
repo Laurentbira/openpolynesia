@@ -1,8 +1,6 @@
+name: Barrierefreiheit
 widget:
   config:
     reset_text: 'Alle anzeigen'
     soft_limit_settings:
-      show_less_label: 'Weniger anzeigen'
-      show_more_label: 'Mehr anzeigen'
-name: Barrierefreiheit
-missing_label: weitere
+      show_more_label: 'Weitere anzeigen'

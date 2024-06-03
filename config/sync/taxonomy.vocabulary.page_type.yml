@@ -1,7 +1,9 @@
-uuid: 70134c1e-5808-40ff-86fe-1f10cd5a6082
+uuid: ac4634eb-c293-4a4b-8ffa-3407f3f0139d
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 3LSc9JwTia6mvo5CELWEDGj0KjXOEHVvGjNjGkyjryA
 name: 'Page Type'
 vid: page_type
 description: 'Page sub types'

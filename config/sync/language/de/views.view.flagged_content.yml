@@ -1,26 +1,44 @@
+label: 'Gekennzeichneter Beitrag'
 display:
   default:
+    display_title: Standard
     display_options:
       fields:
         uid:
-          label: 'User meldend'
+          separator: ', '
         title:
           label: Inhalt
+          separator: ', '
+        type:
+          separator: ', '
         created:
           label: Datum
+          separator: ', '
         field_comment:
           label: Kommentar
+          separator: ', '
         edit_node:
-          text: 'Inhalte bearbeiten'
+          text: 'Inhalt bearbeiten'
         edit_user:
-          text: 'User bearbeiten'
+          text: 'Benutzer bearbeiten'
         dropbutton:
           label: Aktionen
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
+            first: '« Anfang'
+            last: 'Ende »'
+          expose:
+            items_per_page_label: 'Elemente pro Seite'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
       exposed_form:
         options:
           submit_button: Anwenden
           reset_button_label: Zurücksetzen
-          exposed_sorts_label: Sortierung
+          exposed_sorts_label: 'Sortieren nach'
           sort_asc_label: Aufsteigend
           sort_desc_label: Absteigend
       empty:
@@ -34,36 +52,15 @@ display:
         title:
           expose:
             label: Titel
-            placeholder: 'Inhaltstitel enthält ...'
-      title: Übernahme-Anträge
-      pager:
-        options:
-          tags:
-            first: '« Anfang'
-            last: 'Ende »'
-          expose:
-            items_per_page_label: Anz./Seite
-            items_per_page_options_all_label: '- Alle -'
-            offset_label: ab
+            placeholder: 'Titel enthält ...'
   abuse_report:
+    display_title: Missbrauchsanzeigen
     display_options:
-      header:
-        area:
-          content:
-            value: 'Ablauf: 1. Gemeldeten Inhalt prüfen (Inhalt) - 2. Wenn kritisch, Inhalt bearbeiten (Aktionen) klicken und auf unveröffentlicht setzen, auch Verfasser:in des Inhalts prüfen und ggf. sperren - 3. Meldung zurückziehen klicken: löschen'
-            format: minimal_html
-      title: Missbrauchsanzeigen
       menu:
         title: Missbrauchsanzeigen
   claiming_ownership:
-    display_title: Übernahme-Anträge
     display_options:
-      header:
-        area:
-          content:
-            value: 'Ablauf: 1. Beanspruchten Inhalt prüfen (Inhalt), mit beanspruchender Person (User meldend) abgleichen - 2. Wenn in Ordnung, User bearbeiten (Aktionen) klicken und erforderliche Rolle überprüfen - 3. Inhalt bearbeiten (Aktionen) klicken: User als Autor:in eintragen, Übernahme-Schalter deaktivieren - 4. Wenn nicht in Ordnung, Übernahme bearbeiten (Aktionen) klicken und Übernahme-Antrag löschen.'
-            format: minimal_html
       menu:
         title: Übernahme-Anträge
-label: 'Gekennzeichneter Inhalt'
-description: 'OpenCulturas: administrative Übersichten von gemeldeten + beanspruchten Inhalten'
+      tab_options:
+        title: 'Gekennzeichneter Beitrag'

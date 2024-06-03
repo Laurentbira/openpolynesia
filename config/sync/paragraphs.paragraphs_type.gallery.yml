@@ -1,7 +1,9 @@
-uuid: b6bb04fb-9120-431f-879c-2dcb5d667a22
+uuid: 7d0d9354-5d3d-4b00-894e-352cada89924
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: VqeFX7Vaz8W_pfoba-gwvylYq9xRdGLClkIljzqzPLo
 id: gallery
 label: Gallery
 icon_uuid: null

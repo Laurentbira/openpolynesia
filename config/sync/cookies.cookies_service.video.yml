@@ -1,4 +1,4 @@
-uuid: f9d81799-da90-4f34-aa3f-6d42386087db
+uuid: bc08d466-eb5c-4e14-b804-bb7ee4ecbdf1
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     module:
       - cookies_video
 _core:
-  default_config_hash: GPtNd6ZPi4fG97dOAJdm_C7Siy9qarY7N93GidYZkRQ
+  default_config_hash: 61_p5rfi3AaSAPK1ocEFxQXBcnViSRbltQ4kC0kYBxg
 id: video
 label: 'External video'
 group: video
@@ -15,10 +15,10 @@ info:
   format: full_html
 consentRequired: true
 purpose: ''
-placeholderMainText: 'This content is blocked because external video cookies have not been accepted.'
-placeholderAcceptText: 'Only accept video cookies'
 processor: ''
 processorContact: ''
 processorUrl: ''
 processorPrivacyPolicyUrl: ''
 processorCookiePolicyUrl: ''
+placeholderMainText: 'This content is blocked because external video cookies have not been accepted.'
+placeholderAcceptText: 'Only accept video cookies'

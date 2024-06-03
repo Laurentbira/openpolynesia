@@ -1,9 +1,11 @@
-uuid: b15c0584-e364-4b71-9fd3-d89e124e6ed4
+uuid: 8419f30b-3a0b-41da-a63b-9471a15db7dc
 langcode: en
 status: true
 dependencies:
   module:
     - media
+_core:
+  default_config_hash: OvTS8y4LNp_RUZUV1HeVpM1AUI_pgIoEQBdr_d6I8UQ
 id: media.header_image
 label: 'Header Image'
 description: ''

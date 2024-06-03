@@ -1,4 +1,4 @@
-uuid: 76894fab-115f-477a-99ed-71a8f8ba27ff
+uuid: dfe6ea60-d316-4f94-bb2f-7a35e88e5399
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: DBU-wmkh8USWiyDQ2Li5_46CHNz3sJ7x7tpQUf2KgSc
 id: paragraph.field_a11y_info
 field_name: field_a11y_info
 entity_type: paragraph

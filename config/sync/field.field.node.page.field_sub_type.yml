@@ -1,4 +1,4 @@
-uuid: 2d6f9421-8293-4695-9e49-83c138b15e43
+uuid: a13ba65d-8043-4a0e-87d3-f4f79e102c67
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_sub_type
     - node.type.page
     - taxonomy.vocabulary.page_type
+_core:
+  default_config_hash: u0oDJb8DAZ5e-Gsa6wWGEbniOflTm-BkiQb05YmOlAs
 id: node.page.field_sub_type
 field_name: field_sub_type
 entity_type: node

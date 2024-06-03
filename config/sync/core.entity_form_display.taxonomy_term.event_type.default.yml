@@ -1,4 +1,4 @@
-uuid: 625f5e86-9011-4e34-ac72-5384ff40ffd0
+uuid: a2f20d61-439b-469a-bac3-1eb797f5fc6e
 langcode: en
 status: true
 dependencies:
@@ -12,6 +12,8 @@ dependencies:
     - media_library_edit
     - path
     - text
+_core:
+  default_config_hash: LUi7LbabrxvezNQQ51t8E8hmQnHw-4dqf_m_nnos53M
 id: taxonomy_term.event_type.default
 targetEntityType: taxonomy_term
 bundle: event_type

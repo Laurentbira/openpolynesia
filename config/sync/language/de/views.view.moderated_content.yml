@@ -18,7 +18,6 @@ display:
           label: Autor
           separator: ', '
         revision_uid:
-          label: 'bearbeitet von'
           separator: ', '
         moderation_state:
           label: Moderationsstatus
@@ -34,17 +33,17 @@ display:
       pager:
         options:
           tags:
-            next: 'Nächste ›'
-            previous: '‹ Vorige'
+            next: 'Nächste Seite ›'
+            previous: '‹ Vorherige Seite'
             first: '« Anfang'
             last: 'Ende »'
           expose:
-            items_per_page_label: Anzahl/Seite
+            items_per_page_label: 'Elemente pro Seite'
             items_per_page_options_all_label: '- Alle -'
             offset_label: Versatz
       exposed_form:
         options:
-          submit_button: Filtern
+          submit_button: Filter
           reset_button_label: Zurücksetzen
           exposed_sorts_label: 'Sortieren nach'
           sort_asc_label: Aufsteigend
@@ -68,11 +67,9 @@ display:
               1:
                 title: Entwurf
               2:
-                title: 'Bitte um Freigabe'
+                title: 'Im Freigabeprozess'
               3:
                 title: 'Nicht veröffentlicht'
-              4:
-                title: 'Bitte um Freigabe (deprecated)'
         langcode:
           expose:
             label: Sprache

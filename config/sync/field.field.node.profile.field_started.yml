@@ -1,4 +1,4 @@
-uuid: 86fbf2ea-4c2e-48a6-80b0-2ceffe80a8ba
+uuid: f3472369-a789-4ddc-8325-10f1733c396d
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.profile
   module:
     - datetime
+_core:
+  default_config_hash: _nP_urx9ml8rFSrlXafgUAKOjrCrPuD_pD5wUZ2UylY
 id: node.profile.field_started
 field_name: field_started
 entity_type: node

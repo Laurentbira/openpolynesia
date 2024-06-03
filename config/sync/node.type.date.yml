@@ -1,4 +1,4 @@
-uuid: aab25af2-60f7-4ad8-af46-310b65889b32
+uuid: f67d91ed-a12b-4506-a2b5-b603c54a4b3e
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
+_core:
+  default_config_hash: vRT4_rjNRokOMblyyJvTbYfmlV8I9F79Os_EUk82U80
 name: Date
 type: date
 description: 'Add a date related to an existing event entry.'

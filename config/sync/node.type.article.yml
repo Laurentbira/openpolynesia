@@ -1,4 +1,4 @@
-uuid: 7743fc07-b359-4b95-b6ec-45c72d51ec3a
+uuid: e0d5e679-71e5-40f5-bb5a-4005c009ccb5
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
+_core:
+  default_config_hash: VBqV2MqiEI9IHq0Jer_IY-ICwk6RBE200R0jAy97Jeo
 name: Article
 type: article
 description: 'Write an article for the magazine.'

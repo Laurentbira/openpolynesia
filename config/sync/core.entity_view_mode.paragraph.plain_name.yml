@@ -1,9 +1,11 @@
-uuid: 4f16a8c8-945c-48a8-878e-3ac1eebe96e0
+uuid: 8bcd05ee-2ed1-4000-b052-dce303a4970f
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: p89fHCV3dv-5iIxL5Jla2kMpLcRMIW0T2EpO6FW9Tf8
 id: paragraph.plain_name
 label: 'Plain name'
 description: ''

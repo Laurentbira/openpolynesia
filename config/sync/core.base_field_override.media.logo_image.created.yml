@@ -1,9 +1,11 @@
-uuid: 17fcb5e2-a4ac-4b65-84fa-989e58f89019
+uuid: dd255854-c65e-4136-97ce-aa85033daab6
 langcode: en
 status: true
 dependencies:
   config:
     - media.type.logo_image
+_core:
+  default_config_hash: 8Z7H7g3O0GDqRUpiE6u6Deqo8jLtOE4l6WDzySHfsGg
 id: media.logo_image.created
 field_name: created
 entity_type: media

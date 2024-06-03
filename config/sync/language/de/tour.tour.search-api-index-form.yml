@@ -2,7 +2,7 @@ label: 'Hinzufügen oder Bearbeiten eines Such-API-Indexes'
 tips:
   search-api-index-form-introduction:
     label: 'Hinzufügen oder Bearbeiten eines Index'
-    body: 'Mit diesem Formular können Sie einen bestehenden Index bearbeiten oder einen neuen Index zu Ihrer Website hinzufügen. Indizes definieren einen Datensatz, der indiziert wird und dann durchsucht werden kann.'
+    body: 'Mit diesem Formular kann ein bestehender Index bearbeitet oder ein neuer Index zur Website hinzugefügt werden. Indizes definieren einen Datensatz, der indiziert wird und dann durchsucht werden kann.'
   search-api-index-form-name:
     label: Index-Name
     body: 'Einen Namen eingeben, um diesen Index zu identifizieren. Zum Beispiel "Inhaltsindex". Dieser wird nur in der Admin-Benutzeroberfläche angezeigt.'

@@ -1,9 +1,11 @@
-uuid: 853fef81-aa96-483d-bf34-c62196a941a9
+uuid: b312846f-3eb9-4161-a693-6e3a8cd3d6f2
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: VXTT6dJRcLng2gNxeObnaapFJxO-pHJYCqtqQIWeyHQ
 id: profiles
 label: Profiles
 type: 'canonical_entities:node'

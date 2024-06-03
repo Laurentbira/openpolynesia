@@ -1,9 +1,11 @@
-uuid: 743879a7-6179-4488-8fe4-ac269e867c20
+uuid: c3d1b5e4-a598-4835-844a-91c982400582
 langcode: en
 status: true
 dependencies:
   config:
     - taxonomy.vocabulary.accessibility
+_core:
+  default_config_hash: OIt3qz0SQhx9q3vvtPexJHzucMbk4DMOUAWUyQ7wSM4
 id: taxonomy_term.accessibility.name
 field_name: name
 entity_type: taxonomy_term

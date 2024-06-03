@@ -1,0 +1,35 @@
+uuid: 16fc68cf-d7ae-402e-ad7c-e9792f782149
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.oc_er_mod_states
+  module:
+    - node
+    - views
+  theme:
+    - classy
+_core:
+  default_config_hash: QyAMlJNybthWcDKDrXS_rgI7jh-60TFHQ3HTk_ryhe4
+id: classy_openculturas_er_mod_states
+theme: classy
+region: content
+weight: -9
+provider: null
+plugin: 'views_block:oc_er_mod_states-block_states_info'
+settings:
+  id: 'views_block:oc_er_mod_states-block_states_info'
+  label: ''
+  label_display: '0'
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      date: date

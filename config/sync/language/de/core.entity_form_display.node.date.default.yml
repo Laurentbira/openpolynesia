@@ -1,7 +1,11 @@
 third_party_settings:
   field_group:
+    group_tickets:
+      label: Tickets
     group_administrative:
       label: Administrativ
+    group_date_tabs_container:
+      label: Tabs
     group_date_tab_basics:
       label: Basis-Informationen
     group_date_tab_attendance:
@@ -15,7 +19,18 @@ third_party_settings:
     group_date_tab_people:
       label: Beteiligte
 content:
+  field_accessibility:
+    settings:
+      title: 'Informationen zur Barrierefreiheit'
+      title_plural: 'Informationen zur Barrierefreiheit'
   field_location:
     settings:
       label_singular: Ort
       label_plural: Orte
+  field_people_reference:
+    settings:
+      title: Mitglied
+      title_plural: Mitglieder
+  field_pricing:
+    settings:
+      placeholder: '2,00 - 10,00 €'

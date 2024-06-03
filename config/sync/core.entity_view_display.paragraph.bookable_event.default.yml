@@ -1,4 +1,4 @@
-uuid: e6615e97-1dd5-44cc-b259-0bec16ffd372
+uuid: 03e29da6-02a0-4e6b-8876-afc904651b71
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
   module:
     - field_formatter_class
     - text
+_core:
+  default_config_hash: poN35ykMznzuMq0Yag4LpSJZtLsFl825Wls5nrD35Qs
 id: paragraph.bookable_event.default
 targetEntityType: paragraph
 bundle: bookable_event

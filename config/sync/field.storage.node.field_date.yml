@@ -1,4 +1,4 @@
-uuid: 2f394055-c47a-4a59-a9c7-544b3e8b20cf
+uuid: 14c6496a-5609-4685-af21-214e665588bf
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: '-5DY2SZrbteRIxS3mdP1gld5JZWXHcEsh0II7naQrnk'
 id: node.field_date
 field_name: field_date
 entity_type: node

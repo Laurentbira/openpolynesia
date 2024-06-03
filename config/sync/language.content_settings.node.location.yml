@@ -1,4 +1,4 @@
-uuid: 3ea11203-c09f-494a-8b7b-361b565829b2
+uuid: 508df22e-6c5e-487e-a815-e2dab8085e08
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ third_party_settings:
     enabled: true
     bundle_settings:
       untranslatable_fields_hide: '1'
+_core:
+  default_config_hash: 9HuSZBeszM335aG-h1te8pqBFR0lMGC7hKymRneMg9k
 id: node.location
 target_entity_type_id: node
 target_bundle: location

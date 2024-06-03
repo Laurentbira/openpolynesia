@@ -1,4 +1,4 @@
-uuid: aa9120f3-2aa4-487f-b67a-b38a79fc0c01
+uuid: 54f168aa-918b-483f-9818-86898fd63635
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.field.paragraph.member.field_member
     - field.field.paragraph.member.field_member_function
     - paragraphs.paragraphs_type.member
+_core:
+  default_config_hash: Rzqa_nsfeskfou1n3rCUb_AYzBS6IygD_YF_LrHdfw0
 id: paragraph.member.plain_name
 targetEntityType: paragraph
 bundle: member

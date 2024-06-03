@@ -1,4 +1,4 @@
-uuid: 136adce1-c17e-4de4-8988-7c0a190e4454
+uuid: 8d4bdc09-86ec-4810-9cfb-5da760480fd5
 langcode: en
 status: true
 dependencies:
@@ -36,6 +36,8 @@ dependencies:
     - entity_reference_revisions
     - text
     - user
+_core:
+  default_config_hash: dlz3XwVCqQsPilIin1T5rNVj5-b-yPm6iRDseC6ZlMU
 id: node.profile.search_index
 targetEntityType: node
 bundle: profile

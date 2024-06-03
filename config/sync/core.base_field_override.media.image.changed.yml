@@ -1,9 +1,11 @@
-uuid: 87311257-a362-4d5d-9575-db12bb729af3
+uuid: b737bd9e-b52d-411f-a79c-9973315fcda6
 langcode: en
 status: true
 dependencies:
   config:
     - media.type.image
+_core:
+  default_config_hash: 3yCHBzXbfrgQ1I_OMV5kOSBTmLloSPZQX5e5XBjOYNc
 id: media.image.changed
 field_name: changed
 entity_type: media

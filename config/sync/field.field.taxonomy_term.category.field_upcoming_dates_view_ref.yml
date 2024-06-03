@@ -1,4 +1,4 @@
-uuid: 78f3375e-002c-482f-9784-524df9505cd1
+uuid: 6edfd201-222f-49bf-a933-1a20a99eb82b
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - views.view.related_date
   module:
     - viewfield
+_core:
+  default_config_hash: CTuVstI7OJnoNHAEadhy1zbWeZh_CS493UcWnVjtIiQ
 id: taxonomy_term.category.field_upcoming_dates_view_ref
 field_name: field_upcoming_dates_view_ref
 entity_type: taxonomy_term

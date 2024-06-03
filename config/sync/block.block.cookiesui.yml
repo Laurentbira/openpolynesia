@@ -1,4 +1,4 @@
-uuid: 96be43e2-0162-49ff-a26f-7f923359e7a8
+uuid: 58d151b4-3729-4d6a-a978-c30fe09a8a2b
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - system
   theme:
     - openculturas_base
+_core:
+  default_config_hash: 0J0v7fhIpT3Lc6rfKnUbgwezS1CpRkuxTbjuOPl5l0A
 id: cookiesui
 theme: openculturas_base
 region: branding

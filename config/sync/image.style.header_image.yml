@@ -1,4 +1,4 @@
-uuid: 0ce0e28c-7fe8-42ad-afef-6cc1fe383a04
+uuid: 968eaee5-61fe-4484-bfb5-fa21fd898790
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - crop.type.image_crop
   module:
     - crop
+_core:
+  default_config_hash: ABXtoxB56gX0sMZAjwDtee8Cozoz2t0pZ6q7pcYJcqM
 name: header_image
 label: 'Header image 2:1'
 effects:

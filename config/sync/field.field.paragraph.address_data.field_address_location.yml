@@ -1,4 +1,4 @@
-uuid: 3fac64f6-ec96-4860-a26b-c197371740e1
+uuid: 25fb44e5-d7d4-4e81-a0f4-af142b30baae
 langcode: en
 status: true
 dependencies:
@@ -24,6 +24,8 @@ third_party_settings:
       handling: preserve
       status_message: true
       log: true
+_core:
+  default_config_hash: j4TbwA0q0UfcfIoRxhCxRsiUN5tah1S55Nl_OSnYQ54
 id: paragraph.address_data.field_address_location
 field_name: field_address_location
 entity_type: paragraph

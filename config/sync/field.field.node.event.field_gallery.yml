@@ -1,4 +1,4 @@
-uuid: 07c6bf87-ac36-41d6-988e-92261485e719
+uuid: 841b02ee-7936-4356-8aee-65a447a72d91
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - media.type.image
     - media.type.remote_video
     - node.type.event
+_core:
+  default_config_hash: IcUbWnsQ_W-cF8bMYfoZIA6gHEV68JaDRnuwI6K56Ww
 id: node.event.field_gallery
 field_name: field_gallery
 entity_type: node

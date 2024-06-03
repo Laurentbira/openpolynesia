@@ -1,4 +1,4 @@
-uuid: dee4e998-52ce-4317-b4c5-21d13fbd89d8
+uuid: eda02118-3fc7-4c03-8698-008bafafdb8d
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ dependencies:
     - media.type.image
   module:
     - svg_image
+_core:
+  default_config_hash: J4yiu0ndeDJwFJqsWmKHMJGYIiZuxDW9IuGrDkkzsIw
 id: media.image.teaser_image
 targetEntityType: media
 bundle: image

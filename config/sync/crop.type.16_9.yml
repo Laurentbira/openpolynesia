@@ -1,9 +1,11 @@
-uuid: 07895f54-5c32-41e1-bd93-52ae9d264296
+uuid: 6043d695-f7cf-4a7d-ac5c-11fb10f5fe59
 langcode: en
 status: true
 dependencies: {  }
-label: '16:9'
+_core:
+  default_config_hash: HxNsm8FkjL6KTNTtFjqtEUfhBkh0lpC86noFEp9sDKw
 id: '16_9'
+label: '16:9'
 description: 'Crop type used by Image Crop module'
 aspect_ratio: '16:9'
 soft_limit_width: 680

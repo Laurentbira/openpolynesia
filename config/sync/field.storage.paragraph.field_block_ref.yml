@@ -1,4 +1,4 @@
-uuid: 60a388cc-c4fe-4eec-ad16-488fca7d4e4c
+uuid: 05a61810-12d7-454b-8b0a-47cb017fe3b9
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: custom
+_core:
+  default_config_hash: m3UsWDrYRVMyP13gp1aTDMM6RmbAy_LFctG1BUAlRTM
 id: paragraph.field_block_ref
 field_name: field_block_ref
 entity_type: paragraph

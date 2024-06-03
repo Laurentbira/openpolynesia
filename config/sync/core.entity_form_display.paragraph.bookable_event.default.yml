@@ -1,4 +1,4 @@
-uuid: 9c797c68-35de-45cb-8766-c4e6178d6559
+uuid: ac6dadbd-d8b7-413f-8d88-84dcc889974d
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ dependencies:
     - allowed_formats
     - media_library
     - text
+_core:
+  default_config_hash: xol54j0pbZK9ZP7RFN96vMwR0edfO_FGgu6zF_a83pE
 id: paragraph.bookable_event.default
 targetEntityType: paragraph
 bundle: bookable_event
@@ -44,6 +46,11 @@ content:
     settings:
       media_types: {  }
     third_party_settings: {  }
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
 hidden:
   created: true
   status: true

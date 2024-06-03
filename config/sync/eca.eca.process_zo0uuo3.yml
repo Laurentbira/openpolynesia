@@ -1,4 +1,4 @@
-uuid: 7f1e1725-11cd-4bdf-ab35-7b52135f69f9
+uuid: e9e6d394-7246-4637-94ee-76e86398eedf
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - eca_language
     - eca_user
     - eca_workflow
+_core:
+  default_config_hash: f-wX75ENtoqbINehGW7dS34RneMMrUac578aGFmefyk
 id: process_zo0uuo3
 modeller: bpmn_io
 label: 'Moderation state (published) was set'

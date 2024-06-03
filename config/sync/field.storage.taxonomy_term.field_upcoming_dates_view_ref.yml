@@ -1,4 +1,4 @@
-uuid: a0075309-d3c7-4de2-afea-9a1afb2e8a91
+uuid: b7c7b3d9-26e7-479b-86e9-44dd60f23cca
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: X4Sw_INC4eHia5msw46S_TC-LSDsRhQhj_Ykwq5ztu0
 id: taxonomy_term.field_upcoming_dates_view_ref
 field_name: field_upcoming_dates_view_ref
 entity_type: taxonomy_term

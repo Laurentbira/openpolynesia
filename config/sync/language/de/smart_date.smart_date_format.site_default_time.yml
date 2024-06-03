@@ -1,2 +1,7 @@
+label: 'Standarduhrzeit dieser Website'
 time_format: 'H:i'
 time_hour_format: 'H:i'
+allday_label: Ganztägig
+ampm_reduce: '1'
+date_first: '1'
+site_time_toggle: '1'

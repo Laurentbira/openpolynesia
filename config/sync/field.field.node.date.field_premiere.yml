@@ -1,4 +1,4 @@
-uuid: 773a1906-86fd-4518-a7f8-02a0dc8c5cd0
+uuid: ac4cd6ba-6388-4a4d-a4f8-59f67b1bc661
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.date
   module:
     - options
+_core:
+  default_config_hash: WMYK4MmytW90T7L874RzODpRgBMiAV3GGkomxPikRfo
 id: node.date.field_premiere
 field_name: field_premiere
 entity_type: node

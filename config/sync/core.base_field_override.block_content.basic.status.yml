@@ -1,9 +1,11 @@
-uuid: 00f9b2f9-0505-40ec-a549-ac79860c0c9f
+uuid: fae1ab2e-19aa-4623-b7e9-79c8127d8263
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.basic
+_core:
+  default_config_hash: JQ5KxneIXt1Ddj0AcRurfcLeGJSkMqMqw-EVfaQ6Mf0
 id: block_content.basic.status
 field_name: status
 entity_type: block_content

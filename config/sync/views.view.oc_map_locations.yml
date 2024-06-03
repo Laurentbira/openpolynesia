@@ -28,7 +28,7 @@ dependencies:
     module:
       - openculturas_map
 _core:
-  default_config_hash: WFIEv_HaujyHswtIOESHRwe0iB36xVAEYB6TF8Q1FeE
+  default_config_hash: A_OABDMJp35eLraM8m3HPze_AfdfIICGABZioc9bQ2g
 id: oc_map_locations
 label: 'OC Map: Locations'
 module: views

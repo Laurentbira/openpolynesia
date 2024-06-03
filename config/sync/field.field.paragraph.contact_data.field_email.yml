@@ -1,10 +1,12 @@
-uuid: e8ff6b23-78f5-4a32-b0c4-2015ed59e1c6
+uuid: 0ca77361-13f0-4bfe-8881-e57b164e85f7
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_email
     - paragraphs.paragraphs_type.contact_data
+_core:
+  default_config_hash: HJ7D_VHdcnAqoOfmkHzrFnJJaDAtQ1cwNeg_8lbYrnI
 id: paragraph.contact_data.field_email
 field_name: field_email
 entity_type: paragraph

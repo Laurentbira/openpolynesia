@@ -1,9 +1,11 @@
-uuid: 5ad09734-f69f-4f5e-ac12-549d53b99120
+uuid: 3e2f8210-7775-4da3-903b-2c2f342913e8
 langcode: en
 status: true
 dependencies:
   module:
     - taxonomy
+_core:
+  default_config_hash: awhoKThMP2gvS9YOASalJrojiVg6ng6ARKiXEhnf_HA
 id: article_types
 label: 'Article Types'
 type: 'canonical_entities:taxonomy_term'

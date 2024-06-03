@@ -1,0 +1,31 @@
+uuid: 113b92cd-5b09-4687-9796-8ed4624f5ee6
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.category_taxonomy_term_name
+  module:
+    - facets
+    - system
+  theme:
+    - stable
+_core:
+  default_config_hash: bqnaBaya8RwCo7HCaswhbXDfApppoM9zfZn8UTNPRMA
+id: stable_category
+theme: stable
+region: content
+weight: -13
+provider: null
+plugin: 'facet_block:category_taxonomy_term_name'
+settings:
+  id: 'facet_block:category_taxonomy_term_name'
+  label: Focus
+  label_display: '0'
+  provider: facets
+  context_mapping: {  }
+  block_id: category
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /search

@@ -15,6 +15,8 @@ dependencies:
     - taxonomy
     - user
     - views_add_button
+_core:
+  default_config_hash: NSFxI-C77xV7s41Rvv8SgFKrt6xG5QR0O0DkfZpOTXM
 id: event_catalogue
 label: 'Event catalogue'
 module: views

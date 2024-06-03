@@ -1,4 +1,4 @@
-uuid: 8fd3eafd-272b-4ced-b7a5-0dd0b1f78d0a
+uuid: c38a99df-163f-4a25-a8e6-44a324407351
 langcode: en
 status: true
 dependencies:
@@ -34,6 +34,8 @@ dependencies:
     - node.type.profile
   module:
     - user
+_core:
+  default_config_hash: dkx_P4kD60_RFFV6ApjKRtaroR-YBbBcYLiDu48mheY
 id: node.profile.embedded_teaser
 targetEntityType: node
 bundle: profile

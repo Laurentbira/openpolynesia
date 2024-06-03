@@ -1,4 +1,4 @@
-uuid: dcdcfe1d-65e8-497b-98aa-288f8d3d02f1
+uuid: 7f5bd307-11a0-4e59-8243-5b9a68e1f417
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.media_mention
   module:
     - languagefield
+_core:
+  default_config_hash: WUHH_2EyRX0RC8-GWFrOQWCMsGC5T8Z4XZ-Ybxwjnvk
 id: paragraph.media_mention.field_media_mention_language
 field_name: field_media_mention_language
 entity_type: paragraph

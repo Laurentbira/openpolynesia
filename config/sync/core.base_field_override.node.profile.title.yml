@@ -1,9 +1,11 @@
-uuid: ddfa6cc2-bd80-422a-9341-159644c8770e
+uuid: 1651edbf-c22e-498b-a393-1ad8d12a0d53
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.profile
+_core:
+  default_config_hash: TPC-cTXUMEQbyPOLWl2S-oOCQBYiZBtlsFv--btCmas
 id: node.profile.title
 field_name: title
 entity_type: node

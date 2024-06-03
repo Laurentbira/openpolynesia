@@ -1,4 +1,4 @@
-uuid: c48998d4-12a0-48f8-8729-22b78aedd480
+uuid: 9191b26e-7fe6-412b-8e8e-091244b114d3
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - views.view.recommended_by
   module:
     - viewfield
+_core:
+  default_config_hash: SeMjG79TWIlK13jyz28m7VhvJrLGiRsscQOWxPS54Tw
 id: node.profile.field_recommended_by_view_ref
 field_name: field_recommended_by_view_ref
 entity_type: node

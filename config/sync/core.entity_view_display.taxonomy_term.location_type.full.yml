@@ -1,4 +1,4 @@
-uuid: 67fd2687-b1e8-4cf3-9199-1f7fba4a45c8
+uuid: 55f3be19-ecf5-4fc7-9fc4-1f0ccd212648
 langcode: en
 status: true
 dependencies:
@@ -66,6 +66,8 @@ third_party_settings:
         attributes: ''
         effect: none
         speed: fast
+_core:
+  default_config_hash: 7alWorUQqFmey9kz1gQDI6ggzTPAen1YgTOQdPRqtNQ
 id: taxonomy_term.location_type.full
 targetEntityType: taxonomy_term
 bundle: location_type

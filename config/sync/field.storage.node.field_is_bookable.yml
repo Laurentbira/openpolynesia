@@ -1,4 +1,4 @@
-uuid: 4b721711-189e-46fa-a9e2-92e91e82fea5
+uuid: eee9a6d6-ff1f-4c92-ba03-e7d4d9f60ac8
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: YsSkqPcI1L41lbpbZ2iww-_3VAKXWW7ri6UdRzfCPks
 id: node.field_is_bookable
 field_name: field_is_bookable
 entity_type: node

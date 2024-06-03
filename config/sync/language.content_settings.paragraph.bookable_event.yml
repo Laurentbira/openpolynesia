@@ -1,4 +1,4 @@
-uuid: a35f8abe-8ece-4ffb-bc3c-ac9e54f7829e
+uuid: 264665a3-510f-4072-9248-8170edc98514
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ third_party_settings:
     enabled: true
     bundle_settings:
       untranslatable_fields_hide: '1'
+_core:
+  default_config_hash: KcgKhCvpamHgIX7qPH_an_IEy52Pg3YyBI-wC7AVLVU
 id: paragraph.bookable_event
 target_entity_type_id: paragraph
 target_bundle: bookable_event

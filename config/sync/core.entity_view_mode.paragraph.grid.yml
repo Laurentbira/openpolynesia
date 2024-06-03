@@ -1,9 +1,11 @@
-uuid: 261e4d20-5b44-4aa2-8346-3d8927be90a6
+uuid: e630d1aa-6a16-4a30-a09d-6a531a1f7de5
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: JA68ibAc-ut8auJG1c5CyzT604Ap6w6IHlv2ZUVwf1I
 id: paragraph.grid
 label: 'Side by side'
 description: ''

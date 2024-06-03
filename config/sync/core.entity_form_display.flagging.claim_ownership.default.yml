@@ -1,10 +1,12 @@
-uuid: c4037f42-7224-44ce-adb7-9506e90c1337
+uuid: 32dc2945-d5fe-401b-8adf-1c9de15ad088
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.flagging.claim_ownership.field_comment
     - flag.flag.claim_ownership
+_core:
+  default_config_hash: FmOXSPSc4Fj9LeMolEA6SUqW43gbcySrOukkqbTm9hk
 id: flagging.claim_ownership.default
 targetEntityType: flagging
 bundle: claim_ownership

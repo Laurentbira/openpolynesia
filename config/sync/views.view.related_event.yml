@@ -13,6 +13,8 @@ dependencies:
     - user
     - views_add_button
     - views_infinite_scroll
+_core:
+  default_config_hash: e7Ta1Y8Lti77fMCIlEYK2rNm5OyqGrBjaraUx9TpRrs
 id: related_event
 label: 'Related events'
 module: views

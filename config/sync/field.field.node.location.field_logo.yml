@@ -1,4 +1,4 @@
-uuid: 996cf4f9-fa1e-4ed4-bb45-18e24a523c80
+uuid: 343aaadc-843f-42f0-b645-16f915ea2e32
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_logo
     - media.type.logo_image
     - node.type.location
+_core:
+  default_config_hash: M50O3XS7q3-S_ZGqOvj7PxfBN5lNuShTkcNMrQghASw
 id: node.location.field_logo
 field_name: field_logo
 entity_type: node

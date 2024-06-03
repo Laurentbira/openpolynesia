@@ -1,4 +1,4 @@
-uuid: 97c5e61b-903a-42ce-ae5d-e71732d5241a
+uuid: 2843b418-0f24-4bc5-8f47-05d5cba18df5
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ third_party_settings:
     enabled: false
     bundle_settings:
       untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: NKoRi4PZWsHS9HqrvI6f7f4yysLt-d4GxsZIPV7yPiU
 id: shortcut.default
 target_entity_type_id: shortcut
 target_bundle: default

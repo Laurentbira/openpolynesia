@@ -1,4 +1,4 @@
-uuid: e81d08e5-c338-4827-87c7-7a742f705988
+uuid: 5b353afa-e2be-405f-aa84-0585c19db9bd
 langcode: en
 status: true
 dependencies:
@@ -30,6 +30,8 @@ dependencies:
     - field_formatter_class
     - smart_date_recur
     - user
+_core:
+  default_config_hash: J-HY68tCk8RuDEHeZSg2yhVAz4vF3jjl2XtzG2lTVY8
 id: node.date.compact
 targetEntityType: node
 bundle: date

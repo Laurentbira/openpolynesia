@@ -1,4 +1,4 @@
-uuid: 41bd7f79-c5c9-48a9-9106-51cc00e6a3e9
+uuid: 261c0a1d-2925-47e6-8351-b01d5896017a
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
     - media.type.logo_image
   module:
     - svg_image
+_core:
+  default_config_hash: q-Y_tLzVb83X4ReuV0Ob7lz8tlHTxn5I0ehffuDc9ZQ
 id: media.logo_image.media_library
 targetEntityType: media
 bundle: logo_image
@@ -30,6 +32,11 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
 hidden:
   created: true
   langcode: true

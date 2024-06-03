@@ -1,4 +1,4 @@
-uuid: c404ead9-c6a0-4870-bda2-bed319ee7275
+uuid: a64be3df-e66e-4047-b2aa-b2356505335d
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
     - views
   theme:
     - openculturas_base
+_core:
+  default_config_hash: zi7qj3qzJ0GuxMmFwv6t7nWH6ekj5_yb_GCm7iCu_4c
 id: search_input
 theme: openculturas_base
 region: offcanvas_menu

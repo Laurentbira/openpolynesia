@@ -12,6 +12,8 @@ dependencies:
     - user
     - views_add_button
     - views_infinite_scroll
+_core:
+  default_config_hash: ymN6rn3S0FokTCArIaKM3k62Eecl2ec1VKsiJIkH7rA
 id: related_pages
 label: 'Related pages'
 module: views

@@ -1,9 +1,11 @@
-uuid: 236b28b8-aa7c-43ab-a171-7470e8ecdbdf
+uuid: 5ab56a7e-bd05-43ec-b510-64dcb0e3271d
 langcode: en
 status: true
 dependencies:
   module:
     - media
+_core:
+  default_config_hash: dwtVHDbmp00zXXNLj1fOWiCsEf4lSuOlDhultIw6hMw
 id: media.teaser_image
 label: 'Teaser image'
 description: ''

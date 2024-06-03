@@ -1,0 +1,27 @@
+uuid: 2ebacaaf-b2dc-4d6a-a7b8-500be6d25a25
+langcode: en
+status: true
+dependencies:
+  module:
+    - cookies
+    - system
+  theme:
+    - stable
+_core:
+  default_config_hash: 0J0v7fhIpT3Lc6rfKnUbgwezS1CpRkuxTbjuOPl5l0A
+id: stable_cookiesui
+theme: stable
+region: sidebar_first
+weight: -10
+provider: null
+plugin: cookies_ui_block
+settings:
+  id: cookies_ui_block
+  label: 'Cookies UI'
+  label_display: '0'
+  provider: cookies
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: /cookies/documentation

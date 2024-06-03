@@ -1,9 +1,11 @@
-uuid: 2d840864-d38f-4a67-b619-0fe2b22c27e0
+uuid: 68b25f55-46e6-4499-a8d5-a12c8b4cd660
 langcode: en
 status: true
 dependencies:
   config:
     - paragraphs.paragraphs_type.download
+_core:
+  default_config_hash: k9R144Mhd_hpjjzgl3Z5odvA5GqkccrvD5nWUp2aopw
 id: paragraph.download.created
 field_name: created
 entity_type: paragraph

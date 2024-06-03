@@ -1,0 +1,4 @@
+label: Magazin
+relationships:
+  'node:langcode:language':
+    label: Sprache

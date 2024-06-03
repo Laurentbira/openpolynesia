@@ -1,4 +1,4 @@
-uuid: 7cbdadee-ac04-46f3-a9ca-fbf35180a065
+uuid: b5958ff4-48fd-40c7-9223-c889b3907503
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: NTc31r8bbNN6Tl1RsQz_pcY1gdfZ852LN8O9uMLpTU4
 id: paragraph.field_url_single_value
 field_name: field_url_single_value
 entity_type: paragraph

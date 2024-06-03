@@ -1,67 +1,114 @@
+label: 'OC-Karte: Termine'
+description: 'Ergänzende Ansicht für das Modul OpenCulturas Map. Ändern Sie nur, wenn Sie wissen, was Sie tun, sonst könnte das Modul kaputt gehen.'
 display:
   default:
+    display_title: Standard
     display_options:
-      empty:
-        area:
-          content:
-            value: '<p>Aktuell stehen keine Termine an.</p>'
-            format: basic_html
+      fields:
+        field_mood_image:
+          separator: ', '
+        field_date:
+          separator: ', '
+        title:
+          separator: ', '
+        delta_1:
+          format_plural_string: !!binary MQNAY291bnQ=
+        nid:
+          separator: ', '
+        nid_1:
+          separator: ', '
+        title_3:
+          separator: ', '
+        field_event_status:
+          separator: ', '
+        field_event_status_1:
+          separator: ', '
+        nid_2:
+          separator: ', '
+        delta:
+          format_plural_string: !!binary MQNAY291bnQ=
+        field_subtitle:
+          separator: ', '
+        body:
+          separator: ', '
+        title_1:
+          separator: ', '
+        field_address_data:
+          separator: ', '
+        field_attendance_mode:
+          separator: ', '
+        field_attendance_mode_1:
+          separator: ', '
+        field_premiere_1:
+          separator: ', '
+        field_sub_type:
+          admin_label: Ereignistyp
+          separator: ', '
+        rendered_entity:
+          admin_label: 'Angezeigter Standort'
+        title_2:
+          separator: ', '
+        field_address_location:
+          separator: ', '
+        field_date_1:
+          separator: '<br>'
+        nid_3:
+          alter:
+            text: 'Zum Kalender dieser Orte'
+          separator: ', '
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
+            first: '« Anfang'
+            last: 'Ende »'
+          expose:
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Versatz
+      exposed_form:
+        options:
+          submit_button: Anwenden
+          reset_button_label: Zurücksetzen
+          exposed_sorts_label: 'Sortieren nach'
+          sort_asc_label: Aufsteigend
+          sort_desc_label: Absteigend
+          text_input_required: 'Wählen Sie einen beliebigen Filter und klicken Sie auf Anwenden, um Ergebnisse zu sehen'
+          bef:
+            general:
+              secondary_label: 'Erweiterte Filter'
       filters:
-        field_date_duration:
-          group_info:
-            label: 'Mehrtägige ausblenden'
-            group_items:
-              1:
-                title: Ja
         field_category_target_id:
           expose:
             label: Fokus
         field_sub_type_target_id:
-          admin_label: Typ
+          admin_label: Ereignistyp
           expose:
             label: Typ
         field_date_value_1:
           expose:
             label: Startdatum
-            placeholder: TT.MM.JJJJ
+            placeholder: tt.mm.jjjj
         field_date_end_value:
           expose:
             label: Enddatum
-            placeholder: TT.MM.JJJJ
+            placeholder: tt.mm.jjjj
+        field_date_duration:
+          group_info:
+            group_items:
+              1:
+                title: Ja
         field_a11y_features_target_id:
           expose:
             label: Barrierefreiheit
         title:
           expose:
-            label: 'Veranstalter:in'
+            label: Organisator
             placeholder: 'Name enthält ...'
         title_1:
           expose:
-            label: Veranstaltungsort
+            label: Ort
             placeholder: 'Name enthält ...'
-      display_comment: 'Achtung! Feldnamen nicht entfernen, übersetzen oder umbenennen, sonst Fehlfunktion!'
-      pager:
-        options:
-          tags:
-            first: '« Anfang'
-            last: 'Ende »'
-          expose:
-            items_per_page_label: Anz./Seite
-            items_per_page_options_all_label: '- Alle -'
-            offset_label: ab
-      exposed_form:
-        options:
-          submit_button: Anwenden
-          reset_button_label: Zurücksetzen
-          exposed_sorts_label: Sortierung
-          sort_asc_label: Aufsteigend
-          sort_desc_label: Absteigend
-          text_input_required: 'Filter setzen, um Ergebnisse zu sehen'
-          bef:
-            general:
-              secondary_label: 'Erweiterte Filter'
-      fields:
-        nid_3:
-          alter:
-            text: 'Zum Kalender dieses Veranstaltungsortes'
-description: 'Gegenstück zum Modul OpenCulturas Map. Vorsicht bei Änderungen! Administrativen Hinweis beachten.'
+      display_comment: 'Achtung! Entfernen, übersetzen oder ändern Sie die Namen der angegebenen Felder nicht, da dies zu Fehlfunktionen/Fehlern führen würde.'
+  rest_export_1:
+    display_title: 'REST-Export (Daten für Karte)'

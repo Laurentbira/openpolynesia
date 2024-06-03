@@ -1,4 +1,4 @@
-uuid: a7537bf3-1fba-4945-a950-2a42af8e96a0
+uuid: 5c2c339d-f20b-422e-b964-1ad1538c04dd
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ third_party_settings:
     enabled: true
     bundle_settings:
       untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: FcXJrXwUlPjbfpRFy7gzk_FJ76q5-JvUIuXpdx3Dpkk
 id: taxonomy_term.trigger_warnings
 target_entity_type_id: taxonomy_term
 target_bundle: trigger_warnings

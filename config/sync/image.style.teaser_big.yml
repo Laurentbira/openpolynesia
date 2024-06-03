@@ -1,4 +1,4 @@
-uuid: 733a02ea-49ad-48f3-acea-6611e9cd4f99
+uuid: b3047323-e575-4be6-b4aa-6cd6be9043d6
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - crop.type.16_9
   module:
     - crop
+_core:
+  default_config_hash: p3C5Jeu1PBJX2nO8GqawjOhvDCVZjy5ba9J3NEdZoQ0
 name: teaser_big
 label: 'Teaser big 16:9'
 effects:

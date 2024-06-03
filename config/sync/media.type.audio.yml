@@ -1,7 +1,9 @@
-uuid: c4d1d5b1-2c6a-431e-8b8a-4fec0e2b1667
+uuid: eee6cc1d-bd73-4546-a1c0-77ce5fbcfe2c
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: NjtcgpfCqo-daRHqDCDkNxcvzQ8dFEnjvaI45lHAyLI
 id: audio
 label: Audio
 description: ''

@@ -1,4 +1,4 @@
-uuid: a7462346-462b-4317-9e53-0460bbbcf2b9
+uuid: d76769ab-87b8-4538-9f2b-92311370eecb
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - node.type.profile
   module:
     - path
+_core:
+  default_config_hash: XAJa_GZwKxOP7Z0Vc7bv8SwZDuXbWrxupCS92bc5G9Y
 id: node.profile.path
 field_name: path
 entity_type: node

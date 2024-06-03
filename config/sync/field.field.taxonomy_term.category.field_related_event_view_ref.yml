@@ -1,4 +1,4 @@
-uuid: b8c7f2d4-c51d-4302-99cf-caf7213973ca
+uuid: 9c61ad35-f45b-4520-a3f7-2ce478efd4b9
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - views.view.related_event
   module:
     - viewfield
+_core:
+  default_config_hash: pFMN7c8Lsmq7zzonmXgZ-PZ5os_IYcxtEMm3WVYx8z0
 id: taxonomy_term.category.field_related_event_view_ref
 field_name: field_related_event_view_ref
 entity_type: taxonomy_term

@@ -1,7 +1,9 @@
-uuid: 0df4ecf9-2cb2-4f3f-8740-f1649c963070
+uuid: 1ddf02f9-7a11-4547-986d-4198e55516b5
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 0lytO8RpMHKiqCxCoNqLBII27ReWBGhCXwP4k4_2pJQ
 id: site_default_date_and_time
 label: 'Site default date and time'
 date_format: 'd F Y'

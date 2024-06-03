@@ -1,4 +1,4 @@
-uuid: 803bb6af-d063-49f0-b12f-8eb9c0722b3d
+uuid: 4098df99-cf10-463e-9c6e-93f165cf8275
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.taxonomy_term.field_mood_image
     - media.type.image
     - taxonomy.vocabulary.page_type
+_core:
+  default_config_hash: 4vQwETRV2IDgdVsoHL-wJFTmS2noLaoP-8RQTO72dc8
 id: taxonomy_term.page_type.field_mood_image
 field_name: field_mood_image
 entity_type: taxonomy_term

@@ -1,9 +1,11 @@
-uuid: 556b6370-bce6-4691-9f20-4e0bf40353ce
+uuid: 481128f8-401a-45a0-9737-9cad169d4a74
 langcode: en
 status: true
 dependencies:
   module:
     - openculturas_custom
+_core:
+  default_config_hash: qm-mI3BS4Ve3A46zrjs4DtUD4Y6EZmIuwo1xYTOn-9Y
 id: teaser_wrapper
 label: 'Teaser section'
 icon_uuid: null

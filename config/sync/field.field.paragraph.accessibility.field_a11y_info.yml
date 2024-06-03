@@ -1,4 +1,4 @@
-uuid: 0c45f1d0-fb05-4f2d-bac0-6ea0d411bbcc
+uuid: c4212ec8-3e4e-4606-b530-82e630f3a078
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.accessibility
   module:
     - text
+_core:
+  default_config_hash: 6NCnqejUg7AGfAdEZb9sOUEewZQaYdjtYwQouaB5NTc
 id: paragraph.accessibility.field_a11y_info
 field_name: field_a11y_info
 entity_type: paragraph

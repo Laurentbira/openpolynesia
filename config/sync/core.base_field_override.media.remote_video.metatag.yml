@@ -1,9 +1,11 @@
-uuid: 9ba118f4-7334-4546-8849-15a169e8606f
+uuid: 9c704d29-e987-4d13-84a3-2952314d9e58
 langcode: en
 status: true
 dependencies:
   config:
     - media.type.remote_video
+_core:
+  default_config_hash: 2904vjfOjxAaql6WYGf9UUqjJqvHEWwExkQF-npvK_s
 id: media.remote_video.metatag
 field_name: metatag
 entity_type: media

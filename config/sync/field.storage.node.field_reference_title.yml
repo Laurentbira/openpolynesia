@@ -1,9 +1,11 @@
-uuid: 17ca3e77-cd10-4db0-90ab-14b9f01106d7
+uuid: 5673c380-2d2a-49d1-8291-c90a9a971342
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: kew9_6UsfG6f0XyvgctNBKPTfq8NL-04RGjYd3PWGF8
 id: node.field_reference_title
 field_name: field_reference_title
 entity_type: node

@@ -1,9 +1,11 @@
-uuid: 15c713fd-c751-48bd-bc13-9ee3cdd5b54d
+uuid: c00a9e65-a820-4638-9dde-5907af13ae9a
 langcode: en
 status: true
 dependencies:
   config:
     - media.type.user_profile_picture
+_core:
+  default_config_hash: 4BZvFal-VR5B9dl_luny8hptqXczMWvlkT_wXbDm2fw
 id: media.user_profile_picture.uid
 field_name: uid
 entity_type: media

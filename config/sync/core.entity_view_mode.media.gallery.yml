@@ -1,9 +1,11 @@
-uuid: bbe318bb-9b66-4717-a437-10e86d26af63
+uuid: 726f1601-7faf-4018-aa13-7c5149b9d9a5
 langcode: en
 status: true
 dependencies:
   module:
     - media
+_core:
+  default_config_hash: k89jWpnMECo1515VG0h3tu6YO9t6wwCb50v408i6ohM
 id: media.gallery
 label: Gallery
 description: ''

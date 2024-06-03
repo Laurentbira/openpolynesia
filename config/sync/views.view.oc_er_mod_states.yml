@@ -3,9 +3,10 @@ langcode: en
 status: true
 dependencies:
   module:
-    - content_moderation
     - node
     - user
+_core:
+  default_config_hash: LwJ3eYLgN9dgG_S5oY5Y0FrlTPjfradb4WuMOpRIaEE
 id: oc_er_mod_states
 label: 'Referenced content states'
 module: views

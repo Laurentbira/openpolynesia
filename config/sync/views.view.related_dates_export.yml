@@ -44,7 +44,7 @@ dependencies:
     - user
     - views_data_export
 _core:
-  default_config_hash: oz7jra2S3MnKdppAVRpBzGICfuC-qKWIw4fODOetZZE
+  default_config_hash: XTPjW_OJAT4avs2TzFJOQakxCdzDfzPNpsWcyeZoPLM
 id: related_dates_export
 label: 'Related dates export'
 module: views

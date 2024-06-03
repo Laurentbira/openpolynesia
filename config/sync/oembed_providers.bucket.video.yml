@@ -1,10 +1,12 @@
-uuid: 059bc45d-293b-4dd6-aca3-24ad5255e0b3
+uuid: 3c1e42a3-aed1-4603-9e88-ccebee82485b
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 2JGwWySkTCtm-EpUhVQVwN3IkoDiskct_Azj-pTOl5A
 id: video
 label: 'Remote video'
-description: ''
 providers:
   - Vimeo
   - YouTube
+description: ''

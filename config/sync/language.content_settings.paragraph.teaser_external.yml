@@ -1,4 +1,4 @@
-uuid: 7b502a99-3d39-475c-9eb3-b11d81ccbb65
+uuid: db79312b-89af-46ac-8f7f-ce4df384e88d
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ third_party_settings:
     enabled: true
     bundle_settings:
       untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: 7R5CU7jqPKOK_uFiZpffVzKh31bfGQWXf5v4qajwQOE
 id: paragraph.teaser_external
 target_entity_type_id: paragraph
 target_bundle: teaser_external

@@ -1,10 +1,12 @@
-uuid: bcaf3389-9a27-4462-96d0-d1120e1a41b8
+uuid: b3bcd805-dc39-489c-9e0e-5eabf21fdaad
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.flagging.field_comment
     - flag.flag.report_abuse
+_core:
+  default_config_hash: ofJlcwQTdLCwoNxb6jMyAYbXco2OU17y73S-2L8KCcw
 id: flagging.report_abuse.field_comment
 field_name: field_comment
 entity_type: flagging

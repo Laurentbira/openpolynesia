@@ -1,4 +1,4 @@
-uuid: d1696ebf-49ed-4c28-a55f-d22eb8b44917
+uuid: dce7fdaa-e645-4fc5-a38d-f50c0de1edf9
 langcode: en
 status: true
 dependencies:
@@ -200,6 +200,8 @@ third_party_settings:
         formatter: closed
         description: ''
         required_fields: true
+_core:
+  default_config_hash: 4lUduvv59kXEtKYyiV2WLw38GG5hTcpFpMzfALf1aAY
 id: node.date.default
 targetEntityType: node
 bundle: date

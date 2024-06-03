@@ -1,0 +1,27 @@
+uuid: 6a2a2c0d-b6c9-4417-8bfc-aacb71db09c0
+langcode: en
+status: true
+dependencies:
+  module:
+    - cookies
+    - system
+  theme:
+    - classy
+_core:
+  default_config_hash: 0J0v7fhIpT3Lc6rfKnUbgwezS1CpRkuxTbjuOPl5l0A
+id: classy_cookiesui
+theme: classy
+region: sidebar_first
+weight: -10
+provider: null
+plugin: cookies_ui_block
+settings:
+  id: cookies_ui_block
+  label: 'Cookies UI'
+  label_display: '0'
+  provider: cookies
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: /cookies/documentation

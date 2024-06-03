@@ -10,6 +10,8 @@ dependencies:
     - node
     - user
     - views_infinite_scroll
+_core:
+  default_config_hash: Z7aVOOAOPkSQWvIrglbHjOEtRWTQ_OqmtEgUc7qrCQY
 id: recommended_by
 label: 'Recommended by'
 module: views

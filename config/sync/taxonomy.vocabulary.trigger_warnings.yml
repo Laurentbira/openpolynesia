@@ -1,7 +1,9 @@
-uuid: 00b60eab-eda8-4b7a-b2e9-a7c37e3374a4
+uuid: d6a164a8-84c6-4238-a472-722e89fe6c8c
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: Lui7gk8KFNfUeJwoTic0ASpq-GGLaIyFmOeCq7hoqBQ
 name: 'Trigger warnings'
 vid: trigger_warnings
 description: ''

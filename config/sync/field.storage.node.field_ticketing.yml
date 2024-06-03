@@ -1,4 +1,4 @@
-uuid: 26b204f0-05a1-4de2-ac58-2dd9d34bcf9d
+uuid: 53bea5bd-d237-4b7c-aa6f-5ae371b26427
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: d6MXXVHujl2FBJXJSJsx_kPnFPytPPJW9WG3oGd7riI
 id: node.field_ticketing
 field_name: field_ticketing
 entity_type: node

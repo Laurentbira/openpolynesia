@@ -6,22 +6,26 @@ third_party_settings:
       label: Mitwirkende
     group_tickets:
       label: 'Eintrittskarten und Preise'
-    group_location:
-      label: Veranstaltungsort
     group_accessibility_information:
       label: Barrierefreiheit
     group_organizer:
-      label: 'Veranstaltet von'
+      label: 'Veranstalter:in'
     group_tagging:
       label: Fokus
     group_alternative_dates:
       label: 'Weitere Termine'
     group_gallery:
       label: Galerie
+    group_interact:
+      label: Interaktion
+    group_workflow:
+      label: Arbeitsablauf
     group_part_of_event_series_info:
       label: 'Teil der Veranstaltungsreihe'
     group_dates_in_this_series_info:
       label: 'Termine in dieser Veranstaltungsreihe'
+    group_location:
+      label: Veranstaltungsort
 content:
   field_date:
     third_party_settings:
@@ -29,4 +33,8 @@ content:
         instances:
           settings:
             addtocal:
-              label: 'Zum Kalendar hinzufügen'
+              label: 'Zum Kalender hinzufügen'
+        rule:
+          settings:
+            addtocal:
+              label: 'Zum Kalender hinzufügen'

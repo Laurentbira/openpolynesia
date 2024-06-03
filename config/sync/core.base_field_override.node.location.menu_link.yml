@@ -1,9 +1,11 @@
-uuid: 83c563b2-ce45-4390-bef7-a97283bad572
+uuid: 12922ee9-e6c4-4d77-81ee-0c4c49e3db37
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.location
+_core:
+  default_config_hash: KUVpBkhoCXtt56tVpXc7HKKdg_eb0MTBXeD3Wp1phA8
 id: node.location.menu_link
 field_name: menu_link
 entity_type: node

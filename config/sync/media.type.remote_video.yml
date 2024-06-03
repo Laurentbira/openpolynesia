@@ -1,4 +1,4 @@
-uuid: 97b780c0-eeb3-4b76-87b9-a8cb20e01222
+uuid: 10925207-dea8-4ca8-b6fa-c74aaf8417a3
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
 third_party_settings:
   crop:
     image_field: null
+_core:
+  default_config_hash: 1KS1bH2ME15l6cnS9dECMGSH0YeHTImxzR3V3ZXCmek
 id: remote_video
 label: 'Remote Video'
 description: 'Use an external video by URL.'

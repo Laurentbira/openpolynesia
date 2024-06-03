@@ -1,4 +1,4 @@
-uuid: 8d20b222-898b-412d-bd26-b9ac22725f73
+uuid: 9de8be92-8f67-40fe-ba62-c97fc509548f
 langcode: en
 status: true
 dependencies:
@@ -13,6 +13,8 @@ dependencies:
     - field.field.taxonomy_term.category.field_term_children_view_ref
     - field.field.taxonomy_term.category.field_upcoming_dates_view_ref
     - taxonomy.vocabulary.category
+_core:
+  default_config_hash: V8hEL33jwenAvRVKTw9cll_BkveI5uxxkJKo3SM9OgY
 id: taxonomy_term.category.default
 targetEntityType: taxonomy_term
 bundle: category

@@ -1,9 +1,11 @@
-uuid: 9096d505-f169-488f-a856-04d92cfcfe15
+uuid: 2f708e95-833f-4215-a9dc-53888de09426
 langcode: en
 status: true
 dependencies:
   config:
     - eca.eca.process_fhzwp6n
+_core:
+  default_config_hash: EOauh0kMhVtDO0ywCKxif499T2sgNjJISNbXFUdQvLM
 id: process_fhzwp6n
 label: 'Abuse report'
 tags:

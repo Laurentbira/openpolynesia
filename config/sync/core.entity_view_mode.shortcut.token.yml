@@ -1,11 +1,11 @@
-uuid: 3f588036-33c7-4776-90da-25f55ebaf20b
+uuid: d6a21090-69d0-4628-b6dd-ba774c5c7552
 langcode: en
 status: true
 dependencies:
   module:
     - shortcut
 _core:
-  default_config_hash: 2dB1cOiWxN4z6SgPspoodgxr3oK0Rd6BuEZSh1X941Q
+  default_config_hash: Nds7t_cOU_ozeJ1CKz181O6eA_GDqfZjicuo81IAS4g
 id: shortcut.token
 label: Token
 description: ''

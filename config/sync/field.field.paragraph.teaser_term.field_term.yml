@@ -1,4 +1,4 @@
-uuid: e9924228-4d59-4888-afee-19c6e1111e4e
+uuid: 3a67fa9b-7555-4749-b428-6fbc67c03ba3
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ dependencies:
     - taxonomy.vocabulary.event_type
     - taxonomy.vocabulary.location_type
     - taxonomy.vocabulary.page_type
+_core:
+  default_config_hash: 6Ncz6_GJJDD720AhCXYXhqivvoV9PubQG0DpKgOz46U
 id: paragraph.teaser_term.field_term
 field_name: field_term
 entity_type: paragraph

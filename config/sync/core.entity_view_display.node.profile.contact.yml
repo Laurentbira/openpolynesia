@@ -1,4 +1,4 @@
-uuid: 50f5aaed-0ed2-42ea-a992-aad32216b2a5
+uuid: 20be9eec-070e-49c4-b81b-ed0f1cb8c049
 langcode: en
 status: true
 dependencies:
@@ -35,6 +35,8 @@ dependencies:
   module:
     - entity_reference_revisions
     - user
+_core:
+  default_config_hash: OcK4jyY7vpfncrJXuGxCAVSMfOFGzIClfmdqlQIpzus
 id: node.profile.contact
 targetEntityType: node
 bundle: profile

@@ -1,4 +1,4 @@
-uuid: 9ca113dc-49c6-4d6e-9556-0f06623febf0
+uuid: 9617a101-5f5a-4678-8e54-0932f6836f86
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.page
   module:
     - metatag
+_core:
+  default_config_hash: fEfNdfXiUGJcEUGp1asosZqSwgc5n9Hs5CDlwq5xFjg
 id: node.page.field_meta_tags
 field_name: field_meta_tags
 entity_type: node

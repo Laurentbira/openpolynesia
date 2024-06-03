@@ -1,4 +1,4 @@
-uuid: 3c01211b-cedb-459a-bf90-2b5e8acb341e
+uuid: 3b11b6d7-8982-4510-afbc-1c90a62b3a73
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - flag.flag.recommendation_node
   module:
     - flag
+_core:
+  default_config_hash: DOnGxvcc6hcojSD_arq55ZH8KSHRFTzyKwbf8bJ7Ey8
 id: flag_action.recommendation_node_unflag
 label: 'Remove recommendation'
 type: node

@@ -1,4 +1,4 @@
-uuid: d96cc75a-908b-4a2e-b584-8d6f2e3cbda9
+uuid: 85765769-ede8-406c-a3ac-f1ea4e9b9e34
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: custom
+_core:
+  default_config_hash: KW_V_Y-fnNjjVl5Yp2dH8r7BASnPf92p9EAwfu888bQ
 id: node.field_badges
 field_name: field_badges
 entity_type: node

@@ -1,4 +1,4 @@
-uuid: 6c569db7-6ff2-4adc-8f6f-27175bc1d43c
+uuid: d029fed8-806a-47b4-a48d-cd3616af3acf
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
     - taxonomy.vocabulary.page_type
   module:
     - field_formatter_class
+_core:
+  default_config_hash: RS037_SP201UIZleB_s688PDoRcP1aU2qVQK7Ia4avk
 id: taxonomy_term.page_type.teaser
 targetEntityType: taxonomy_term
 bundle: page_type

@@ -1,0 +1,25 @@
+uuid: 0e48b3ca-5f72-4383-a0f1-cfbe5b4bab3f
+langcode: en
+status: true
+dependencies:
+  module:
+    - openculturas_custom
+  theme:
+    - classy
+_core:
+  default_config_hash: ATHgYkZAQcoCsF89o8zdqk_uiXiihKcP8Fzh9eMcXd8
+id: classy_pagetitlewithsubtitle
+theme: classy
+region: sidebar_first
+weight: -15
+provider: null
+plugin: openculturas_custom_page_title
+settings:
+  id: openculturas_custom_page_title
+  label: 'Page title with subtitle'
+  label_display: '0'
+  provider: openculturas_custom
+  subheadline_display: true
+  subtype_display: true
+  profilepicture_display: true
+visibility: {  }

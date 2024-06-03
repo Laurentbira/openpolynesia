@@ -1,9 +1,11 @@
-uuid: 4b5c1f5d-4363-44ff-84eb-1b9207405dfc
+uuid: e85db7f6-33b7-45be-8f1f-82bed2b5629c
 langcode: en
 status: true
 dependencies:
   config:
     - media.type.image
+_core:
+  default_config_hash: BUsfbiAVTzkYA1tKRjl7jbY6foph3gcZAYzT1tNFQEo
 id: media.image.created
 field_name: created
 entity_type: media

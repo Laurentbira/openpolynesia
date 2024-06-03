@@ -1,4 +1,4 @@
-uuid: 21257991-5d19-45e4-ba85-5c9c9fe4ca6b
+uuid: 712622bf-02bb-457a-bbff-5a21f2ab0426
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - language
   theme:
     - openculturas_base
+_core:
+  default_config_hash: oN6NisxADc10iWcZbzNGS4tUvk6yPMmGe98Bf22d0zo
 id: languageswitcher
 theme: openculturas_base
 region: utilities_links

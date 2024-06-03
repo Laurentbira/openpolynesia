@@ -1,4 +1,4 @@
-uuid: d4f06a4e-5a62-43b5-833c-ed68956ee9db
+uuid: 24f7dc32-a96f-4ae9-ac2a-17174f32564a
 langcode: en
 status: true
 dependencies:
@@ -24,6 +24,8 @@ dependencies:
     - smart_trim
     - text
     - user
+_core:
+  default_config_hash: sts0CiCAxIMeoKv0DIdt2n-n_pjW7rHWCppnznZjhCg
 id: node.article.teaser_unified
 targetEntityType: node
 bundle: article

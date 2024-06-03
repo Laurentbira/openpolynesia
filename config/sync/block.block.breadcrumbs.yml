@@ -1,4 +1,4 @@
-uuid: d84f57fd-41f1-4732-9ec5-fad9d581d04f
+uuid: cc137029-6493-4bf3-8456-83e105a53aa6
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - system
   theme:
     - openculturas_base
+_core:
+  default_config_hash: ZBfW8zL4E2nVs5zU-QhEY2IUv8iDY7zescFkZI3pO5U
 id: breadcrumbs
 theme: openculturas_base
 region: breadcrumbs

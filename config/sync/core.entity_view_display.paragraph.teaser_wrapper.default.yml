@@ -1,4 +1,4 @@
-uuid: 43b2c873-c8d8-4f38-8ca3-e2414ad58d90
+uuid: e4215cc2-e1a6-455d-b245-13c311af10ac
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
   module:
     - entity_reference_revisions
     - field_formatter_class
+_core:
+  default_config_hash: G8QYo1IZGmPOwt2VlJUPH8g5xsG8iAgnHD0eJ7uFvKg
 id: paragraph.teaser_wrapper.default
 targetEntityType: paragraph
 bundle: teaser_wrapper

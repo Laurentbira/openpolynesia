@@ -1,4 +1,4 @@
-uuid: b5db7ea2-f454-45c9-a062-395bd502797d
+uuid: dc568303-195b-42ff-a8d1-8e4b91f04764
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_portrait
     - media.type.user_profile_picture
     - node.type.location
+_core:
+  default_config_hash: Saza3ZIFSTPccm3T6O0p4xGXjJASLJRit0WLasBlMCA
 id: node.location.field_portrait
 field_name: field_portrait
 entity_type: node

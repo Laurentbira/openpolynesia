@@ -1,9 +1,11 @@
-uuid: 06f482e4-db4e-403b-8bcd-2019a5a47d82
+uuid: cbf7978d-34ad-4002-9830-4306b79df6a6
 langcode: en
 status: true
 dependencies:
   config:
     - media.type.sponsor
+_core:
+  default_config_hash: UzcX9Y7ixnMC6RNWQWOr_uI7RPUSPNGFfMIHSHGDe6A
 id: media.sponsor.uid
 field_name: uid
 entity_type: media

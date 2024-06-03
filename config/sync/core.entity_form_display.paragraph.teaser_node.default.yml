@@ -1,10 +1,12 @@
-uuid: c920fa45-55a6-48e4-b254-d309bd8b920c
+uuid: 107c0f28-27cc-4342-be0e-1be2e4d392bc
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.paragraph.teaser_node.field_article
     - paragraphs.paragraphs_type.teaser_node
+_core:
+  default_config_hash: sNmn9egecDm5oqch7lxj_LjkoKb5oiNd-AAEXX3Gn3M
 id: paragraph.teaser_node.default
 targetEntityType: paragraph
 bundle: teaser_node

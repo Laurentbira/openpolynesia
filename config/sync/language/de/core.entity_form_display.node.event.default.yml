@@ -2,6 +2,8 @@ third_party_settings:
   field_group:
     group_administrative:
       label: Administrativ
+    group_event_tabs_container:
+      label: Tabs
     group_event_tab_basics:
       label: Basis-Informationen
     group_event_tab_media:
@@ -12,3 +14,22 @@ third_party_settings:
       label: Buchbarkeit
     group_event_tab_advanced:
       label: Erweitert
+    group_tags_wrapper:
+      label: 'Tags wrapper'
+content:
+  field_accessibility:
+    settings:
+      title: 'Informationen zur Barrierefreiheit'
+      title_plural: 'Informationen zur Barrierefreiheit'
+  field_bookable_info:
+    settings:
+      title: Information
+      title_plural: Information
+  field_people_reference:
+    settings:
+      title: Mitglied
+      title_plural: Mitglieder
+  field_press_quotes:
+    settings:
+      title: Pressezitat
+      title_plural: Pressestimmen

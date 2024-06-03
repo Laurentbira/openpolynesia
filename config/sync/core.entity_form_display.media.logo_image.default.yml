@@ -1,4 +1,4 @@
-uuid: 9c353943-216e-4c6e-9f2a-ec9d8474de51
+uuid: 0a8fd4ea-93e5-4f47-804a-0b415c7feab6
 langcode: en
 status: true
 dependencies:
@@ -31,6 +31,8 @@ third_party_settings:
         description: ''
         required_fields: true
         weight: 0
+_core:
+  default_config_hash: NV-fH_FDAfYDdZeStx0PTShmTlERccNyWTCBIwAV73k
 id: media.logo_image.default
 targetEntityType: media
 bundle: logo_image

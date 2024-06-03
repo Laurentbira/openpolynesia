@@ -1,7 +1,9 @@
-uuid: eb1007fa-1689-4b7a-b8bd-57495f114d4b
+uuid: 26ac35b1-0571-47af-9f96-b8733dab5464
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: TTrhKgedSsiAhUHK--pB7xuwzw6RK8bgTICqqq2rE6U
 name: 'Article Type'
 vid: article_type
 description: 'Article sub types'

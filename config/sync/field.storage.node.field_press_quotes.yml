@@ -1,4 +1,4 @@
-uuid: 2cd7981c-26dd-4ac5-88d2-337b731414b7
+uuid: 3fd86c8d-99e2-49b2-b5bb-6e294eb9fd61
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: 8GOtqKSukwBNVArnHLgDxlmTo1Za0dxyM4e127THW1g
 id: node.field_press_quotes
 field_name: field_press_quotes
 entity_type: node

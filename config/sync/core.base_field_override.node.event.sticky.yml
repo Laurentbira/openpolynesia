@@ -1,9 +1,11 @@
-uuid: 640c02c9-2626-4a52-b475-194b83b97b8c
+uuid: 4f6809d0-70b2-41a5-87e1-6a82456bb205
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.event
+_core:
+  default_config_hash: GkpOpDverANwWYFyZCigaFLGdoOJ7xJHO2ntH2jxkcY
 id: node.event.sticky
 field_name: sticky
 entity_type: node

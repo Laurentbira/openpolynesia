@@ -1,7 +1,9 @@
-uuid: 754a7c80-e608-46b3-9dc7-2a8a2cd2f23e
+uuid: f4e4d7fe-82b5-43ea-9488-10cfebb2dedc
 langcode: und
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: I1cX0Qut9Ca1uCn7GXVgTqpj3yHIWgmY1tfhjYnEBAQ
 id: call-to-action
 label: 'Call to action'
 description: 'Displayed on user page'

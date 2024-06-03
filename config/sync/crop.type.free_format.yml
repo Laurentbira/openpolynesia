@@ -1,9 +1,11 @@
-uuid: 8a36f8a7-d509-441a-9345-e5e0d2108517
+uuid: 72a3f65f-445d-464e-a9ac-276c2c3849ca
 langcode: en
 status: true
 dependencies: {  }
-label: 'Free format'
+_core:
+  default_config_hash: 9vcbqno3v1S2tvst9KtuZSTvLM4xmQQj2xqNd_HuWbY
 id: free_format
+label: 'Free format'
 description: 'For use in galleries (max 450 px high) and magazine articles (680 px wide prefered).'
 aspect_ratio: ''
 soft_limit_width: 680

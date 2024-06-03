@@ -1,4 +1,4 @@
-uuid: 67cde7f2-5340-4148-b76c-a1296b333cd4
+uuid: 81e98007-df3b-428b-82fc-9cdbc3048c7a
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - node.type.date
   module:
     - path
+_core:
+  default_config_hash: bShZZLwEkg6e1Vq8iwr1EtbK-TDer-opYlBMwfSTPAo
 id: node.date.path
 field_name: path
 entity_type: node

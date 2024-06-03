@@ -1,7 +1,9 @@
-uuid: 5e0eb7ed-a93b-4d00-b32d-ccefe9b2cd86
+uuid: d427e2cb-200c-4e99-a2b4-04ee195187fc
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: HLLGlhB66lmO-pp8zH1EgLEOiPigiYuk4VtMMZxgN9Y
 name: logo
 label: 'Logo (190x190)'
 effects:

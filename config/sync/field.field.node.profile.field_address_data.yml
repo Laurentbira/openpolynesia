@@ -1,4 +1,4 @@
-uuid: 4f9c1c9f-6e3f-4155-ae5c-dca6feac449b
+uuid: 2cc6c8ae-05b3-4504-a16a-ab735b692653
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.address_data
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: OiWWbjZxJzkjXFuDIV06AhkaZiVwqhT3hrA4khoIN6w
 id: node.profile.field_address_data
 field_name: field_address_data
 entity_type: node

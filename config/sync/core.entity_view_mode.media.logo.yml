@@ -1,9 +1,11 @@
-uuid: 8266f62f-54dc-4e17-b078-d0c2d69f390d
+uuid: 55612a68-30d0-4de3-99f3-e8dd69f383b3
 langcode: en
 status: true
 dependencies:
   module:
     - media
+_core:
+  default_config_hash: WK8SfEleaeJLMbhK6DVYQx22Kw5fWSgHKDV8oDlQL2s
 id: media.logo
 label: Logo
 description: ''

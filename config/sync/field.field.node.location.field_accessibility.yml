@@ -1,4 +1,4 @@
-uuid: fc46c79a-14e5-45fd-a787-048d6797f769
+uuid: 7f046b25-18ef-4d89-8d77-f0d42d69c3d9
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.accessibility
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: 2OEW7MTmKRPbIT4cHTLiEMufzhFZkye4tOuwWImNjUE
 id: node.location.field_accessibility
 field_name: field_accessibility
 entity_type: node

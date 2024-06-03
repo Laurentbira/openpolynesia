@@ -1,4 +1,4 @@
-uuid: 290dfc2d-27c3-4621-8654-b31597944323
+uuid: ee93597f-ce13-47dc-aed4-da3072491be2
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - user.role.oc_organizer
   module:
     - user
+_core:
+  default_config_hash: yzYtvRfe_mg-snxOAL9sSs2FEq-hCGAMu0wQMJ6TSkI
 id: user_add_role_action.oc_organizer
 label: 'Add the OC organizer role to the selected user(s)'
 type: user

@@ -1,4 +1,4 @@
-uuid: bd1e0396-8c98-4c12-93db-56086c8c7b29
+uuid: 18d2e355-6add-4fcf-97b3-a3098e28e437
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: custom
+_core:
+  default_config_hash: LxdA8rBAS46ixIhGZ8XdJ2B7xVsF4fUaKMBwWFN_DOU
 id: media.field_sponsor_global
 field_name: field_sponsor_global
 entity_type: media

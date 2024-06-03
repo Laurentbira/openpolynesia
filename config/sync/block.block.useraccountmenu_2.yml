@@ -1,4 +1,4 @@
-uuid: 60f46a7e-3a4e-459f-8bef-8d6e092d333a
+uuid: 07b2f17a-d346-4113-93f1-2273757c224e
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - system
   theme:
     - openculturas_base
+_core:
+  default_config_hash: QJ-yDBPNm6dP4YLBz2NjPpqrKFCpwZl0LenYPgLRvBk
 id: useraccountmenu_2
 theme: openculturas_base
 region: offcanvas_menu

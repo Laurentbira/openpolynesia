@@ -1,7 +1,9 @@
-uuid: 47aeef1d-3c57-49d6-b583-122a37ea3e83
+uuid: a29d2b8b-e995-4b8e-b552-685e0ca15951
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: r85p9-Lrk5SAAkRB82Lm7JTRvzAc09Hrd5QU2Jthzxw
 id: node__date
 label: 'Content: Date'
 tags:

@@ -1,4 +1,4 @@
-uuid: 6ce0a8fd-ffec-47f3-a3d1-4f5c7b90effe
+uuid: e3dc4d64-d693-41cb-97e1-6bc1238a2cd4
 langcode: en
 status: true
 dependencies:
@@ -34,6 +34,8 @@ dependencies:
     - smart_trim
     - text
     - user
+_core:
+  default_config_hash: BmcedqeiS_UfkoDKAT8TX3YkBwuTo8V8R3QiLjnz5Ck
 id: node.event.teaser_big
 targetEntityType: node
 bundle: event

@@ -1,9 +1,11 @@
-uuid: d797d4cd-6012-416d-93ea-5ea8297cf35e
+uuid: 9d4c245a-83e4-4093-92aa-9a317c1318bf
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: k89fgrjzD68vOaTpz711BmA8L4rlxT3nGBKMJmwr1iw
 id: report_abuse
 label: 'Report abuse'
 bundles:
@@ -12,6 +14,7 @@ bundles:
   - profile
 entity_type: node
 global: true
+weight: 0
 flag_short: 'Report abuse'
 flag_long: ''
 flag_message: ''
@@ -19,7 +22,6 @@ unflag_short: 'Edit abuse report'
 unflag_long: ''
 unflag_message: ''
 unflag_denied_text: 'Content under revision'
-weight: 0
 flag_type: 'entity:node'
 link_type: field_entry
 flagTypeConfig:
@@ -31,9 +33,9 @@ flagTypeConfig:
     owner: '0'
 linkTypeConfig:
   flag_confirmation: 'Report content'
-  edit_flagging: 'Edit report details'
   unflag_confirmation: 'Delete abuse report?'
   flag_create_button: Submit
   flag_delete_button: Delete
-  flag_update_button: Update
   form_behavior: modal
+  edit_flagging: 'Edit report details'
+  flag_update_button: Update

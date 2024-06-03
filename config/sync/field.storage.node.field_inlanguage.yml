@@ -1,10 +1,12 @@
-uuid: f31199a4-1060-45c7-8569-719ebb840bd3
+uuid: 783d6671-b927-4880-8da1-4f37df07b60a
 langcode: en
 status: true
 dependencies:
   module:
     - languagefield
     - node
+_core:
+  default_config_hash: l1O9MapFeVXvgcSa4ABsDivf6JUYyqo4hXsIVQM26qg
 id: node.field_inlanguage
 field_name: field_inlanguage
 entity_type: node

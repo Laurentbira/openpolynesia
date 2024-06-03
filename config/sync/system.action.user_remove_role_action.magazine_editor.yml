@@ -1,4 +1,4 @@
-uuid: dd322eea-491d-4c74-84de-6c1035885883
+uuid: 2aa05019-3d06-48fe-824b-cb66a0003cc3
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - user.role.magazine_editor
   module:
     - user
+_core:
+  default_config_hash: ZCFphLXjzNqLiW_Ld7BAXUGwiVNhFi41FSpoPxU0dRw
 id: user_remove_role_action.magazine_editor
 label: 'Remove the Magazine editor role from the selected user(s)'
 type: user

@@ -1,10 +1,12 @@
-uuid: f2bc7bb2-7d34-4bfc-be2e-80081a2bd7d0
+uuid: f8839bc2-e970-4a54-a831-862584f3ed5e
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_media_mention_source_name
     - paragraphs.paragraphs_type.media_mention
+_core:
+  default_config_hash: Spe31La82VH_vqAMfM275KaQ2QqQ_Py8Nn5AyF3_A4M
 id: paragraph.media_mention.field_media_mention_source_name
 field_name: field_media_mention_source_name
 entity_type: paragraph

@@ -1,4 +1,4 @@
-uuid: f7c182d1-e868-42bc-a730-021d55477b8e
+uuid: ea14f040-a062-4c3e-bae4-4171d3d884a4
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - crop.type.1_1
   module:
     - crop
+_core:
+  default_config_hash: RvQjhIR4vrdGAzthB45YGM4X4u52ULwASBewH9ZeKF4
 name: profile
 label: 'Profile image'
 effects:

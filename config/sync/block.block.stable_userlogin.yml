@@ -1,0 +1,28 @@
+uuid: cc4b793c-1d2e-40a4-b386-d5f57f67cf45
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - stable
+_core:
+  default_config_hash: jXeKHs3QLs56pAxDH3Z2lyBHoA8tuCfephzpKQFVcvw
+id: stable_userlogin
+theme: stable
+region: content
+weight: -10
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  label_display: '0'
+  provider: user
+visibility:
+  response_status:
+    id: response_status
+    negate: false
+    status_codes:
+      - 403

@@ -1,0 +1,8 @@
+third_party_settings:
+  field_group:
+    group_interact:
+      label: Interaktion
+    group_sub_categories:
+      label: Unterkategorien
+    group_articles:
+      label: Artikel

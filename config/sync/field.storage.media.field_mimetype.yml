@@ -1,4 +1,4 @@
-uuid: ef30d8aa-ec44-4893-be11-a781385ad355
+uuid: 39b9bde0-100c-44cd-92a2-edf73fd9e119
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: wYSchRsGeLaVWb-uKY-v-F9H483izdKg27QUHDtH5-o
 id: media.field_mimetype
 field_name: field_mimetype
 entity_type: media

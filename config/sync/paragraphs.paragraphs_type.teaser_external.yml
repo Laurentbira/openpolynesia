@@ -1,10 +1,12 @@
-uuid: a5e9c164-0369-489c-bff8-14ccd2e41f0f
+uuid: 5a5da2ac-146a-45bf-83e4-543b16e56add
 langcode: en
 status: true
 dependencies:
   module:
     - openculturas_custom
     - openculturas_teaser
+_core:
+  default_config_hash: IggdKxwysivS87xJ4Dm__wr1rLQ4vstZiFNFyuSrAZQ
 id: teaser_external
 label: 'Teaser external'
 icon_uuid: null

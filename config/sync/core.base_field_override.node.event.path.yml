@@ -1,4 +1,4 @@
-uuid: 3919ede3-d3aa-4890-bb0c-51495f4d34dc
+uuid: bc818811-3ee7-4943-93ed-8709c22fad57
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - node.type.event
   module:
     - path
+_core:
+  default_config_hash: avPziMCeVXrNhm23tZAtrzjRYTqJ5n9kRekAI_aBgq0
 id: node.event.path
 field_name: path
 entity_type: node

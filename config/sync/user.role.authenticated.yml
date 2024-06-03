@@ -1,4 +1,4 @@
-uuid: 50a2dfe1-75ac-44fd-b1e8-46e26895db3d
+uuid: c020e0b4-547e-4025-a7af-0f25c3b7b0ad
 langcode: en
 status: true
 dependencies:
@@ -40,7 +40,7 @@ dependencies:
     - system
     - tour
 _core:
-  default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
+  default_config_hash: JMYiUWU3-KWU-ZLaLqXGF8eDjWR0P1XRNx92vDMTWrk
 id: authenticated
 label: 'Authenticated user'
 weight: -9

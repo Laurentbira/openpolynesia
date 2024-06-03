@@ -1,4 +1,4 @@
-uuid: a1d7aa05-777c-4da4-b71a-c3d713e95ea0
+uuid: 08488023-2cee-4c47-90ed-1e96154e82ca
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: is284MgOOJPMlcLqBa6n7BZYG8XRex38xGrHw6MrF_M
 id: user.field_my_bookmarks_view_ref
 field_name: field_my_bookmarks_view_ref
 entity_type: user

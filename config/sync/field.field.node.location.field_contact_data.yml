@@ -1,4 +1,4 @@
-uuid: 547adc0b-37e1-4c7d-b3c6-7d4be949ef0b
+uuid: 213b379e-a9cd-4f57-9165-eca88d218fa7
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.contact_data
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: jXfNTP8baKhN2BuBvNKhYuvZ83knPfmSQ31fhcxcUx0
 id: node.location.field_contact_data
 field_name: field_contact_data
 entity_type: node

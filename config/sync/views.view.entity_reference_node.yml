@@ -10,6 +10,8 @@ dependencies:
     - node
     - options
     - user
+_core:
+  default_config_hash: qgjh5J3zn4f5OSA5BS-HSXfWs6p9mFtn_Slj3C5FLr8
 id: entity_reference_node
 label: 'Entity reference: nodes'
 module: views

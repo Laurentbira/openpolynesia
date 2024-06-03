@@ -1,9 +1,11 @@
-uuid: 3b27007b-e893-4950-8966-62ed3aa00a36
+uuid: bbc00582-d857-4466-9e45-7da2890fa8af
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.event
+_core:
+  default_config_hash: ZRKvucXtOWoA-LTjbKGq1qfgwNb4gtyv_d08YZXneFM
 id: node.event.title
 field_name: title
 entity_type: node

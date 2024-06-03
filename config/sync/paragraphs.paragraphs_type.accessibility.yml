@@ -1,7 +1,9 @@
-uuid: 66280fc6-87fe-4f0d-b458-3ca9bebe007a
+uuid: 1bf0185a-0d67-4044-a6b7-06c74fefbb2e
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: Lg8HlFnQnoJZ4sFTIJHIZbKFXPCfwB57TgqfQ4Nw_68
 id: accessibility
 label: 'Accessibility and triggers'
 icon_uuid: null

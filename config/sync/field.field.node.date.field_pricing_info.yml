@@ -1,4 +1,4 @@
-uuid: 4304d0c7-1a9d-499c-82da-8f17d7cc1c1a
+uuid: ac50e411-9262-4fd9-9b5d-b35a96a3c4f1
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - node.type.date
   module:
     - text
+_core:
+  default_config_hash: v6SCPY_B6nWglOyg3wYndP4gCpFL4a03qIqRjGMTeLc
 id: node.date.field_pricing_info
 field_name: field_pricing_info
 entity_type: node

@@ -1,9 +1,9 @@
-uuid: 6cef0ccd-5c76-41f7-8c19-89043ef645f3
+uuid: e5857727-790d-4dd5-943a-e2494ea1bd53
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: qHrIspeyfHNKXgdKzL9RsNPqhZrt6eJfLITFKl0z1To
+  default_config_hash: lZn2pUoBWy0WqxQeu_tzyhBenaioff-9pDddmxNHgu0
 id: cc_by_sa_4_0
 identifier: CC-BY-SA-4.0
 name: 'Creative Commons Attribution Share Alike 4.0 International'

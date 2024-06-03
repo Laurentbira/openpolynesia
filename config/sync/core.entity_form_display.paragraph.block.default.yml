@@ -1,4 +1,4 @@
-uuid: e18f781d-bb14-40dd-a31b-cb90458caf7c
+uuid: b5af4647-d439-48d5-a878-b8ef2c7ba2e8
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.block
   module:
     - block_field
+_core:
+  default_config_hash: ZwDT9jqEp9zSIErAJoBaBuJSwytkxOfmhkIuXQSpqBg
 id: paragraph.block.default
 targetEntityType: paragraph
 bundle: block
@@ -21,6 +23,11 @@ content:
       settings: {  }
       configuration_form: full
     third_party_settings: {  }
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
 hidden:
   created: true
   status: true

@@ -1,4 +1,4 @@
-uuid: ef21108f-abff-4e36-b7b7-c1b41e088141
+uuid: 2747ef25-7899-4eb1-9a01-9474e170d7e4
 langcode: en
 status: true
 dependencies:
@@ -19,9 +19,11 @@ dependencies:
     - field.field.node.article.field_sub_type
     - field.field.node.article.field_subtitle
     - node.type.article
-    - workflows.workflow.magazine_article
+    - workflows.workflow.draften
   module:
     - content_moderation
+_core:
+  default_config_hash: LhEcNmEWcBbNvylKWuvd_qE7Iq1azm1MM4QWyJpqW5Q
 id: node.article.bulk_edit
 targetEntityType: node
 bundle: article

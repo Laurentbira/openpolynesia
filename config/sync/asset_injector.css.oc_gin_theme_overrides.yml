@@ -1,9 +1,11 @@
-uuid: 7490e440-72e5-445e-90bf-98ed893b1182
+uuid: ffe365ef-f5e1-445c-978c-558baa753cbd
 langcode: en
 status: true
 dependencies:
   module:
     - system
+_core:
+  default_config_hash: YCPI4INmbr3M_HS1ecOhY0ukbL96n_We6PKVdmCY2vo
 id: oc_gin_theme_overrides
 label: 'OC Gin theme overrides'
 code: |-
@@ -390,12 +392,12 @@ code: |-
     padding-left: .25rem;
     color: var(--gin-color-primary)
   }
-media: all
-preprocess: false
+conditions_require_all: true
 conditions:
   current_theme:
     id: current_theme
     negate: false
     theme: gin
 contexts: {  }
-conditions_require_all: true
+media: all
+preprocess: false

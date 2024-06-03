@@ -1,4 +1,4 @@
-uuid: 22c3996f-aee9-4b9a-8fbc-b0ea478eee7a
+uuid: df5a500c-491a-4a10-9302-c78295347a72
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
   module:
     - address_display
     - field_formatter_class
+_core:
+  default_config_hash: i_mkQYuaVEUGyX6ejwp3xLq1bWONHl0RPmmH0EZu4y4
 id: paragraph.address_data.address_line_complete
 targetEntityType: paragraph
 bundle: address_data

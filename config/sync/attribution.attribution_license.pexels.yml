@@ -1,7 +1,9 @@
-uuid: d5498978-9e2b-44c3-8b85-7bcc1e132557
+uuid: b65cd1b3-1d94-4e65-ad61-d423b06b5e5b
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: Xyz8ZsZaUXkII2SpRI2m_UtuJ5YpVRY069-hZUGasCk
 id: pexels
 identifier: Pexels
 name: 'Pexels License'

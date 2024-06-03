@@ -1,4 +1,4 @@
-uuid: a0b3058f-f7d9-40ad-bd31-4ccd45bc8741
+uuid: d0390d85-8e69-40f5-8abe-91bae5311e87
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.field.paragraph.member.field_member
     - field.field.paragraph.member.field_member_function
     - paragraphs.paragraphs_type.member
+_core:
+  default_config_hash: V3ygmiAGdeVbqqODEDgRpl7LbfLqZZ8yTzqi7LQiGQU
 id: paragraph.member.default
 targetEntityType: paragraph
 bundle: member
@@ -29,6 +31,11 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
 hidden:
   created: true
   status: true

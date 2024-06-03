@@ -1,9 +1,11 @@
-uuid: fe2fe610-9a95-4f95-9cba-75785e45b8c3
+uuid: eda9f320-be24-4557-8191-4845958a4ef7
 langcode: en
 status: true
 dependencies:
   config:
     - paragraphs.paragraphs_type.address_data
+_core:
+  default_config_hash: 0vXGEXAL9dkHkiUujK-org-7-l-Jw5bwOYqeNBtpEWw
 id: paragraph.address_data.status
 field_name: status
 entity_type: paragraph

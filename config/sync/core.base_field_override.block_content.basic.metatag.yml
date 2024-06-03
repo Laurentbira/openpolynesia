@@ -1,9 +1,11 @@
-uuid: b49796bd-e4fd-4673-b8d1-4edfbfd5bd2d
+uuid: dc0dc1c6-8af2-4b6d-af31-817fd4aa86bf
 langcode: en
 status: true
 dependencies:
   config:
     - block_content.type.basic
+_core:
+  default_config_hash: qnFiaMY8t0SmCBf7HHO0EQVYKeRKLl3r1LsyOwpow6U
 id: block_content.basic.metatag
 field_name: metatag
 entity_type: block_content

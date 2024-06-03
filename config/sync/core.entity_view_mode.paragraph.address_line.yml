@@ -1,9 +1,11 @@
-uuid: 83745241-7793-41b7-a26d-829e8f9e2bfd
+uuid: dab07fe6-fab1-49ea-80ec-e093f3dd98b5
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: QJpS5_KsUHv26IZQP4zZc3AiYaGBRRxit0aq4F5vuTc
 id: paragraph.address_line
 label: 'Address line'
 description: ''

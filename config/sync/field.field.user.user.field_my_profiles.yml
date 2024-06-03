@@ -1,4 +1,4 @@
-uuid: 74fd6aaf-4552-46aa-ba0c-a85feab48b75
+uuid: 780a3992-5ef8-40ab-a31f-85e4ccd5238b
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
   module:
     - user
     - viewfield
+_core:
+  default_config_hash: Ry0G-HHXyXmVKsXFIMXaXDPtD1degbBP7ADnkLesIxM
 id: user.user.field_my_profiles
 field_name: field_my_profiles
 entity_type: user

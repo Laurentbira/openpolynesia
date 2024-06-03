@@ -1,4 +1,4 @@
-uuid: ee72cb24-e397-44b4-ba11-abcfae2365da
+uuid: fddc0691-da04-46c8-a244-8ccf9de68f1e
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - taxonomy.vocabulary.category
   module:
     - text
+_core:
+  default_config_hash: pocFEAGGyyqf0RF3Rv9KZzshV1-wt32pSuou9oYLdbU
 id: taxonomy_term.category.description
 field_name: description
 entity_type: taxonomy_term
@@ -16,5 +18,6 @@ required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''
-settings: {  }
+settings:
+  allowed_formats: {  }
 field_type: text_long

@@ -1,4 +1,4 @@
-uuid: 78b50839-d80f-4ee6-8f04-4733e8f144c0
+uuid: 8de88bfe-167f-49ee-a43a-a4f85c8ea34e
 langcode: en
 status: true
 dependencies:
@@ -29,6 +29,8 @@ dependencies:
     - workflows.workflow.draften
   module:
     - content_moderation
+_core:
+  default_config_hash: WNUQNrWnN7FQxk6jwjGtaU8FHr3UfcJQJqORWlqsb3E
 id: node.date.bulk_edit
 targetEntityType: node
 bundle: date

@@ -1,4 +1,4 @@
-uuid: 3bb0b338-b59f-4195-b5b4-bb81638bae9d
+uuid: 20acd7b2-3e96-44d2-8530-c3bf62b9523f
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
+_core:
+  default_config_hash: zCdAvNCjDBASVd71s3B6awGuKxwIh8iTvoImrc8d8B0
 name: Profile
 type: profile
 description: 'Create a public profile for a single person or a group.'

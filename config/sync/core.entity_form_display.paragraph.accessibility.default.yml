@@ -1,4 +1,4 @@
-uuid: 2157f722-d3b0-45d9-a735-31452e3be540
+uuid: c71ae545-ed27-4bc0-87fb-194b72b37d6f
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ dependencies:
   module:
     - allowed_formats
     - text
+_core:
+  default_config_hash: iHGM-tHEgOnBAioSJsYkuYA5Mar_EBk1gXXTnWwiFVM
 id: paragraph.accessibility.default
 targetEntityType: paragraph
 bundle: accessibility
@@ -38,6 +40,11 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
 hidden:
   created: true
   status: true

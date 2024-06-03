@@ -1,4 +1,4 @@
-uuid: 587e515b-65cf-4132-bd56-f70755d348ad
+uuid: 433fcdca-af98-4f44-905d-4211f33bad14
 langcode: en
 status: true
 dependencies:
@@ -12,6 +12,8 @@ dependencies:
   module:
     - field_formatter_class
     - openculturas_media
+_core:
+  default_config_hash: XtJnflvoPPP6vh6bhZPQcuDn7wdp-JnSLppLY5k_Cs0
 id: media.document.download
 targetEntityType: media
 bundle: document

@@ -1,4 +1,4 @@
-uuid: 94f44da4-1cd3-47e8-b615-d71476d7f426
+uuid: 738b82d8-245b-42d3-9b57-481a083fc30a
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: vJfcQtep7o-IS1HpMVqJRy95Qm0KHp8jJvG-3H69KRo
 id: taxonomy_term.field_mood_image
 field_name: field_mood_image
 entity_type: taxonomy_term

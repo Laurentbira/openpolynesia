@@ -1,4 +1,4 @@
-uuid: 231982c6-d340-4496-a4ad-b01168205663
+uuid: 0a3a23a4-aae2-4744-9eec-3b692e68f116
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.contact_data
   module:
     - telephone
+_core:
+  default_config_hash: VsjMML-nPubGAj0oWP_yA6TGJiaeGy-ePAb1u6ry21E
 id: paragraph.contact_data.field_phone
 field_name: field_phone
 entity_type: paragraph

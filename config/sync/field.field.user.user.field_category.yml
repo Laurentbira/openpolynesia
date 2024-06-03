@@ -1,4 +1,4 @@
-uuid: 71d2e29d-46fe-41b6-8e79-99de0460f33f
+uuid: a7cd26b4-37fe-4632-b9a5-0a631970c372
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - taxonomy.vocabulary.category
   module:
     - user
+_core:
+  default_config_hash: wgSxkMmjnuL49w5HPAK-6_t8-pH8dwFe185YEqXaJwA
 id: user.user.field_category
 field_name: field_category
 entity_type: user

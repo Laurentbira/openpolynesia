@@ -1,9 +1,11 @@
-uuid: c804a11c-28f2-401c-af07-f7bbd3252290
+uuid: 7ee52d59-0f6e-450e-8018-1c24a212fe0c
 langcode: en
 status: true
 dependencies:
   config:
     - shortcut.set.default
+_core:
+  default_config_hash: uyYKBYtYuyDWrgXiN_F8CHXYsrPcb-BNmUwehO8hOVs
 id: shortcut.default.metatag
 field_name: metatag
 entity_type: shortcut

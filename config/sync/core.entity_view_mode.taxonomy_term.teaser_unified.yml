@@ -1,9 +1,11 @@
-uuid: 731a1e65-0ca8-4c76-8c1d-466697c9145a
+uuid: b45d04bd-1f6a-437c-877f-e2416e1818a4
 langcode: en
 status: true
 dependencies:
   module:
     - taxonomy
+_core:
+  default_config_hash: 0CYBgj2QKs0xwxrkpcL9hr7KluABy_fplyJjthuKMps
 id: taxonomy_term.teaser_unified
 label: 'Teaser unified'
 description: ''

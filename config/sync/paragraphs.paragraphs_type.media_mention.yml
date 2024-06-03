@@ -1,7 +1,9 @@
-uuid: 95e4dd34-cbff-48c8-b9ad-bb05e795959e
+uuid: d68ba0dd-285a-4190-b234-c508254efebf
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: jEF3ZmqJO0jq1fY9zrYjFMKrfGvTuEZz91jV8gPLIZc
 id: media_mention
 label: 'Press quote'
 icon_uuid: null

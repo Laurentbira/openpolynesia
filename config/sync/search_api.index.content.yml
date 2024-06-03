@@ -1,4 +1,4 @@
-uuid: 1d7b6fea-7561-4bfc-a341-e5393ee17717
+uuid: d9f1ab0d-769c-4f08-836f-77ebfdf9ffc6
 langcode: en
 status: true
 dependencies:
@@ -15,6 +15,8 @@ dependencies:
     - node
     - paragraphs
     - search_api
+_core:
+  default_config_hash: M6GRGkLJi-hyFcy7PvhyF1tAuXdgZ3qfyQCd-MQc_Oo
 id: content
 name: Content
 description: ''

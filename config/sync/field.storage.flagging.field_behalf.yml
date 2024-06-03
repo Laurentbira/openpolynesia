@@ -1,4 +1,4 @@
-uuid: eb98e1c6-9911-4844-a662-0d12de59ac35
+uuid: 723e37c7-3b64-4fc5-a1df-80e91ccf993b
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: Xxr24BYFIp2gokE93EpkMxr9jL2MI1JiwydSphLOjF0
 id: flagging.field_behalf
 field_name: field_behalf
 entity_type: flagging

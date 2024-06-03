@@ -1,4 +1,4 @@
-uuid: 21785ece-406c-4458-9be0-c48bbd94b102
+uuid: a90456e0-2758-4512-9a5c-ab0f25f76843
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ dependencies:
     - media.type.sponsor
   module:
     - svg_image
+_core:
+  default_config_hash: 3lBeYCBcMDNqQqLa27xMHdVOpSRH6MroD157EpcB3Ik
 id: media.sponsor.media_library
 targetEntityType: media
 bundle: sponsor
@@ -32,6 +34,11 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
 hidden:
   created: true
   field_sponsor_global: true

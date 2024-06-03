@@ -1,4 +1,4 @@
-uuid: 142ee64c-610f-4ec9-b783-8cb1530f4cca
+uuid: 47c2eab7-ca25-4591-9fc4-3d73596407bf
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.event
   module:
     - link
+_core:
+  default_config_hash: N-B4hON0FDffuOBAwyK_RTnn2U4lrjt_LuGgqMBsy9E
 id: node.event.field_url
 field_name: field_url
 entity_type: node

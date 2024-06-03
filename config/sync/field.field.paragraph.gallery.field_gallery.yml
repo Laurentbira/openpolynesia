@@ -1,4 +1,4 @@
-uuid: 3ffb94e5-1b01-4ccd-a946-a2a8a7a25b34
+uuid: c1f41a13-43a3-456c-a8bc-cba8fea706fb
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - media.type.image
     - media.type.remote_video
     - paragraphs.paragraphs_type.gallery
+_core:
+  default_config_hash: lDQEkljsQ4YXMMO7_13tdRpCFkd47UEuWoo2b10R27s
 id: paragraph.gallery.field_gallery
 field_name: field_gallery
 entity_type: paragraph

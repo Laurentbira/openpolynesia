@@ -1,4 +1,4 @@
-uuid: 82752ab7-d81a-4bf6-b957-c826a4969ed5
+uuid: f4730017-f5e2-451b-a828-b0e62acf5e8e
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
   module:
     - user
     - viewfield
+_core:
+  default_config_hash: oRGBq2NBa8iwMJCtmE45AqI1UEuEqYHB9wv6qk-aK7M
 id: user.user.field_my_bookmarks_view_ref
 field_name: field_my_bookmarks_view_ref
 entity_type: user

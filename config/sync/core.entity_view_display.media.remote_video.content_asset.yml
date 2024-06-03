@@ -1,4 +1,4 @@
-uuid: 075bfd83-6998-4e7e-a722-cd6ec7920489
+uuid: 95b99436-48b0-4e20-99d5-c53a4ebd9238
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
   module:
     - field_formatter_class
     - media
+_core:
+  default_config_hash: 1zoVs-M1YB9T8iYQkQjw10nks-rpG0Mgy6IWCat3ysc
 id: media.remote_video.content_asset
 targetEntityType: media
 bundle: remote_video

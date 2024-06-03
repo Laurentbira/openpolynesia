@@ -1,4 +1,4 @@
-uuid: 5425000b-007b-45e1-ac47-39618feaa0c1
+uuid: 633ee7b6-c163-48f5-989b-6a252984c890
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - node.type.page
   module:
     - path
+_core:
+  default_config_hash: kxYy-FX9W9LK81PpMAvb_n3OOo0wXe4SEi07iKl4L-s
 id: node.page.path
 field_name: path
 entity_type: node

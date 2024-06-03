@@ -1,7 +1,9 @@
-uuid: b900172e-5abe-4a39-b29a-29eff43fa0f7
+uuid: 681cd3e9-6b57-48ae-af67-3943a206251c
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: Sig_UOBBsal2AUTVQHWbYyLI66V9VPsaNPDb3sjPf4w
 name: Category
 vid: category
 description: Genres.

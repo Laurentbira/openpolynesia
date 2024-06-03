@@ -1,9 +1,11 @@
-uuid: 8ea3379a-ce27-46ed-a009-11914739bdd8
+uuid: 411d0f29-7680-46c4-8c3d-1071646f9d1d
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: 4lESYu3-2x8HMQtFiLVnT6q0rFzWM6iVoUq_YqNsEhs
 id: node.legal
 label: Legal
 description: ''

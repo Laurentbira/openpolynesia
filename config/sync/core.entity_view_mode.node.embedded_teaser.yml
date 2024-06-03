@@ -1,9 +1,11 @@
-uuid: 08a7702c-3435-4aeb-830b-c70816836c09
+uuid: 228b8340-f33b-4535-9461-683150a12649
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: TBdG7CR_en5i6Q9_tpIpjiI0wVqfZlWLtCl2ONppvF0
 id: node.embedded_teaser
 label: 'Embedded teaser'
 description: ''

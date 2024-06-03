@@ -1,4 +1,4 @@
-uuid: 908c1f1e-b4ec-45aa-8bfd-8c5425a776b5
+uuid: c6ca6ebd-7130-4b4b-b456-d446c9c63bb1
 langcode: en
 status: true
 dependencies:
@@ -293,6 +293,8 @@ third_party_settings:
         open: true
         description: ''
         required_fields: false
+_core:
+  default_config_hash: 3Xj_hmVD4zCEVXl414T179fmEcfIG5QaAJzpYSQkuUU
 id: node.profile.full
 targetEntityType: node
 bundle: profile
@@ -348,9 +350,7 @@ content:
       view_title: hidden
       always_build_output: true
       empty_view_title: hidden
-    third_party_settings:
-      field_formatter_class:
-        class: ''
+    third_party_settings: {  }
     weight: 1
     region: content
   field_contact_data:

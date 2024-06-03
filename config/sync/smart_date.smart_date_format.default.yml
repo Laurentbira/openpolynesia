@@ -1,17 +1,17 @@
-uuid: 26b05b68-c111-444e-a4e5-fc304b4bf564
+uuid: 800471ea-e404-44ba-973e-195c3ab4f85d
 langcode: und
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: QOzaA8j2871_aWBJyVZm_LqREilQnXZqRuk3HNANrEo
+  default_config_hash: nWeu_3oZWBpCNTq3aKndLJ7L229O-5o1zJfChCKfbso
 id: default
 label: default
-date_format: 'd F Y'
-time_format: H.i
-time_hour_format: H.i
+date_format: 'D, M j Y'
+time_format: 'g:ia'
+time_hour_format: ga
 allday_label: 'All day'
-separator: '<span class="date-join date">—</span>'
-join: '<span class="time-join"> </span>'
+separator: ' - '
+join: ', '
 ampm_reduce: '1'
 date_first: '1'
 site_time_toggle: '1'

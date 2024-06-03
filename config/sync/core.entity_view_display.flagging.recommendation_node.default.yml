@@ -1,10 +1,12 @@
-uuid: 97129526-b38e-4d4f-b1a6-56d23cf2e449
+uuid: 998a6a33-52a7-4a8f-8333-edf1d3e790b5
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.flagging.recommendation_node.field_behalf
     - flag.flag.recommendation_node
+_core:
+  default_config_hash: Y0JStwtP7PVEGVrgORSxPyRwtdzH426nnW4cWsK_nXE
 id: flagging.recommendation_node.default
 targetEntityType: flagging
 bundle: recommendation_node

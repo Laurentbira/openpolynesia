@@ -1,12 +1,12 @@
-uuid: ea1f5681-da21-442f-969f-c9f098c05c74
+uuid: a8389cd0-dd40-47ce-9a0e-a6a0d974fd14
 langcode: en
 status: false
 dependencies:
   module:
-    - openculturas_custom
+    - smart_date
     - user
 _core:
-  default_config_hash: hdAKtAm0H-umA4Nzn0i1bquaj5iPn3daD_7u-nzFRhM
+  default_config_hash: HisKfYUQDASGdSqI5LjpeUAUXY4neTmZIKpf7O0Yw9s
 id: who_s_new
 label: "Who's new"
 module: user

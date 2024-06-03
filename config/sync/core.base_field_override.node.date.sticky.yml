@@ -1,9 +1,11 @@
-uuid: 7cb00c89-ad90-49b1-bcd5-162b8f6339d9
+uuid: 33f885ac-1d4c-4d14-8d7c-db26f5dea108
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.date
+_core:
+  default_config_hash: a0AwE1N6T8slwP9mAnC_nc8bzHaf_dSetLJjvhcS-XY
 id: node.date.sticky
 field_name: sticky
 entity_type: node

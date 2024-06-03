@@ -1,4 +1,4 @@
-label: 'Veranstaltung kann gebucht werden'
+label: 'Buchbare Veranstaltung'
 settings:
   on_label: Ja
   off_label: Nein

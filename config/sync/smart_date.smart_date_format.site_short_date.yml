@@ -1,7 +1,9 @@
-uuid: 830c005a-5805-48df-9960-75c586af9241
+uuid: 185cc9de-6b2c-423c-b0cb-53ca8c181dcb
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: IKasUZc2qD13AHyATkYJYL17ADJpwXqKqAmlC3i9Y3g
 id: site_short_date
 label: 'Site short date'
 date_format: 'd M Y'

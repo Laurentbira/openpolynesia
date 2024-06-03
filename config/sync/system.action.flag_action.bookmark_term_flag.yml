@@ -1,4 +1,4 @@
-uuid: 7a1f0963-8821-45ce-bfac-40ad3d5d9d5d
+uuid: 00b44d27-fc5e-4c12-8d62-d5cb81f69cce
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - flag.flag.bookmark_term
   module:
     - flag
+_core:
+  default_config_hash: Q2ENOkoH0pgHvSRxoR1OhlgQKsZ6_SmriI8n63hYGY4
 id: flag_action.bookmark_term_flag
 label: Bookmark
 type: taxonomy_term

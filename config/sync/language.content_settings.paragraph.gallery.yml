@@ -1,4 +1,4 @@
-uuid: df4402ff-393b-48a3-aa3a-6155ebae843c
+uuid: df476f0a-0ce1-4785-aaef-4dbd99fce5bf
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ third_party_settings:
     enabled: true
     bundle_settings:
       untranslatable_fields_hide: '1'
+_core:
+  default_config_hash: Fu-8AMkmScRqtFvC3wWJZ1xhfGxNla-y8EHi22872_8
 id: paragraph.gallery
 target_entity_type_id: paragraph
 target_bundle: gallery

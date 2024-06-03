@@ -1,4 +1,4 @@
-uuid: 8956d360-9df3-4833-85fb-7901515a22c6
+uuid: 80a4580c-e6f1-4f9b-bee9-caa8a466d5e2
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - media.type.document
   module:
     - path
+_core:
+  default_config_hash: COdH7K5w71q9855bU9sNbTxjGKsRbf5hIZFxaas0KiM
 id: media.document.path
 field_name: path
 entity_type: media

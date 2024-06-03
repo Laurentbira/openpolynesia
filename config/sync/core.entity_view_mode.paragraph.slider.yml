@@ -1,9 +1,11 @@
-uuid: 68183a69-b3c1-4ca0-b237-bef1a82b7dce
+uuid: aacd2ea8-e44c-4da3-b9e8-3efca4501e2b
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: lpAl6FNGc-Zn-By_AK2n28rKrNmjdPMFYstTouDTCho
 id: paragraph.slider
 label: Slider
 description: ''

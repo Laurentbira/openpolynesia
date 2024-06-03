@@ -1,26 +1,24 @@
-uuid: fd3f6f03-ffca-495b-addb-ad98d7262864
+uuid: 77fa8332-c11e-4046-a95d-ab5baa87a35a
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.comment
-    - workflows.workflow.comment
     - workflows.workflow.draften_member
   module:
     - content_moderation
     - file
     - flag
     - node
+_core:
+  default_config_hash: sBHFMZE9JMeToykAzdYFViggUoLwJ_svX-BQEWUMmho
 id: oc_member
 label: 'OC member'
 weight: -8
 is_admin: null
 permissions:
   - 'delete own files'
-  - 'edit own comment content'
   - 'flag recommendation_node'
   - 'unflag recommendation_node'
-  - 'use comment transition publish'
   - 'use draften_member transition create_new_draft'
   - 'use draften_member transition publish'
   - 'use draften_member transition to_review'

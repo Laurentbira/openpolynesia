@@ -35,6 +35,8 @@ dependencies:
   enforced:
     module:
       - openculturas_map
+_core:
+  default_config_hash: 4OLc5nFvj57gum7_CbjwZoF2hEYzFDB2XCY7nrXEL4w
 id: oc_map_dates
 label: 'OC Map: Dates'
 module: views

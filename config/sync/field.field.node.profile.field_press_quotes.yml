@@ -1,4 +1,4 @@
-uuid: 79edbd98-94c9-4e3f-9db7-e82b9cdbcf4a
+uuid: 92995c6c-8022-41f9-adbf-c26d4b6050a9
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.media_mention
   module:
     - entity_reference_revisions
+_core:
+  default_config_hash: VeEMXA6h5Sc_-y4uokg7FTz9CFAEY0vHH7ToTDvZvhw
 id: node.profile.field_press_quotes
 field_name: field_press_quotes
 entity_type: node

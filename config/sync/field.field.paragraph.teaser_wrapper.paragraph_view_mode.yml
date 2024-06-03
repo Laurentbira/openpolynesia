@@ -1,4 +1,4 @@
-uuid: 1e023099-dd15-4a57-b39b-609748305500
+uuid: e048d7dc-4861-408b-8561-293f1917c4ab
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.teaser_wrapper
   module:
     - paragraph_view_mode
+_core:
+  default_config_hash: 6g2MmUkbfJsL4OgP2kEYwnSU7Q5EXdrH3xtAVKHnnqU
 id: paragraph.teaser_wrapper.paragraph_view_mode
 field_name: paragraph_view_mode
 entity_type: paragraph

@@ -1,10 +1,12 @@
-uuid: c27b7cad-5381-412a-b71d-ebae2bea7ef1
+uuid: c7f37c11-600a-4d87-a1c6-1a39ffa2f094
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_is_bookable
     - node.type.event
+_core:
+  default_config_hash: v6NafLcFqvaA3mYa98FxqlKgbgLToNfYWSp5Tvkbtyw
 id: node.event.field_is_bookable
 field_name: field_is_bookable
 entity_type: node

@@ -1,3 +1,4 @@
+label: 'Ort und Profil'
 type_settings:
   states:
     draft:
@@ -5,9 +6,9 @@ type_settings:
     published:
       label: Veröffentlicht
     review:
-      label: 'Bitte um Freigabe'
+      label: 'In Prüfung'
     unpublished:
-      label: Unveröffentlicht
+      label: 'Nicht veröffentlicht'
   transitions:
     create_new_draft:
       label: 'Neuen Entwurf erstellen'

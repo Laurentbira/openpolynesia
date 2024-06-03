@@ -1,7 +1,9 @@
-uuid: d30a690b-a5f1-469e-8c6c-3f453c11b90e
+uuid: ee2d8689-2d2a-4b00-b3ad-91c711806f43
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: SAHb9Cy2de-VWuGKaqz0X9fC-7GpfZf10uwEYO-POuE
 name: 'Location Type'
 vid: location_type
 description: 'Categorize locations '

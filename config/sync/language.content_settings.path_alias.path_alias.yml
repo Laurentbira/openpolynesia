@@ -1,11 +1,11 @@
-uuid: da447874-110d-48b8-b3ba-f8879597e14f
+uuid: 30c4cd1e-606d-4602-9e82-750085c5df9c
 langcode: en
 status: true
 dependencies:
   module:
     - path_alias
 _core:
-  default_config_hash: dhjFABRzm52DkRXnYja5ZoHwjY0R3gEGic3KpDUXgRo
+  default_config_hash: EzMg-gu5TYo7dZsx8ynchQN6c3m--YiSy26JLwmKyCw
 id: path_alias.path_alias
 target_entity_type_id: path_alias
 target_bundle: path_alias

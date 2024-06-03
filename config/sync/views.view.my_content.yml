@@ -19,6 +19,8 @@ dependencies:
     - user
     - views_add_button
     - views_infinite_scroll
+_core:
+  default_config_hash: 3gY5oIcIwuiQ6C7-UxNfvU6_lVjqaq_UelMFq3w7HQ8
 id: my_content
 label: 'Dashboard: My content'
 module: views

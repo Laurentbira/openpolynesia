@@ -1,9 +1,11 @@
-uuid: c0ccb367-c9ed-4e3c-a98c-e0ac966a13c0
+uuid: 56ff871d-bcfd-438d-bc41-129d96ed7a46
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.date
+_core:
+  default_config_hash: bMC_3nDXqQ3U6SPOSS1VCTB9qikr5XUgmTj-cwx3WVI
 id: node.date.created
 field_name: created
 entity_type: node

@@ -1,7 +1,9 @@
-uuid: 7de7eb93-8c2a-44e3-86e4-baa043ea0e3a
+uuid: 2dc8e826-d6d2-4104-8ba1-6c8f43490058
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: QgvH8ikEZzpK9v0IH8YHetiP11SL5_BcMXaaewGSbtk
 id: media
 label: Media
 icon_uuid: null

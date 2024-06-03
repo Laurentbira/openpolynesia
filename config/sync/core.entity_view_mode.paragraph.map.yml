@@ -1,9 +1,11 @@
-uuid: 26286024-08d5-4e3f-99f1-2209832c8858
+uuid: 0423af4e-f6db-4a4c-a993-caa34b805d94
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
+_core:
+  default_config_hash: 3BZqfhuKwPa64pFxgys0T7Epr70esYxbebE-EYrw7Oc
 id: paragraph.map
 label: Map
 description: ''

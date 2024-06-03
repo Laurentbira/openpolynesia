@@ -1,0 +1,22 @@
+uuid: 21f57f68-8e8a-4017-8ce1-d51563f7efe7
+langcode: en
+status: true
+dependencies:
+  module:
+    - openculturas_custom
+  theme:
+    - stable
+_core:
+  default_config_hash: hQeLgLwQGFYvTSc5ySQjjIWWBty4E-H8LFTZnPLzEys
+id: stable_poweredbyopenculturas
+theme: stable
+region: sidebar_first
+weight: -13
+provider: null
+plugin: powered_by_openculturas
+settings:
+  id: powered_by_openculturas
+  label: 'Powered by'
+  label_display: visible
+  provider: openculturas_custom
+visibility: {  }

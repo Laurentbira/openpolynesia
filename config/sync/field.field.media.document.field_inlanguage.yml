@@ -1,4 +1,4 @@
-uuid: 7b36c059-a3d2-4c4e-9b8e-d9da97534547
+uuid: 9242af3d-7a04-4f77-b3ff-e6b2cec88ae4
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - media.type.document
   module:
     - languagefield
+_core:
+  default_config_hash: BR8K7SGJ6Dl-UL_TA1HUWN7b4HVob4Er1ughxoVoTwc
 id: media.document.field_inlanguage
 field_name: field_inlanguage
 entity_type: media

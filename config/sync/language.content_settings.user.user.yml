@@ -1,4 +1,4 @@
-uuid: ad5ff26d-df69-41fb-b8e9-6d9ca8a26eec
+uuid: 32c6c4e1-803a-48d5-867e-6190a19a0405
 langcode: en
 status: true
 dependencies:
@@ -10,6 +10,8 @@ third_party_settings:
     enabled: false
     bundle_settings:
       untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: '-Kbk_BUzY-TD2ETIvh26zlRwNdptAQvlWS_LcBdwvGI'
 id: user.user
 target_entity_type_id: user
 target_bundle: user

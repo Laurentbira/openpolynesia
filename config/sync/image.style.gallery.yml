@@ -1,4 +1,4 @@
-uuid: 26266a36-d133-4c65-9e1e-2443d6057989
+uuid: 270c2b53-c060-4430-bb7d-cdaf1b971f51
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - crop.type.free_format
   module:
     - crop
+_core:
+  default_config_hash: wiMA4I6GoQTmk2Tf7ZcBtpUVQkj6Dp7ebiBmYbnKI3c
 name: gallery
 label: 'Gallery (450 h)'
 effects:

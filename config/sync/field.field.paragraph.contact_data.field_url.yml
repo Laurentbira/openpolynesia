@@ -1,4 +1,4 @@
-uuid: 981d9c21-7b7a-4b5e-908c-ccddb00c21f1
+uuid: 6794f2b6-7622-4519-ad12-52cfa330c8c3
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - paragraphs.paragraphs_type.contact_data
   module:
     - link
+_core:
+  default_config_hash: 0715Kwi4E9jPCkM_SMcfvG6OstKMyZM104gON1I4_ZY
 id: paragraph.contact_data.field_url
 field_name: field_url
 entity_type: paragraph

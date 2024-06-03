@@ -1,10 +1,12 @@
-uuid: 60943397-7dad-44f2-9adf-ee9d7a1f0404
+uuid: 090f3fc4-5178-4d88-972b-c40b6ae199ef
 langcode: en
 status: true
 dependencies:
   module:
     - language
     - taxonomy
+_core:
+  default_config_hash: Al6e9LGnwHWD6XbNMkTFBqW9E97NklBfXcbNRMvMaxw
 id: location_type
 label: 'Location type'
 type: 'canonical_entities:taxonomy_term'

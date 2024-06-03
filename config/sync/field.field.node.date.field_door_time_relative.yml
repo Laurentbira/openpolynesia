@@ -1,4 +1,4 @@
-uuid: 959c18c2-cef3-4938-872e-494da6773480
+uuid: 24f6c103-261e-4d71-ae8d-9067fd6bcf1e
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.date
   module:
     - options
+_core:
+  default_config_hash: koOTRnYeOTUivk3W1uRnIvWA3okJnlwjN9fBrrstmEk
 id: node.date.field_door_time_relative
 field_name: field_door_time_relative
 entity_type: node

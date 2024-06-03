@@ -1,4 +1,4 @@
-uuid: e559803a-34fc-460e-a7d8-df75a4072312
+uuid: 21d5484e-f063-4d92-878e-5c2b8d10fe7a
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.profile
   module:
     - content_moderation
+_core:
+  default_config_hash: 2iDSg-LEsyc1S3aHAqBIF2nt15vBP7UYszBuhfGgj1A
 id: draften_member
 label: 'Location and profile'
 type: content_moderation

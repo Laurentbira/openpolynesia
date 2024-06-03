@@ -1,4 +1,4 @@
-uuid: 00aa92fa-76b2-4a8d-a7a3-f1b8b7f69232
+uuid: 33a2c8c5-0a37-48db-8291-61499461fae7
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ third_party_settings:
     enabled: true
     bundle_settings:
       untranslatable_fields_hide: '1'
+_core:
+  default_config_hash: QfmHU9NndHJoMAs6RvQpbfQVsvJVjCh2R4H9hd0ArgM
 id: node.event
 target_entity_type_id: node
 target_bundle: event

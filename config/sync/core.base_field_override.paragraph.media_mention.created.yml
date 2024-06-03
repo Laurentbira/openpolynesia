@@ -1,9 +1,11 @@
-uuid: 76f6d62e-03cc-4d14-84d7-ca59cef92f65
+uuid: bf9ce97c-9b51-4e74-bfbd-5b1c458676d6
 langcode: en
 status: true
 dependencies:
   config:
     - paragraphs.paragraphs_type.media_mention
+_core:
+  default_config_hash: XVezju-ST7MD01Pt_VQSCN57yiZNtzk8l7wgEnQDTvY
 id: paragraph.media_mention.created
 field_name: created
 entity_type: paragraph

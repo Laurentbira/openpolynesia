@@ -1,4 +1,4 @@
-uuid: 2b0e79b1-8dc6-4afe-8e02-24737f6441bc
+uuid: 16039490-8c80-42c5-b394-306b7d6db3a7
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ third_party_settings:
     enabled: true
     bundle_settings:
       untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: diZml4Nu_g3Dy5IYxn3j1ukaIWkZEcK6878qIWUoPvI
 id: block_content.basic
 target_entity_type_id: block_content
 target_bundle: basic

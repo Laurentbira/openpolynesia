@@ -1,7 +1,9 @@
-uuid: 27c4b57c-5831-49b8-b5b4-55d676937985
+uuid: e2c73c59-ffba-4540-99ea-55d6ac458ea6
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: PQNvMB_FHDNJ6f6bp63WNzsCUwCj_WiUNrZWhi_HAjk
 id: site_default_date
 label: 'Site default date'
 date_format: 'd F Y'

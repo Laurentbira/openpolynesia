@@ -1,4 +1,4 @@
-uuid: cd79a1e7-7ea9-473d-af83-f36efef669eb
+uuid: f46dfa9d-2b5f-4756-87d1-52e08c89454a
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: FNKUI8lvZhM7yIRDTc-4mCh4NozJp1VXPhtjlipjf80
 id: node.field_allow_claiming
 field_name: field_allow_claiming
 entity_type: node

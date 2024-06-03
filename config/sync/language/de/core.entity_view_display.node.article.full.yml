@@ -4,5 +4,9 @@ third_party_settings:
       label: Fokus
     group_mentions:
       label: 'Im Artikel genannt'
-    group_comments:
-      label: Kommentare
+    group_recommended_by:
+      label: 'Empfohlen von'
+    group_interact:
+      label: Interaktion
+    group_workflow:
+      label: Arbeitsablauf

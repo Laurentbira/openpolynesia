@@ -1,4 +1,4 @@
-uuid: 9db45cd4-93d0-4d98-82a8-25c1d9a1d354
+uuid: e08ba1c8-ff67-4dd3-862b-5cab7972529a
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
     - views.view.my_recommendations
   module:
     - viewfield
+_core:
+  default_config_hash: 7fb5uAlR5HMowENPfv-7gxemE4DObr2SuMiIQRIrcVY
 id: node.profile.field_recommendations
 field_name: field_recommendations
 entity_type: node

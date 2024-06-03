@@ -1,4 +1,4 @@
-uuid: b3376bf5-a013-47c6-9c38-6d7b262b2497
+uuid: 2bde8a17-b637-4c11-8ad6-70acf23da3a1
 langcode: en
 status: true
 dependencies:
@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   field_permissions:
     permission_type: public
+_core:
+  default_config_hash: ue5YTnEn6_KrovZOElPpJV2c1RE0TbzZKE14yJEDOzc
 id: node.field_pricing_info
 field_name: field_pricing_info
 entity_type: node

@@ -1,4 +1,4 @@
-uuid: 9f0b9c3e-eca8-4df7-a6eb-3c7cb1d41306
+uuid: 8bbfc22e-b85e-49bc-b02f-865b15a0f2d5
 langcode: en
 status: true
 dependencies:
@@ -7,25 +7,18 @@ dependencies:
     - views.view.search
   module:
     - search_api
+_core:
+  default_config_hash: eYHKuyt3f8GCTEJmZZhtrAuFJrvFyyPQW7TJsglUBho
 id: category_taxonomy_term_name
 name: Focus
+url_alias: category
 weight: -1
 min_count: 1
 missing: false
 missing_label: others
-url_alias: category
-facet_source_id: 'search_api:views_page__search__search_page'
+show_only_one_result: false
 field_identifier: field_category
-query_operator: or
-hard_limit: 0
-exclude: false
-use_hierarchy: false
-keep_hierarchy_parents_active: false
-hierarchy:
-  type: taxonomy
-  config: {  }
-expand_hierarchy: true
-enable_parent_when_child_gets_disabled: false
+facet_source_id: 'search_api:views_page__search__search_page'
 widget:
   type: links
   config:
@@ -37,11 +30,17 @@ widget:
     soft_limit_settings:
       show_less_label: 'Show less'
       show_more_label: 'Show more'
-empty_behavior:
-  behavior: none
+query_operator: or
+use_hierarchy: false
+keep_hierarchy_parents_active: false
+hierarchy:
+  type: taxonomy
+  config: {  }
+expand_hierarchy: true
+enable_parent_when_child_gets_disabled: false
+hard_limit: 0
+exclude: false
 only_visible_when_facet_source_is_visible: true
-show_only_one_result: false
-show_title: true
 processor_configs:
   active_widget_order:
     processor_id: active_widget_order
@@ -82,3 +81,6 @@ processor_configs:
       pre_query: 50
       build: 15
     settings: {  }
+empty_behavior:
+  behavior: none
+show_title: true

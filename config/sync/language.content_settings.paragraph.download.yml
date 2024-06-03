@@ -1,4 +1,4 @@
-uuid: 10707039-cd9a-411c-8b11-9bc82202b0be
+uuid: ab5c282c-b7de-4bd5-a1b5-f19006372922
 langcode: en
 status: true
 dependencies:
@@ -11,6 +11,8 @@ third_party_settings:
     enabled: true
     bundle_settings:
       untranslatable_fields_hide: '1'
+_core:
+  default_config_hash: R-pqXP_IYYP940C_IMEvE2cGg4B6CIU8X8ccefWu5Do
 id: paragraph.download
 target_entity_type_id: paragraph
 target_bundle: download

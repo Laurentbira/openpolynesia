@@ -1,4 +1,4 @@
-uuid: 7e3bd6b3-44f2-45fe-aa49-1582628a5d9b
+uuid: 1eba0fdc-9095-4637-9b04-0c95750c47b3
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - node.type.profile
   module:
     - options
+_core:
+  default_config_hash: ED9t9NyX1dDDNKRHZIXnQPzlsokYpicbgb8GnLPZyhg
 id: node.profile.field_badges
 field_name: field_badges
 entity_type: node

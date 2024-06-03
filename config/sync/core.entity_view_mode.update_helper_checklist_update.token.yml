@@ -1,0 +1,11 @@
+uuid: be6cc6f8-b832-4936-bc0a-c2e359003f00
+langcode: en
+status: true
+dependencies:
+  module:
+    - update_helper_checklist
+id: update_helper_checklist_update.token
+label: Token
+description: ''
+targetEntityType: update_helper_checklist_update
+cache: true

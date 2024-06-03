@@ -1,4 +1,4 @@
-uuid: 4b2e61dd-fd27-4548-95c3-bfa6406d2d92
+uuid: b7783f81-e8ed-4d96-9890-b6dadd693c82
 langcode: en
 status: true
 dependencies:
@@ -8,6 +8,8 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
+_core:
+  default_config_hash: P_C_y2LUuSAmeO8Rj0Nbllx_wT_b_AaMh3zskn2nPNw
 name: Event
 type: event
 description: 'Add a (reusable) description of an event. Not to confuse with a date entry.'
